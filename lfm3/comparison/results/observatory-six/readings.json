@@ -1,0 +1,151 @@
+{
+  "source_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+  "source": "../../../evidence/observatory-source.txt",
+  "frozen_outputs": "outputs.json",
+  "readings": [
+    {
+      "candidate": "preference",
+      "output_sha256": "33bd8134f2fe29c13c668a0a0a959392f842510a38cb8f1c6de855e14b7afaf2",
+      "gptzero": {
+        "model": "5.0b",
+        "scan": "Advanced AI Scan",
+        "observed_utc": "2026-11-25T16:55:21Z",
+        "words_displayed_before_scan": 230,
+        "document_probability_percent": {
+          "ai": 100,
+          "mixed": 0,
+          "human": 0
+        }
+      },
+      "pangram": {
+        "model": "4.1",
+        "scan": "Text Detection",
+        "observed_utc": "2026-11-25T16:55:32Z",
+        "words_displayed": 233,
+        "verdict": "AI Generated",
+        "ai_coverage_percent": 100,
+        "display": "AI Generated\n233\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI"
+      }
+    },
+    {
+      "candidate": "edit-keep",
+      "output_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+      "gptzero": {
+        "model": "5.0b",
+        "scan": "Advanced AI Scan",
+        "observed_utc": "2026-11-25T16:55:50Z",
+        "words_displayed_before_scan": 220,
+        "document_probability_percent": {
+          "ai": 100,
+          "mixed": 0,
+          "human": 0
+        }
+      },
+      "pangram": {
+        "model": "4.1",
+        "scan": "Text Detection",
+        "observed_utc": "2026-11-25T16:56:06Z",
+        "words_displayed": 220,
+        "verdict": "AI Generated",
+        "ai_coverage_percent": 100,
+        "display": "AI Generated\n220\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI"
+      }
+    },
+    {
+      "candidate": "weighted",
+      "output_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+      "gptzero": {
+        "model": "5.0b",
+        "scan": "Advanced AI Scan",
+        "observed_utc": "2026-11-25T16:56:23Z",
+        "words_displayed_before_scan": 220,
+        "document_probability_percent": {
+          "ai": 100,
+          "mixed": 0,
+          "human": 0
+        }
+      },
+      "pangram": {
+        "model": "4.1",
+        "scan": "Text Detection",
+        "observed_utc": "2026-11-25T16:56:41Z",
+        "words_displayed": 220,
+        "verdict": "AI Generated",
+        "ai_coverage_percent": 100,
+        "display": "AI Generated\n220\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI"
+      }
+    },
+    {
+      "candidate": "unlikelihood",
+      "output_sha256": "ad9d6f18328d4f35b728310fd9e9bde3973e8043f54d1e9c51a590699f62f43e",
+      "gptzero": {
+        "model": "5.0b",
+        "scan": "Advanced AI Scan",
+        "observed_utc": "2026-11-25T16:56:58Z",
+        "words_displayed_before_scan": 228,
+        "document_probability_percent": {
+          "ai": 100,
+          "mixed": 0,
+          "human": 0
+        }
+      },
+      "pangram": {
+        "model": "4.1",
+        "scan": "Text Detection",
+        "observed_utc": "2026-11-25T16:57:15Z",
+        "words_displayed": 231,
+        "verdict": "AI Generated",
+        "ai_coverage_percent": 100,
+        "display": "AI Generated\n231\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI"
+      }
+    },
+    {
+      "candidate": "seed-57302",
+      "output_sha256": "1c74d7b2c32bf5fedc6fe57be4f54c66c273138f01d3e88418aa706386e7eab5",
+      "gptzero": {
+        "model": "5.0b",
+        "scan": "Advanced AI Scan",
+        "observed_utc": "2026-11-25T16:57:31Z",
+        "words_displayed_before_scan": 191,
+        "document_probability_percent": {
+          "ai": 100,
+          "mixed": 0,
+          "human": 0
+        }
+      },
+      "pangram": {
+        "model": "4.1",
+        "scan": "Text Detection",
+        "observed_utc": "2026-11-25T16:57:48Z",
+        "words_displayed": 193,
+        "verdict": "AI Generated",
+        "ai_coverage_percent": 100,
+        "display": "AI Generated\n193\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI"
+      }
+    },
+    {
+      "candidate": "seed-57303",
+      "output_sha256": "43f1abdb2d48572c5efa953fb689b12726a405ec8c83ea745762557c159fceb4",
+      "gptzero": {
+        "model": "5.0b",
+        "scan": "Advanced AI Scan",
+        "observed_utc": "2026-11-25T16:58:05Z",
+        "words_displayed_before_scan": 188,
+        "document_probability_percent": {
+          "ai": 100,
+          "mixed": 0,
+          "human": 0
+        }
+      },
+      "pangram": {
+        "model": "4.1",
+        "scan": "Text Detection",
+        "observed_utc": "2026-11-25T16:58:21Z",
+        "words_displayed": 190,
+        "verdict": "AI Generated",
+        "ai_coverage_percent": 100,
+        "display": "AI Generated\n190\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI"
+      }
+    }
+  ]
+}

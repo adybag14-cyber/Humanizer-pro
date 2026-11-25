@@ -36,7 +36,18 @@ An additional cold run loaded the publicly downloaded base and all eight pinned 
 
 ## Fixed live detector comparison
 
-Minimal’s public adapter reproduced the 220-word observatory source byte-for-byte. On 25 November 2026 its output received the same verdicts as the original Fidelity merged model’s 191-word edit. GPTZero 5.0b assigned 0% probability to human authorship and 100% to AI in both submissions. Pangram 4.1 labelled the entirety of both texts AI-generated. GPTZero reports document probabilities and Pangram reports text coverage. This is one paired observation, and it provides no live detector ranking for the other six releases. The selection rule used only the offline editing review. [Plan recorded before selection](fixed-scan-plan.json) · [Original edit and readings](../evidence/observatory-scans.json) · [Selected text](results/observatory-selected.txt) · [Selected readings](results/observatory-scans.json)
+On 25 November 2026, **all eight releases received 100% AI from both services** on the same observatory scenario. GPTZero 5.0b reported a document probability of 100% AI, 0% mixed and 0% human for every submission. Pangram 4.1 marked the whole text as AI-generated each time. The original Fidelity submission used the merged BF16 checkpoint. The other seven used their published PEFT adapters.
+
+The original pair comprised Fidelity’s 191-word edit and Minimal’s verbatim copy of the 220-word source. A follow-up covered the remaining six releases. All six outputs were generated with the original prompt and greedy decoder and frozen before the first follow-up scan. Each output was submitted once per dashboard, including the identical copies from Edit-Keep and Weighted. There were six distinct texts across all eight submissions to each service. The editing-quality ranking was fixed before the follow-up. These results cover one passage per model. [Original Fidelity readings](../evidence/observatory-scans.json) · [Minimal readings](results/observatory-scans.json) · [Follow-up output hashes](results/observatory-six/outputs.json) · [Twelve follow-up readings](results/observatory-six/readings.json)
+
+| Follow-up model and submitted text | Words | Exact source copy | GPTZero AI probability | Pangram AI coverage |
+| --- | ---: | --- | ---: | ---: |
+| [DPO](results/observatory-six/preference.txt) | 230 | No | 100% | 100% |
+| [Edit-Keep](results/observatory-six/edit-keep.txt) | 220 | Yes | 100% | 100% |
+| [Weighted](results/observatory-six/weighted.txt) | 220 | Yes | 100% | 100% |
+| [Unlikelihood](results/observatory-six/unlikelihood.txt) | 228 | No | 100% | 100% |
+| [Fidelity, seed 57302](results/observatory-six/seed-57302.txt) | 191 | No | 100% | 100% |
+| [Fidelity, seed 57303](results/observatory-six/seed-57303.txt) | 188 | No | 100% | 100% |
 
 ## Reproduce the comparison
 

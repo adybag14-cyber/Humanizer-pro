@@ -1,0 +1,60 @@
+{
+  "source_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+  "frozen_utc": "2026-11-25T16:54:21.634213+00:00",
+  "outputs": [
+    {
+      "candidate": "preference",
+      "model_revision": "9cdc628a9c47c98ac941e423c2416c7e6cf1fed8",
+      "adapter_sha256": "634fae0f3d64206c9eb375296714f38ee34da6926bae2c9628e327cf78466418",
+      "output": "preference.txt",
+      "output_sha256": "33bd8134f2fe29c13c668a0a0a959392f842510a38cb8f1c6de855e14b7afaf2",
+      "words": 230,
+      "exact_source_copy": false
+    },
+    {
+      "candidate": "edit-keep",
+      "model_revision": "8c1354bd720f2104e6592b3b1e4eec53027319fc",
+      "adapter_sha256": "bf362b8e9186747b70ff0f5d9285fd3afa00b23f325dc69c883bdd96131a2126",
+      "output": "edit-keep.txt",
+      "output_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+      "words": 220,
+      "exact_source_copy": true
+    },
+    {
+      "candidate": "weighted",
+      "model_revision": "5009f1fa490e1a10278927a43a5bd297f9a73ffe",
+      "adapter_sha256": "a215cf4f20a5585e775d7db64adf3e122664ce7489163fe27520d0ece2840bc2",
+      "output": "weighted.txt",
+      "output_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+      "words": 220,
+      "exact_source_copy": true
+    },
+    {
+      "candidate": "unlikelihood",
+      "model_revision": "af85d77b018e41def74e49a8f5771a11f0890e7c",
+      "adapter_sha256": "7da0194ffe27659085f15b67da51659fa4fa73183970a3e193e898c892d6cdcf",
+      "output": "unlikelihood.txt",
+      "output_sha256": "ad9d6f18328d4f35b728310fd9e9bde3973e8043f54d1e9c51a590699f62f43e",
+      "words": 228,
+      "exact_source_copy": false
+    },
+    {
+      "candidate": "seed-57302",
+      "model_revision": "b18f5ead5bb30fdd17ae1f310598f6c92612a7be",
+      "adapter_sha256": "24014976a313deb7fed35265b37c0eba7926d8f2970e5a7b3ce35d81f42341cf",
+      "output": "seed-57302.txt",
+      "output_sha256": "1c74d7b2c32bf5fedc6fe57be4f54c66c273138f01d3e88418aa706386e7eab5",
+      "words": 191,
+      "exact_source_copy": false
+    },
+    {
+      "candidate": "seed-57303",
+      "model_revision": "ad19ca4c1d15f6cc9d23e9e37d0148cc8a09325a",
+      "adapter_sha256": "76d5ac206af77653061a1728a2a0c986ea9073bfadcc969042733a0e9cc0de0c",
+      "output": "seed-57303.txt",
+      "output_sha256": "43f1abdb2d48572c5efa953fb689b12726a405ec8c83ea745762557c159fceb4",
+      "words": 188,
+      "exact_source_copy": false
+    }
+  ]
+}

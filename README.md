@@ -13,6 +13,6 @@ python -m pip install -r lfm3/requirements.txt
 python lfm3/edit.py input.txt --candidate minimal
 ```
 
-On 25 November 2026, GPTZero and Pangram classified both Fidelity’s observatory edit and Minimal’s verbatim copy of that source as AI-generated. [Fidelity readings](lfm3/evidence/observatory-scans.json) · [Minimal readings](lfm3/comparison/results/observatory-scans.json)
+On 25 November 2026, all eight releases received a 100% AI document probability from GPTZero and 100% AI text coverage from Pangram on the fixed observatory passage. Three adapters copied the source verbatim. [All eight detector results](lfm3/comparison/RESULTS.md#fixed-live-detector-comparison)
 
 The repository code uses the [Apache 2.0 license](LICENSE). The model files carry the [LFM Open License v1.0](https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Fidelity/blob/79ccfcea39ff768642c7e323e926bad979513a82/LICENSE).
