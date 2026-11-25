@@ -1,0 +1,8 @@
+{
+  "input": "../evidence/observatory-source.txt",
+  "source_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+  "selection": "Take the highest-ranked newly trained candidate under protocol.json. The original fidelity adapter and untuned control serve as comparators. In a tie, preserve the shared rank in the report and use the smaller adapter for the single dashboard comparison, then the lexicographically first candidate ID if size is identical.",
+  "decoding": "Use the published PEFT weights with the pinned base and runtime.py. Generate once, freeze the unedited output bytes, and submit that text once to each dashboard.",
+  "metrics": "Report each dashboard's native verdict, percentage interpretation and scan time for the one fixed passage.",
+  "purpose": "Observe a fixed output after the editing-quality comparison. No detector result enters training or candidate ranking."
+}
