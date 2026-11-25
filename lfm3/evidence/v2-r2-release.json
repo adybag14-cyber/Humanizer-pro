@@ -1,0 +1,14 @@
+{
+  "candidate": "lfm-v2-r2",
+  "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-V2-R2",
+  "revision": "e54c8c4a107115b426490336c51c2396ad0e6188",
+  "base_model": "LiquidAI/LFM3-1.7B",
+  "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+  "adapter_sha256": "6b816dba81f7f38671be236ed8241192f0c818fb54c2fc99c99e19116da8cb36",
+  "adapter_bytes": 123111616,
+  "inference_passes": 2,
+  "seeds": [
+    42,
+    43
+  ]
+}

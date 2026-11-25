@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 from runtime import load, rewrite
+from v2_r2 import rewrite_v2_r2
 
 
 def main():
@@ -12,6 +13,9 @@ def main():
     parser.add_argument("source", type=Path)
     manifest = Path(__file__).parent / "comparison/releases.json"
     releases = {r["candidate"]: r for r in json.loads(manifest.read_text(encoding="utf-8"))["published_adapters"]}
+    archive = Path(__file__).parent / "evidence/v2-r2-release.json"
+    v2 = json.loads(archive.read_text(encoding="utf-8"))
+    releases[v2["candidate"]] = v2
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--model", default="Tdamre/LFM3-1.7B-Humanizer-Pro-Fidelity")
     group.add_argument("--candidate", choices=sorted(releases), help="use the pinned PEFT release")
@@ -29,7 +33,8 @@ def main():
         )
     else:
         tokenizer, model = load(args.model, args.revision)
-    print(rewrite(tokenizer, model.eval(), args.source.read_text(encoding="utf-8")))
+    edit = rewrite_v2_r2 if args.candidate == v2["candidate"] else rewrite
+    print(edit(tokenizer, model.eval(), args.source.read_text(encoding="utf-8")))
 
 
 if __name__ == "__main__":

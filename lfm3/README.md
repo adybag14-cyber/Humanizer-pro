@@ -34,4 +34,14 @@ The source says the hall has **not announced** a cash deadline. It may already h
 
 On 25 November 2026 the merged model edited the fixed observatory passage from 220 to 191 whitespace-delimited words. The passage and checkpoint were fixed before a single submission to each service. GPTZero 5.0b assigned 100% document probability to AI, 0% to mixed and 0% to human. Pangram 4.1 counted 193 words and assigned the entire text to AI. The two services measure different quantities. One passage cannot establish a detector pass rate. [Source](evidence/observatory-source.txt) · [Exact edit](evidence/observatory-edit.txt) · [Readings and input hash](evidence/observatory-scans.json)
 
-An earlier experiment used a different adapter, `lfm-v2`, with two inference passes. Its frozen output reached the joint threshold on **0/6** development passages (90% on each service) and **0/3** holdout passages (80% on each). The earlier results include each passage, its output, the two timestamped readings and the text hashes. [Earlier experiment records](evidence/prior-v2-evaluation.json)
+## Historical V2-R2 release
+
+The `lfm-v2-r2` configuration runs the same `lfm-v2` adapter twice over a passage, using the first output as the second input. It was trained on 3,072 pairs from the HIP training split for 1,536 updates with LoRA rank 32, alpha 32 and dropout 0.05. Its 123,111,616-byte adapter has SHA-256 `6b816dba81f7f38671be236ed8241192f0c818fb54c2fc99c99e19116da8cb36`. [Public model and training record](https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-V2-R2/tree/e54c8c4a107115b426490336c51c2396ad0e6188) · [Pinned release](evidence/v2-r2-release.json)
+
+Use the command below for UTF-8 passages of 100–3,500 whitespace-delimited words. The decoder uses the paired source/target tags, seeds 42 and 43 in order, temperature 1.0, top-p 0.95 and repetition penalty 1.0. [Two-pass implementation](v2_r2.py)
+
+```sh
+python lfm3/edit.py input.txt --candidate lfm-v2-r2
+```
+
+On the bus notice, Pangram reported 100% human and GPTZero reported 100% AI. The rewrite also omitted Route 14. On the bakery notice, Pangram reported 39% human coverage and 61% possibly AI. On the observatory notice, both services reported 100% AI. Across the historical evaluation, **0/6** development passages reached 90% human on each service and **0/3** holdout passages reached 80% on each. These readings are from the archived runs. [All nine public passages, outputs and timestamped readings](evidence/prior-v2-evaluation.json)
