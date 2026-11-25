@@ -1,0 +1,32 @@
+{
+  "candidate": "weighted",
+  "base_model": "LiquidAI/LFM3-1.7B",
+  "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+  "settings": {
+    "seed": 57303,
+    "method": "critical-span weighted supervised fine-tuning",
+    "learning_rate": 5e-05,
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.0,
+    "targets": [
+      "q_proj",
+      "v_proj",
+      "w1",
+      "w2",
+      "w3"
+    ],
+    "critical_weight": 3.0,
+    "batch_size": 1,
+    "epochs": 1,
+    "max_grad_norm": 1.0,
+    "weight_decay": 0.01
+  },
+  "training_examples": 24,
+  "files_sha256": {
+    "weighted-pairs.json": "0cbd913e47b82171560fb0d82766db9745211a81df5104e2027a479860a25f71",
+    "train.py": "50fc3ece6e1c2f0c168ce1d13466e61b7c6540a26022e291f26f9048ece1d4c9",
+    "runtime.py": "050d87a58f59288c09835e1eccd4f7ae116b91f5f6daa614db563859a5370848"
+  },
+  "frozen_at_utc": "2026-11-25T15:57:53.307008+00:00"
+}

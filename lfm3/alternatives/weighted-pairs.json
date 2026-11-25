@@ -1,0 +1,258 @@
+[
+  {
+    "source": "It is necessary for the caretaker to unlock the north entrance at 08:15 on Monday. The instruction applies on Monday only.",
+    "target": "The caretaker must unlock the north entrance at 08:15 on Monday. This applies on Monday only.",
+    "critical": [
+      "caretaker",
+      "north",
+      "08:15",
+      "Monday",
+      "only"
+    ]
+  },
+  {
+    "source": "The permit gives permission for 35 chairs to be placed in the courtyard. It does not give permission for chairs to be placed on the pavement.",
+    "target": "The permit allows 35 chairs in the courtyard. It does not allow chairs on the pavement.",
+    "critical": [
+      "35",
+      "courtyard",
+      "does not",
+      "pavement"
+    ]
+  },
+  {
+    "source": "The repairs might be finished by Monday. This is an estimate and it has not been confirmed by the contractor.",
+    "target": "The repairs might finish by Monday. The contractor has not confirmed this estimate.",
+    "critical": [
+      "might",
+      "Monday",
+      "has not confirmed",
+      "estimate"
+    ]
+  },
+  {
+    "source": "The caretaker is responsible for booking the room. The chair of the meeting is responsible for sending the agenda 3 days before the meeting.",
+    "target": "The caretaker books the room. The meeting chair sends the agenda 3 days before the meeting.",
+    "critical": [
+      "caretaker",
+      "books the room",
+      "meeting chair",
+      "3",
+      "before"
+    ]
+  },
+  {
+    "source": "A charge of 35 pounds applies to each replacement key. The charge is waived if the original key was faulty when it was issued.",
+    "target": "Each replacement key costs 35 pounds. There is no charge if the original key was faulty when issued.",
+    "critical": [
+      "35",
+      "Each",
+      "no charge",
+      "if",
+      "faulty when issued"
+    ]
+  },
+  {
+    "source": "The register contains 35 names. The number of people who actually attended is unknown, so the register must not be described as an attendance count.",
+    "target": "There are 35 names on the register. Actual attendance is unknown, so the register must not be called an attendance count.",
+    "critical": [
+      "35",
+      "names",
+      "unknown",
+      "must not",
+      "attendance count"
+    ]
+  },
+  {
+    "source": "It is necessary for the receptionist to unlock the south entrance at 09:25 on Wednesday. The instruction applies on Wednesday only.",
+    "target": "The receptionist must unlock the south entrance at 09:25 on Wednesday. This applies on Wednesday only.",
+    "critical": [
+      "receptionist",
+      "south",
+      "09:25",
+      "Wednesday",
+      "only"
+    ]
+  },
+  {
+    "source": "The permit gives permission for 42 chairs to be placed in the courtyard. It does not give permission for chairs to be placed on the pavement.",
+    "target": "The permit allows 42 chairs in the courtyard. It does not allow chairs on the pavement.",
+    "critical": [
+      "42",
+      "courtyard",
+      "does not",
+      "pavement"
+    ]
+  },
+  {
+    "source": "The repairs might be finished by Wednesday. This is an estimate and it has not been confirmed by the contractor.",
+    "target": "The repairs might finish by Wednesday. The contractor has not confirmed this estimate.",
+    "critical": [
+      "might",
+      "Wednesday",
+      "has not confirmed",
+      "estimate"
+    ]
+  },
+  {
+    "source": "The receptionist is responsible for booking the room. The chair of the meeting is responsible for sending the agenda 4 days before the meeting.",
+    "target": "The receptionist books the room. The meeting chair sends the agenda 4 days before the meeting.",
+    "critical": [
+      "receptionist",
+      "books the room",
+      "meeting chair",
+      "4",
+      "before"
+    ]
+  },
+  {
+    "source": "A charge of 42 pounds applies to each replacement key. The charge is waived if the original key was faulty when it was issued.",
+    "target": "Each replacement key costs 42 pounds. There is no charge if the original key was faulty when issued.",
+    "critical": [
+      "42",
+      "Each",
+      "no charge",
+      "if",
+      "faulty when issued"
+    ]
+  },
+  {
+    "source": "The register contains 42 names. The number of people who actually attended is unknown, so the register must not be described as an attendance count.",
+    "target": "There are 42 names on the register. Actual attendance is unknown, so the register must not be called an attendance count.",
+    "critical": [
+      "42",
+      "names",
+      "unknown",
+      "must not",
+      "attendance count"
+    ]
+  },
+  {
+    "source": "It is necessary for the coordinator to unlock the east entrance at 14:35 on Saturday. The instruction applies on Saturday only.",
+    "target": "The coordinator must unlock the east entrance at 14:35 on Saturday. This applies on Saturday only.",
+    "critical": [
+      "coordinator",
+      "east",
+      "14:35",
+      "Saturday",
+      "only"
+    ]
+  },
+  {
+    "source": "The permit gives permission for 49 chairs to be placed in the courtyard. It does not give permission for chairs to be placed on the pavement.",
+    "target": "The permit allows 49 chairs in the courtyard. It does not allow chairs on the pavement.",
+    "critical": [
+      "49",
+      "courtyard",
+      "does not",
+      "pavement"
+    ]
+  },
+  {
+    "source": "The repairs might be finished by Saturday. This is an estimate and it has not been confirmed by the contractor.",
+    "target": "The repairs might finish by Saturday. The contractor has not confirmed this estimate.",
+    "critical": [
+      "might",
+      "Saturday",
+      "has not confirmed",
+      "estimate"
+    ]
+  },
+  {
+    "source": "The coordinator is responsible for booking the room. The chair of the meeting is responsible for sending the agenda 5 days before the meeting.",
+    "target": "The coordinator books the room. The meeting chair sends the agenda 5 days before the meeting.",
+    "critical": [
+      "coordinator",
+      "books the room",
+      "meeting chair",
+      "5",
+      "before"
+    ]
+  },
+  {
+    "source": "A charge of 49 pounds applies to each replacement key. The charge is waived if the original key was faulty when it was issued.",
+    "target": "Each replacement key costs 49 pounds. There is no charge if the original key was faulty when issued.",
+    "critical": [
+      "49",
+      "Each",
+      "no charge",
+      "if",
+      "faulty when issued"
+    ]
+  },
+  {
+    "source": "The register contains 49 names. The number of people who actually attended is unknown, so the register must not be described as an attendance count.",
+    "target": "There are 49 names on the register. Actual attendance is unknown, so the register must not be called an attendance count.",
+    "critical": [
+      "49",
+      "names",
+      "unknown",
+      "must not",
+      "attendance count"
+    ]
+  },
+  {
+    "source": "It is necessary for the site manager to unlock the west entrance at 16:45 on Sunday. The instruction applies on Sunday only.",
+    "target": "The site manager must unlock the west entrance at 16:45 on Sunday. This applies on Sunday only.",
+    "critical": [
+      "site manager",
+      "west",
+      "16:45",
+      "Sunday",
+      "only"
+    ]
+  },
+  {
+    "source": "The permit gives permission for 56 chairs to be placed in the courtyard. It does not give permission for chairs to be placed on the pavement.",
+    "target": "The permit allows 56 chairs in the courtyard. It does not allow chairs on the pavement.",
+    "critical": [
+      "56",
+      "courtyard",
+      "does not",
+      "pavement"
+    ]
+  },
+  {
+    "source": "The repairs might be finished by Sunday. This is an estimate and it has not been confirmed by the contractor.",
+    "target": "The repairs might finish by Sunday. The contractor has not confirmed this estimate.",
+    "critical": [
+      "might",
+      "Sunday",
+      "has not confirmed",
+      "estimate"
+    ]
+  },
+  {
+    "source": "The site manager is responsible for booking the room. The chair of the meeting is responsible for sending the agenda 6 days before the meeting.",
+    "target": "The site manager books the room. The meeting chair sends the agenda 6 days before the meeting.",
+    "critical": [
+      "site manager",
+      "books the room",
+      "meeting chair",
+      "6",
+      "before"
+    ]
+  },
+  {
+    "source": "A charge of 56 pounds applies to each replacement key. The charge is waived if the original key was faulty when it was issued.",
+    "target": "Each replacement key costs 56 pounds. There is no charge if the original key was faulty when issued.",
+    "critical": [
+      "56",
+      "Each",
+      "no charge",
+      "if",
+      "faulty when issued"
+    ]
+  },
+  {
+    "source": "The register contains 56 names. The number of people who actually attended is unknown, so the register must not be described as an attendance count.",
+    "target": "There are 56 names on the register. Actual attendance is unknown, so the register must not be called an attendance count.",
+    "critical": [
+      "56",
+      "names",
+      "unknown",
+      "must not",
+      "attendance count"
+    ]
+  }
+]

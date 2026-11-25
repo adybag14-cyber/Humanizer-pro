@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-11-25T15:57:35.239757+00:00",
+  "prior_access": "Only common runtime.py and repository AGENTS paths were inspected. No training pairs or candidate outputs were inspected.",
+  "files": {
+    "cases.json": "f8eae68c240a100f01ace405f2ac30b9ec48bdf0fddf6007ec945e7336cc72b3",
+    "protocol.json": "4faa1e6f810e1cd2d9d4e74030460a57165fee09bec1df5c3798a84a4950dba0",
+    "rank.py": "4c3449f0c8bc3430765f05679a4fc2f10dff7369c4d9fa4d6ca933e379239b64",
+    "README.md": "d167cbe43af777d809f8d90865d6fdf550ed36f440e701f250e0aa9cd0771990",
+    "run.py": "f4bd81101691659f937201687e8eb335bcf7f6d6989c189827a1b9ac3efa5ff3"
+  },
+  "total_claims": 64
+}

@@ -1,0 +1,31 @@
+{
+  "candidate": "minimal",
+  "method": "supervised target-only cross-entropy",
+  "base_model": "LiquidAI/LFM3-1.7B",
+  "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+  "settings": {
+    "seed": 57422,
+    "rank": 8,
+    "alpha": 16,
+    "learning_rate": 3e-05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_clip": 1.0,
+    "data_recipe": "32 singular corrections across agreement, redundancy and punctuation"
+  },
+  "pairs_sha256": "a2cd3a4301204dde3534928b07f51063e6999b398e9178a1e987e094d9986bd6",
+  "settings_sha256": "b9c9bfed43437cef9d3ac8a529427c3c389eca0eadb9e24b349018cae0d405aa",
+  "script_sha256": "ba16519ec2f50093111e0d72691c2c7aef2f1bfd0ab6d3e880ceeace87f374c9",
+  "examples": 32,
+  "steps": 32,
+  "first_8_mean_loss": 0.2972575676685665,
+  "last_8_mean_loss": 0.6121860111015849,
+  "trainable_parameters": 585728,
+  "adapter_bytes": 2348696,
+  "adapter_sha256": "59e89c7c1e8b004d319657f9be8fd4147b1e1b86ceb7cd9e57c4ce2f74fa41cf",
+  "peak_cuda_bytes": 3772187136
+}

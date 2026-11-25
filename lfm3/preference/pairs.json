@@ -1,0 +1,194 @@
+[
+  {
+    "id": "court-0",
+    "source": "People who have reserved a tennis court are asked to cancel their booking at least 6 hours before it is due to begin if they no longer intend to play. A cancellation made exactly 6 hours before the booking qualifies for a credit. Later cancellations receive no credit. The credit can be used for another court booking and cannot be exchanged for cash.",
+    "chosen": "Cancel an unused tennis court booking at least 6 hours before it starts to receive a credit. Cancelling exactly 6 hours before the start qualifies. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash.",
+    "rejected": "Cancel an unused tennis court booking more than 6 hours before it starts to receive a credit. Cancelling exactly 6 hours before the start does not qualify. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash."
+  },
+  {
+    "id": "greenhouse-0",
+    "source": "The greenhouse team should inspect the soil sensor whenever it records a value below 180. The inspector must send the reading to the grower, who decides whether watering is needed. An inspector may not start the irrigation system without that decision. If the sensor gives no reading, the inspector should report the missing reading and must not replace it with a zero.",
+    "chosen": "Inspect the soil sensor when its reading falls below 180. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as missing and never replace it with zero.",
+    "rejected": "Inspect the soil sensor when its reading falls below 180. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as zero."
+  },
+  {
+    "id": "repairs-0",
+    "source": "The repair team expects replacement hinges to arrive on 12 June, but the supplier has not confirmed that date. Customers can leave their damaged equipment at reception in the meantime. Leaving equipment does not reserve a repair slot. The coordinator will contact each customer after the parts have arrived to agree a time for the repair.",
+    "chosen": "Replacement hinges are expected on 12 June, although the supplier has yet to confirm the date. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time.",
+    "rejected": "Replacement hinges will arrive on 12 June. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time."
+  },
+  {
+    "id": "subscription-0",
+    "source": "Members can pause their meal subscription for up to 3 weeks by contacting the membership office. Requests are accepted only before the next payment has been taken. The pause begins with the next unpaid delivery. Any delivery that has already been paid for will go ahead, unless the membership office separately agrees to cancel it.",
+    "chosen": "Contact the membership office before your next payment to pause your meal subscription for up to 3 weeks. The pause starts with the next unpaid delivery. Paid deliveries still go ahead unless the office separately agrees to cancel them.",
+    "rejected": "Contact the membership office before your next payment to pause your meal subscription for up to 3 weeks. The pause starts with the next delivery, including deliveries you have already paid for. The office will cancel those deliveries."
+  },
+  {
+    "id": "travel-0",
+    "source": "Volunteers may claim back up to 35 pounds for travel to the training day. They must give their receipts to the finance assistant. The training organiser checks that each person attended, but does not approve or pay the claim. The finance manager decides whether to approve a claim once the receipts and attendance confirmation have both been received.",
+    "chosen": "Volunteers can claim up to 35 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance. The finance manager approves claims after receiving both the receipts and attendance confirmation.",
+    "rejected": "Volunteers can claim up to 35 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance and approves claims after receiving both the receipts and attendance confirmation."
+  },
+  {
+    "id": "ceramics-0",
+    "source": "If the glaze demonstration runs more than 18 minutes late, the instructor will offer everyone a place at a replacement session. A delay of exactly 18 minutes does not trigger this offer. Students can choose whether to accept the replacement place. There is no additional charge, and the original session will continue even if some students choose a replacement.",
+    "chosen": "The instructor will offer everyone a free replacement session if the glaze demonstration is more than 18 minutes late. A delay of exactly 18 minutes does not qualify. Students can accept or decline, and the original session continues.",
+    "rejected": "The instructor will offer everyone a free replacement session if the glaze demonstration is at least 18 minutes late. A delay of exactly 18 minutes qualifies. Students can accept or decline, and the original session continues."
+  },
+  {
+    "id": "bicycle-0",
+    "source": "The bicycle workshop has 8 spare helmets available for people attending its maintenance class. A participant who asks for a helmet before the class begins can borrow one while supplies last. Helmet requests are handled in the order received. The workshop has not stated whether more helmets will become available later, so staff should not promise additional stock.",
+    "chosen": "The maintenance class has 8 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should make no promise of more stock because the workshop has given no information about future availability.",
+    "rejected": "The maintenance class has 8 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should tell participants that more helmets will arrive later."
+  },
+  {
+    "id": "garden-0",
+    "source": "The garden club has space for 40 people at the seed exchange. Members can bring one guest each, but guests count towards the same capacity limit. The secretary will stop accepting reservations when that limit is reached. A member who reserves a place and later cannot attend should tell the secretary so that the place can be offered to someone else.",
+    "chosen": "The seed exchange can hold 40 people, including guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place.",
+    "rejected": "The seed exchange can hold 40 members, plus their guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place."
+  },
+  {
+    "id": "court-1",
+    "source": "People who have reserved a tennis court are asked to cancel their booking at least 8 hours before it is due to begin if they no longer intend to play. A cancellation made exactly 8 hours before the booking qualifies for a credit. Later cancellations receive no credit. The credit can be used for another court booking and cannot be exchanged for cash.",
+    "chosen": "Cancel an unused tennis court booking at least 8 hours before it starts to receive a credit. Cancelling exactly 8 hours before the start qualifies. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash.",
+    "rejected": "Cancel an unused tennis court booking more than 8 hours before it starts to receive a credit. Cancelling exactly 8 hours before the start does not qualify. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash."
+  },
+  {
+    "id": "greenhouse-1",
+    "source": "The greenhouse team should inspect the soil sensor whenever it records a value below 200. The inspector must send the reading to the grower, who decides whether watering is needed. An inspector may not start the irrigation system without that decision. If the sensor gives no reading, the inspector should report the missing reading and must not replace it with a zero.",
+    "chosen": "Inspect the soil sensor when its reading falls below 200. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as missing and never replace it with zero.",
+    "rejected": "Inspect the soil sensor when its reading falls below 200. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as zero."
+  },
+  {
+    "id": "repairs-1",
+    "source": "The repair team expects replacement hinges to arrive on 13 June, but the supplier has not confirmed that date. Customers can leave their damaged equipment at reception in the meantime. Leaving equipment does not reserve a repair slot. The coordinator will contact each customer after the parts have arrived to agree a time for the repair.",
+    "chosen": "Replacement hinges are expected on 13 June, although the supplier has yet to confirm the date. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time.",
+    "rejected": "Replacement hinges will arrive on 13 June. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time."
+  },
+  {
+    "id": "subscription-1",
+    "source": "Members can pause their meal subscription for up to 4 weeks by contacting the membership office. Requests are accepted only before the next payment has been taken. The pause begins with the next unpaid delivery. Any delivery that has already been paid for will go ahead, unless the membership office separately agrees to cancel it.",
+    "chosen": "Contact the membership office before your next payment to pause your meal subscription for up to 4 weeks. The pause starts with the next unpaid delivery. Paid deliveries still go ahead unless the office separately agrees to cancel them.",
+    "rejected": "Contact the membership office before your next payment to pause your meal subscription for up to 4 weeks. The pause starts with the next delivery, including deliveries you have already paid for. The office will cancel those deliveries."
+  },
+  {
+    "id": "travel-1",
+    "source": "Volunteers may claim back up to 40 pounds for travel to the training day. They must give their receipts to the finance assistant. The training organiser checks that each person attended, but does not approve or pay the claim. The finance manager decides whether to approve a claim once the receipts and attendance confirmation have both been received.",
+    "chosen": "Volunteers can claim up to 40 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance. The finance manager approves claims after receiving both the receipts and attendance confirmation.",
+    "rejected": "Volunteers can claim up to 40 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance and approves claims after receiving both the receipts and attendance confirmation."
+  },
+  {
+    "id": "ceramics-1",
+    "source": "If the glaze demonstration runs more than 21 minutes late, the instructor will offer everyone a place at a replacement session. A delay of exactly 21 minutes does not trigger this offer. Students can choose whether to accept the replacement place. There is no additional charge, and the original session will continue even if some students choose a replacement.",
+    "chosen": "The instructor will offer everyone a free replacement session if the glaze demonstration is more than 21 minutes late. A delay of exactly 21 minutes does not qualify. Students can accept or decline, and the original session continues.",
+    "rejected": "The instructor will offer everyone a free replacement session if the glaze demonstration is at least 21 minutes late. A delay of exactly 21 minutes qualifies. Students can accept or decline, and the original session continues."
+  },
+  {
+    "id": "bicycle-1",
+    "source": "The bicycle workshop has 9 spare helmets available for people attending its maintenance class. A participant who asks for a helmet before the class begins can borrow one while supplies last. Helmet requests are handled in the order received. The workshop has not stated whether more helmets will become available later, so staff should not promise additional stock.",
+    "chosen": "The maintenance class has 9 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should make no promise of more stock because the workshop has given no information about future availability.",
+    "rejected": "The maintenance class has 9 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should tell participants that more helmets will arrive later."
+  },
+  {
+    "id": "garden-1",
+    "source": "The garden club has space for 45 people at the seed exchange. Members can bring one guest each, but guests count towards the same capacity limit. The secretary will stop accepting reservations when that limit is reached. A member who reserves a place and later cannot attend should tell the secretary so that the place can be offered to someone else.",
+    "chosen": "The seed exchange can hold 45 people, including guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place.",
+    "rejected": "The seed exchange can hold 45 members, plus their guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place."
+  },
+  {
+    "id": "court-2",
+    "source": "People who have reserved a tennis court are asked to cancel their booking at least 10 hours before it is due to begin if they no longer intend to play. A cancellation made exactly 10 hours before the booking qualifies for a credit. Later cancellations receive no credit. The credit can be used for another court booking and cannot be exchanged for cash.",
+    "chosen": "Cancel an unused tennis court booking at least 10 hours before it starts to receive a credit. Cancelling exactly 10 hours before the start qualifies. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash.",
+    "rejected": "Cancel an unused tennis court booking more than 10 hours before it starts to receive a credit. Cancelling exactly 10 hours before the start does not qualify. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash."
+  },
+  {
+    "id": "greenhouse-2",
+    "source": "The greenhouse team should inspect the soil sensor whenever it records a value below 220. The inspector must send the reading to the grower, who decides whether watering is needed. An inspector may not start the irrigation system without that decision. If the sensor gives no reading, the inspector should report the missing reading and must not replace it with a zero.",
+    "chosen": "Inspect the soil sensor when its reading falls below 220. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as missing and never replace it with zero.",
+    "rejected": "Inspect the soil sensor when its reading falls below 220. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as zero."
+  },
+  {
+    "id": "repairs-2",
+    "source": "The repair team expects replacement hinges to arrive on 14 June, but the supplier has not confirmed that date. Customers can leave their damaged equipment at reception in the meantime. Leaving equipment does not reserve a repair slot. The coordinator will contact each customer after the parts have arrived to agree a time for the repair.",
+    "chosen": "Replacement hinges are expected on 14 June, although the supplier has yet to confirm the date. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time.",
+    "rejected": "Replacement hinges will arrive on 14 June. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time."
+  },
+  {
+    "id": "subscription-2",
+    "source": "Members can pause their meal subscription for up to 5 weeks by contacting the membership office. Requests are accepted only before the next payment has been taken. The pause begins with the next unpaid delivery. Any delivery that has already been paid for will go ahead, unless the membership office separately agrees to cancel it.",
+    "chosen": "Contact the membership office before your next payment to pause your meal subscription for up to 5 weeks. The pause starts with the next unpaid delivery. Paid deliveries still go ahead unless the office separately agrees to cancel them.",
+    "rejected": "Contact the membership office before your next payment to pause your meal subscription for up to 5 weeks. The pause starts with the next delivery, including deliveries you have already paid for. The office will cancel those deliveries."
+  },
+  {
+    "id": "travel-2",
+    "source": "Volunteers may claim back up to 45 pounds for travel to the training day. They must give their receipts to the finance assistant. The training organiser checks that each person attended, but does not approve or pay the claim. The finance manager decides whether to approve a claim once the receipts and attendance confirmation have both been received.",
+    "chosen": "Volunteers can claim up to 45 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance. The finance manager approves claims after receiving both the receipts and attendance confirmation.",
+    "rejected": "Volunteers can claim up to 45 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance and approves claims after receiving both the receipts and attendance confirmation."
+  },
+  {
+    "id": "ceramics-2",
+    "source": "If the glaze demonstration runs more than 24 minutes late, the instructor will offer everyone a place at a replacement session. A delay of exactly 24 minutes does not trigger this offer. Students can choose whether to accept the replacement place. There is no additional charge, and the original session will continue even if some students choose a replacement.",
+    "chosen": "The instructor will offer everyone a free replacement session if the glaze demonstration is more than 24 minutes late. A delay of exactly 24 minutes does not qualify. Students can accept or decline, and the original session continues.",
+    "rejected": "The instructor will offer everyone a free replacement session if the glaze demonstration is at least 24 minutes late. A delay of exactly 24 minutes qualifies. Students can accept or decline, and the original session continues."
+  },
+  {
+    "id": "bicycle-2",
+    "source": "The bicycle workshop has 10 spare helmets available for people attending its maintenance class. A participant who asks for a helmet before the class begins can borrow one while supplies last. Helmet requests are handled in the order received. The workshop has not stated whether more helmets will become available later, so staff should not promise additional stock.",
+    "chosen": "The maintenance class has 10 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should make no promise of more stock because the workshop has given no information about future availability.",
+    "rejected": "The maintenance class has 10 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should tell participants that more helmets will arrive later."
+  },
+  {
+    "id": "garden-2",
+    "source": "The garden club has space for 50 people at the seed exchange. Members can bring one guest each, but guests count towards the same capacity limit. The secretary will stop accepting reservations when that limit is reached. A member who reserves a place and later cannot attend should tell the secretary so that the place can be offered to someone else.",
+    "chosen": "The seed exchange can hold 50 people, including guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place.",
+    "rejected": "The seed exchange can hold 50 members, plus their guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place."
+  },
+  {
+    "id": "court-3",
+    "source": "People who have reserved a tennis court are asked to cancel their booking at least 12 hours before it is due to begin if they no longer intend to play. A cancellation made exactly 12 hours before the booking qualifies for a credit. Later cancellations receive no credit. The credit can be used for another court booking and cannot be exchanged for cash.",
+    "chosen": "Cancel an unused tennis court booking at least 12 hours before it starts to receive a credit. Cancelling exactly 12 hours before the start qualifies. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash.",
+    "rejected": "Cancel an unused tennis court booking more than 12 hours before it starts to receive a credit. Cancelling exactly 12 hours before the start does not qualify. Later cancellations receive no credit. The credit covers another court booking and cannot be exchanged for cash."
+  },
+  {
+    "id": "greenhouse-3",
+    "source": "The greenhouse team should inspect the soil sensor whenever it records a value below 240. The inspector must send the reading to the grower, who decides whether watering is needed. An inspector may not start the irrigation system without that decision. If the sensor gives no reading, the inspector should report the missing reading and must not replace it with a zero.",
+    "chosen": "Inspect the soil sensor when its reading falls below 240. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as missing and never replace it with zero.",
+    "rejected": "Inspect the soil sensor when its reading falls below 240. Send the reading to the grower, who decides whether to water. Wait for that decision before starting irrigation. Report an absent reading as zero."
+  },
+  {
+    "id": "repairs-3",
+    "source": "The repair team expects replacement hinges to arrive on 15 June, but the supplier has not confirmed that date. Customers can leave their damaged equipment at reception in the meantime. Leaving equipment does not reserve a repair slot. The coordinator will contact each customer after the parts have arrived to agree a time for the repair.",
+    "chosen": "Replacement hinges are expected on 15 June, although the supplier has yet to confirm the date. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time.",
+    "rejected": "Replacement hinges will arrive on 15 June. Customers can leave damaged equipment at reception. Doing so does not reserve a repair slot. Once the parts arrive, the coordinator will contact each customer to arrange a repair time."
+  },
+  {
+    "id": "subscription-3",
+    "source": "Members can pause their meal subscription for up to 6 weeks by contacting the membership office. Requests are accepted only before the next payment has been taken. The pause begins with the next unpaid delivery. Any delivery that has already been paid for will go ahead, unless the membership office separately agrees to cancel it.",
+    "chosen": "Contact the membership office before your next payment to pause your meal subscription for up to 6 weeks. The pause starts with the next unpaid delivery. Paid deliveries still go ahead unless the office separately agrees to cancel them.",
+    "rejected": "Contact the membership office before your next payment to pause your meal subscription for up to 6 weeks. The pause starts with the next delivery, including deliveries you have already paid for. The office will cancel those deliveries."
+  },
+  {
+    "id": "travel-3",
+    "source": "Volunteers may claim back up to 50 pounds for travel to the training day. They must give their receipts to the finance assistant. The training organiser checks that each person attended, but does not approve or pay the claim. The finance manager decides whether to approve a claim once the receipts and attendance confirmation have both been received.",
+    "chosen": "Volunteers can claim up to 50 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance. The finance manager approves claims after receiving both the receipts and attendance confirmation.",
+    "rejected": "Volunteers can claim up to 50 pounds for travel to the training day. Give receipts to the finance assistant. The organiser confirms attendance and approves claims after receiving both the receipts and attendance confirmation."
+  },
+  {
+    "id": "ceramics-3",
+    "source": "If the glaze demonstration runs more than 27 minutes late, the instructor will offer everyone a place at a replacement session. A delay of exactly 27 minutes does not trigger this offer. Students can choose whether to accept the replacement place. There is no additional charge, and the original session will continue even if some students choose a replacement.",
+    "chosen": "The instructor will offer everyone a free replacement session if the glaze demonstration is more than 27 minutes late. A delay of exactly 27 minutes does not qualify. Students can accept or decline, and the original session continues.",
+    "rejected": "The instructor will offer everyone a free replacement session if the glaze demonstration is at least 27 minutes late. A delay of exactly 27 minutes qualifies. Students can accept or decline, and the original session continues."
+  },
+  {
+    "id": "bicycle-3",
+    "source": "The bicycle workshop has 11 spare helmets available for people attending its maintenance class. A participant who asks for a helmet before the class begins can borrow one while supplies last. Helmet requests are handled in the order received. The workshop has not stated whether more helmets will become available later, so staff should not promise additional stock.",
+    "chosen": "The maintenance class has 11 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should make no promise of more stock because the workshop has given no information about future availability.",
+    "rejected": "The maintenance class has 11 spare helmets to lend. Ask before the class begins. Requests are handled in order while helmets remain. Staff should tell participants that more helmets will arrive later."
+  },
+  {
+    "id": "garden-3",
+    "source": "The garden club has space for 55 people at the seed exchange. Members can bring one guest each, but guests count towards the same capacity limit. The secretary will stop accepting reservations when that limit is reached. A member who reserves a place and later cannot attend should tell the secretary so that the place can be offered to someone else.",
+    "chosen": "The seed exchange can hold 55 people, including guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place.",
+    "rejected": "The seed exchange can hold 55 members, plus their guests. Each member may bring one guest. The secretary will close reservations at capacity. Tell the secretary if you can no longer attend so someone else can take your place."
+  }
+]

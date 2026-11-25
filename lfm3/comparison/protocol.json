@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "frozen_before_generation": true,
+  "case_count": 8,
+  "edit_required_count": 6,
+  "clear_control_count": 2,
+  "decode": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "system_prompt_source": "lfm3/runtime.py"
+  },
+  "grading": {
+    "claim_statuses": [
+      "preserved",
+      "omitted",
+      "contradicted",
+      "uncertain"
+    ],
+    "unsupported_claims": "List every added assertion that is not entailed by the source. An empty list means none found.",
+    "clarity": {
+      "0": "Unclear, malformed, or harder to use than source.",
+      "1": "Clear and usable but awkward phrasing or unnecessary repetition remains.",
+      "2": "Clear, concise and grammatical."
+    },
+    "editing_goal_met": "Boolean semantic judgment against each predeclared case goal. Identity outputs can meet the clear controls, and cannot meet cases requiring a real edit.",
+    "review_required": "Human or model-assisted semantic review must judge every claim and provide evidence for all failures. Mechanical text-overlap is descriptive only."
+  },
+  "ranking": {
+    "requires_complete_review": true,
+    "order": [
+      "most fully acceptable cases",
+      "fewest contradicted plus omitted plus uncertain claims plus unsupported assertions",
+      "most edit-required goals met",
+      "highest summed clarity"
+    ],
+    "fully_acceptable": "Every source claim preserved, zero unsupported assertions, clarity at least 1, editing goal met, generation successful.",
+    "ties": "Declare ties when all ranking fields match. Do not use detector readings to break ties.",
+    "uncertainty": "Eight recipes on eight cases measure this fixed sample. Distinguishing training randomness requires repeated seeds of the same recipe. Greedy output reruns measure inference repeatability, not training variance."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-11-25T15:56:24.403594+00:00",
+  "files": {
+    "settings.json": "b9c9bfed43437cef9d3ac8a529427c3c389eca0eadb9e24b349018cae0d405aa",
+    "train.py": "ba16519ec2f50093111e0d72691c2c7aef2f1bfd0ab6d3e880ceeace87f374c9",
+    "edit-keep-pairs.json": "2b28c452e00bc872d0e36c13cf7f498171969b3380ed2e42b23394308a7bf8f8",
+    "minimal-pairs.json": "a2cd3a4301204dde3534928b07f51063e6999b398e9178a1e987e094d9986bd6"
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "source": "The Hill club can lend no more than 6 maps to one group. The editor must approve the loan.",
+    "target": "The Hill club can lend a group up to 6 maps. The editor must approve the loan.",
+    "rejected": "The Hill club can lend a group at least 6 maps. The editor must approve the loan.",
+    "rejected_spans": [
+      "at least"
+    ]
+  },
+  {
+    "source": "The interview starts 17 minutes after the briefing ends. Participants are asked to remain in the lobby until called.",
+    "target": "The interview starts 17 minutes after the briefing ends. Participants should wait in the lobby until called.",
+    "rejected": "The interview starts 17 minutes before the briefing ends. Participants should wait in the lobby until called.",
+    "rejected_spans": [
+      "before"
+    ]
+  },
+  {
+    "source": "The editor must obtain the author's permission before publishing the photograph. The designer is responsible only for the layout.",
+    "target": "The editor must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected": "The designer must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected_spans": [
+      "designer"
+    ]
+  },
+  {
+    "source": "The vouchers expire after 7 months. They can be used at the Hill branch only.",
+    "target": "The vouchers expire after 7 months and can be used only at the Hill branch.",
+    "rejected": "The vouchers expire after 8 months and can be used only at the Hill branch.",
+    "rejected_spans": [
+      "8"
+    ]
+  },
+  {
+    "source": "The Hill committee has not decided whether to extend the programme. A decision may be made on Monday, but this has not been promised.",
+    "target": "The Hill committee has yet to decide whether to extend the programme. It may decide on Monday, but has made no promise.",
+    "rejected": "The Hill committee has decided to extend the programme. It may decide on Monday, but has made no promise.",
+    "rejected_spans": [
+      "has decided to extend"
+    ]
+  },
+  {
+    "source": "The award is open to applicants with at least 6 months of experience. Holding a qualification is optional.",
+    "target": "Applicants need at least 6 months of experience for the award. A qualification is optional.",
+    "rejected": "Applicants need at least 6 months of experience for the award. A qualification is required.",
+    "rejected_spans": [
+      "required"
+    ]
+  },
+  {
+    "source": "The River club can lend no more than 8 maps to one group. The archivist must approve the loan.",
+    "target": "The River club can lend a group up to 8 maps. The archivist must approve the loan.",
+    "rejected": "The River club can lend a group at least 8 maps. The archivist must approve the loan.",
+    "rejected_spans": [
+      "at least"
+    ]
+  },
+  {
+    "source": "The interview starts 20 minutes after the briefing ends. Participants are asked to remain in the lobby until called.",
+    "target": "The interview starts 20 minutes after the briefing ends. Participants should wait in the lobby until called.",
+    "rejected": "The interview starts 20 minutes before the briefing ends. Participants should wait in the lobby until called.",
+    "rejected_spans": [
+      "before"
+    ]
+  },
+  {
+    "source": "The archivist must obtain the author's permission before publishing the photograph. The designer is responsible only for the layout.",
+    "target": "The archivist must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected": "The designer must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected_spans": [
+      "designer"
+    ]
+  },
+  {
+    "source": "The vouchers expire after 8 months. They can be used at the River branch only.",
+    "target": "The vouchers expire after 8 months and can be used only at the River branch.",
+    "rejected": "The vouchers expire after 9 months and can be used only at the River branch.",
+    "rejected_spans": [
+      "9"
+    ]
+  },
+  {
+    "source": "The River committee has not decided whether to extend the programme. A decision may be made on Wednesday, but this has not been promised.",
+    "target": "The River committee has yet to decide whether to extend the programme. It may decide on Wednesday, but has made no promise.",
+    "rejected": "The River committee has decided to extend the programme. It may decide on Wednesday, but has made no promise.",
+    "rejected_spans": [
+      "has decided to extend"
+    ]
+  },
+  {
+    "source": "The award is open to applicants with at least 8 months of experience. Holding a qualification is optional.",
+    "target": "Applicants need at least 8 months of experience for the award. A qualification is optional.",
+    "rejected": "Applicants need at least 8 months of experience for the award. A qualification is required.",
+    "rejected_spans": [
+      "required"
+    ]
+  },
+  {
+    "source": "The Park club can lend no more than 10 maps to one group. The organiser must approve the loan.",
+    "target": "The Park club can lend a group up to 10 maps. The organiser must approve the loan.",
+    "rejected": "The Park club can lend a group at least 10 maps. The organiser must approve the loan.",
+    "rejected_spans": [
+      "at least"
+    ]
+  },
+  {
+    "source": "The interview starts 23 minutes after the briefing ends. Participants are asked to remain in the lobby until called.",
+    "target": "The interview starts 23 minutes after the briefing ends. Participants should wait in the lobby until called.",
+    "rejected": "The interview starts 23 minutes before the briefing ends. Participants should wait in the lobby until called.",
+    "rejected_spans": [
+      "before"
+    ]
+  },
+  {
+    "source": "The organiser must obtain the author's permission before publishing the photograph. The designer is responsible only for the layout.",
+    "target": "The organiser must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected": "The designer must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected_spans": [
+      "designer"
+    ]
+  },
+  {
+    "source": "The vouchers expire after 9 months. They can be used at the Park branch only.",
+    "target": "The vouchers expire after 9 months and can be used only at the Park branch.",
+    "rejected": "The vouchers expire after 10 months and can be used only at the Park branch.",
+    "rejected_spans": [
+      "10"
+    ]
+  },
+  {
+    "source": "The Park committee has not decided whether to extend the programme. A decision may be made on Saturday, but this has not been promised.",
+    "target": "The Park committee has yet to decide whether to extend the programme. It may decide on Saturday, but has made no promise.",
+    "rejected": "The Park committee has decided to extend the programme. It may decide on Saturday, but has made no promise.",
+    "rejected_spans": [
+      "has decided to extend"
+    ]
+  },
+  {
+    "source": "The award is open to applicants with at least 10 months of experience. Holding a qualification is optional.",
+    "target": "Applicants need at least 10 months of experience for the award. A qualification is optional.",
+    "rejected": "Applicants need at least 10 months of experience for the award. A qualification is required.",
+    "rejected_spans": [
+      "required"
+    ]
+  },
+  {
+    "source": "The Valley club can lend no more than 12 maps to one group. The registrar must approve the loan.",
+    "target": "The Valley club can lend a group up to 12 maps. The registrar must approve the loan.",
+    "rejected": "The Valley club can lend a group at least 12 maps. The registrar must approve the loan.",
+    "rejected_spans": [
+      "at least"
+    ]
+  },
+  {
+    "source": "The interview starts 26 minutes after the briefing ends. Participants are asked to remain in the lobby until called.",
+    "target": "The interview starts 26 minutes after the briefing ends. Participants should wait in the lobby until called.",
+    "rejected": "The interview starts 26 minutes before the briefing ends. Participants should wait in the lobby until called.",
+    "rejected_spans": [
+      "before"
+    ]
+  },
+  {
+    "source": "The registrar must obtain the author's permission before publishing the photograph. The designer is responsible only for the layout.",
+    "target": "The registrar must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected": "The designer must get the author's permission before publishing the photograph. The designer handles only the layout.",
+    "rejected_spans": [
+      "designer"
+    ]
+  },
+  {
+    "source": "The vouchers expire after 10 months. They can be used at the Valley branch only.",
+    "target": "The vouchers expire after 10 months and can be used only at the Valley branch.",
+    "rejected": "The vouchers expire after 11 months and can be used only at the Valley branch.",
+    "rejected_spans": [
+      "11"
+    ]
+  },
+  {
+    "source": "The Valley committee has not decided whether to extend the programme. A decision may be made on Sunday, but this has not been promised.",
+    "target": "The Valley committee has yet to decide whether to extend the programme. It may decide on Sunday, but has made no promise.",
+    "rejected": "The Valley committee has decided to extend the programme. It may decide on Sunday, but has made no promise.",
+    "rejected_spans": [
+      "has decided to extend"
+    ]
+  },
+  {
+    "source": "The award is open to applicants with at least 12 months of experience. Holding a qualification is optional.",
+    "target": "Applicants need at least 12 months of experience for the award. A qualification is optional.",
+    "rejected": "Applicants need at least 12 months of experience for the award. A qualification is required.",
+    "rejected_spans": [
+      "required"
+    ]
+  }
+]

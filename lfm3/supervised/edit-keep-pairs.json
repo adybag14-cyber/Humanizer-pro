@@ -1,0 +1,162 @@
+[
+  {
+    "source": "The archive opens at 9 am on weekdays. Readers must leave bags in the lockers before entering the reading room.",
+    "target": "The archive opens at 9 am on weekdays. Readers must leave bags in the lockers before entering the reading room.",
+    "kind": "keep"
+  },
+  {
+    "source": "Amira checks the printer every Monday. She orders paper when fewer than three sealed packs remain.",
+    "target": "Amira checks the printer every Monday. She orders paper when fewer than three sealed packs remain.",
+    "kind": "keep"
+  },
+  {
+    "source": "The purple labels identify samples collected indoors. They do not indicate whether a sample passed the laboratory checks.",
+    "target": "The purple labels identify samples collected indoors. They do not indicate whether a sample passed the laboratory checks.",
+    "kind": "keep"
+  },
+  {
+    "source": "Staff may reserve the meeting room for up to two hours. Longer bookings need approval from the office manager.",
+    "target": "Staff may reserve the meeting room for up to two hours. Longer bookings need approval from the office manager.",
+    "kind": "keep"
+  },
+  {
+    "source": "The seed packets should stay dry until planting. If a packet is damp, put it aside and tell the gardener.",
+    "target": "The seed packets should stay dry until planting. If a packet is damp, put it aside and tell the gardener.",
+    "kind": "keep"
+  },
+  {
+    "source": "The ferry leaves from pier 6 at noon. Bicycles travel free, but their owners still need a passenger ticket.",
+    "target": "The ferry leaves from pier 6 at noon. Bicycles travel free, but their owners still need a passenger ticket.",
+    "kind": "keep"
+  },
+  {
+    "source": "An unanswered question counts as missing data. It does not count as an incorrect answer.",
+    "target": "An unanswered question counts as missing data. It does not count as an incorrect answer.",
+    "kind": "keep"
+  },
+  {
+    "source": "The school has proposed a new music club. The governors will decide whether to fund it next month.",
+    "target": "The school has proposed a new music club. The governors will decide whether to fund it next month.",
+    "kind": "keep"
+  },
+  {
+    "source": "Visitors can use the lift to reach the gallery. The west staircase is closed during the repairs.",
+    "target": "Visitors can use the lift to reach the gallery. The west staircase is closed during the repairs.",
+    "kind": "keep"
+  },
+  {
+    "source": "Only the caretaker may move the piano. Ask her before rearranging the chairs around it.",
+    "target": "Only the caretaker may move the piano. Ask her before rearranging the chairs around it.",
+    "kind": "keep"
+  },
+  {
+    "source": "The green button starts a test cycle. Hold it for two seconds, then release it.",
+    "target": "The green button starts a test cycle. Hold it for two seconds, then release it.",
+    "kind": "keep"
+  },
+  {
+    "source": "The publisher expects the book in October. A publication date has not yet been confirmed.",
+    "target": "The publisher expects the book in October. A publication date has not yet been confirmed.",
+    "kind": "keep"
+  },
+  {
+    "source": "The office received 31 applications. Four arrived after the deadline and will be reviewed separately.",
+    "target": "The office received 31 applications. Four arrived after the deadline and will be reviewed separately.",
+    "kind": "keep"
+  },
+  {
+    "source": "The pool closes if thunder is heard. Swimmers may return only after the lifeguard gives permission.",
+    "target": "The pool closes if thunder is heard. Swimmers may return only after the lifeguard gives permission.",
+    "kind": "keep"
+  },
+  {
+    "source": "Keep the signed form until the equipment is returned. A photograph of the form is also acceptable.",
+    "target": "Keep the signed form until the equipment is returned. A photograph of the form is also acceptable.",
+    "kind": "keep"
+  },
+  {
+    "source": "Ravi will unlock the cupboard on Tuesday. If he is absent, contact the duty manager.",
+    "target": "Ravi will unlock the cupboard on Tuesday. If he is absent, contact the duty manager.",
+    "kind": "keep"
+  },
+  {
+    "source": "It is necessary for all readers to make a reservation before they come to the map room. Reservations can be made by telephone and must be made at least one day before the visit.",
+    "target": "Readers must reserve a place by telephone at least one day before visiting the map room.",
+    "kind": "clarify"
+  },
+  {
+    "source": "Due to the fact that the east gate is being painted, entry to the courtyard will be through the north gate between 8 am and 1 pm on Wednesday.",
+    "target": "While the east gate is being painted, use the north gate to enter the courtyard between 8 am and 1 pm on Wednesday.",
+    "kind": "clarify"
+  },
+  {
+    "source": "The purpose of the orange tag is to show that a cable is awaiting inspection. A cable with this tag should not be connected to a power supply.",
+    "target": "An orange tag shows that a cable is awaiting inspection. Do not connect a tagged cable to a power supply.",
+    "kind": "clarify"
+  },
+  {
+    "source": "In order to obtain a replacement card, members are required to show proof of their address to the receptionist. There is a fee of three pounds for the replacement.",
+    "target": "To get a replacement card, show proof of your address to the receptionist and pay three pounds.",
+    "kind": "clarify"
+  },
+  {
+    "source": "A decision has not yet been made by the committee about whether the fountain will be repaired. The matter is scheduled for discussion at the June meeting.",
+    "target": "The committee has yet to decide whether to repair the fountain. It will discuss the matter at the June meeting.",
+    "kind": "clarify"
+  },
+  {
+    "source": "At the present time, only one sink in the kitchen has hot water. The other sink can be used for rinsing equipment with cold water.",
+    "target": "Only one kitchen sink currently has hot water. The other can be used to rinse equipment with cold water.",
+    "kind": "clarify"
+  },
+  {
+    "source": "The person responsible for locking the shed is the groundskeeper. Volunteers should leave the key on the hook inside the office after use.",
+    "target": "The groundskeeper locks the shed. Volunteers should return the key to the hook inside the office after use.",
+    "kind": "clarify"
+  },
+  {
+    "source": "For the purpose of the test, each team will be allocated six tokens. Tokens which have not been used at the end of the test must be returned.",
+    "target": "Each team gets six tokens for the test and must return any unused tokens at the end.",
+    "kind": "clarify"
+  },
+  {
+    "source": "It is possible that the path beside the pond will be slippery after rain. Walkers are advised to use the paved route in these circumstances.",
+    "target": "The path beside the pond may be slippery after rain. Walkers should use the paved route when it is.",
+    "kind": "clarify"
+  },
+  {
+    "source": "There were a total of 42 responses to the poll. Of these responses, nine did not include a postcode. The reason for the omission is unknown.",
+    "target": "The poll received 42 responses, nine without a postcode. The reason for the omission is unknown.",
+    "kind": "clarify"
+  },
+  {
+    "source": "Please be aware that the parcel shelf is for staff use only. Members of the public should give their packages directly to the counter assistant.",
+    "target": "The parcel shelf is for staff only. Members of the public should give packages directly to the counter assistant.",
+    "kind": "clarify"
+  },
+  {
+    "source": "In the event that the screen stops responding, switch off the display and wait for 30 seconds before switching it on again.",
+    "target": "If the screen stops responding, switch off the display, wait 30 seconds and switch it on again.",
+    "kind": "clarify"
+  },
+  {
+    "source": "The person who is leading the walk will carry a first aid kit. Participants are still responsible for bringing their own regular medication.",
+    "target": "The walk leader will carry a first aid kit. Participants must still bring their own regular medication.",
+    "kind": "clarify"
+  },
+  {
+    "source": "The time at which the coach is expected to arrive is 3 pm. This time is an estimate and may change if traffic is heavy.",
+    "target": "The coach is expected at 3 pm, although heavy traffic may change that estimate.",
+    "kind": "clarify"
+  },
+  {
+    "source": "There is no requirement for the applicant to submit a second photograph if the first photograph was accepted during registration.",
+    "target": "Applicants do not need to submit a second photograph if their first was accepted during registration.",
+    "kind": "clarify"
+  },
+  {
+    "source": "The inspection is limited to the roof above the studio. It will not cover the roof above the workshop, which was inspected last year.",
+    "target": "The inspection covers only the studio roof. The workshop roof was inspected last year and is excluded.",
+    "kind": "clarify"
+  }
+]

@@ -1,0 +1,2 @@
+# Run manifests hash the exact training scripts, examples and evaluation fixtures.
+lfm3/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

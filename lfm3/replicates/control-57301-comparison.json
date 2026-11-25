@@ -1,0 +1,90 @@
+{
+  "purpose": "Controlled seed-57301 repeat, excluded from the eight-candidate ranking",
+  "torch": "2.13.0+cu130",
+  "python": "3.12.12",
+  "trainer_sha256": "ea54f9777409a9f4fc920bb311ef8d0e48012f28389f41172f1394a34d9a7931",
+  "training_data_sha256": "063a53735bd77654a4c6ce0abbdd0c36b0aae2766d21b1fbf4494986fda117fc",
+  "artifacts": {
+    "historical": {
+      "weight_sha256": "d5b9ca2a60cfa0b73222528371579ccd1e3ea4434bd3773d2c1e8194c6aad8ee",
+      "tensor_count": 188,
+      "parameter_count": 6189056,
+      "dtypes": [
+        "torch.float32"
+      ],
+      "output_sha256": "6ab1562cb856e9b005b9cad7631db1498f2b7f96d63ff383f69210bf956b55a1"
+    },
+    "reproduction": {
+      "weight_sha256": "720ca8fd14bcf9395b9b646e26d3820246b006e766589cc2daf562bc59922ae9",
+      "tensor_count": 188,
+      "parameter_count": 6189056,
+      "dtypes": [
+        "torch.float32"
+      ],
+      "output_sha256": "6fc44cfe8fdf2b093bfd9f3be6bcd72692c0dea0a144ae8aa9e4ddf055037a36"
+    },
+    "control": {
+      "weight_sha256": "6bd56d239af5a87dba2bc2a238dcea75c2510507e8acfc0cba8ba5abe8e9542e",
+      "tensor_count": 188,
+      "parameter_count": 6189056,
+      "dtypes": [
+        "torch.float32"
+      ],
+      "output_sha256": "f0bd2e49e966bfa806b2104b408e3436e58246990fcf8cb00145955f7f87acb7"
+    }
+  },
+  "comparisons": [
+    {
+      "a": "historical",
+      "b": "reproduction",
+      "equal_tensor_count": 0,
+      "changed_tensor_count": 188,
+      "exactly_equal_values": 35,
+      "total_values": 6189056,
+      "max_absolute_difference": 0.00045379437506198883,
+      "mean_absolute_difference": 2.0993839650728195e-05,
+      "rms_difference": 2.8714113872883738e-05,
+      "identical_outputs": [],
+      "different_outputs": [
+        "delivery",
+        "meter",
+        "tickets"
+      ]
+    },
+    {
+      "a": "historical",
+      "b": "control",
+      "equal_tensor_count": 0,
+      "changed_tensor_count": 188,
+      "exactly_equal_values": 65,
+      "total_values": 6189056,
+      "max_absolute_difference": 0.0003647137782536447,
+      "mean_absolute_difference": 1.7180562994928033e-05,
+      "rms_difference": 2.3375877424730233e-05,
+      "identical_outputs": [],
+      "different_outputs": [
+        "delivery",
+        "meter",
+        "tickets"
+      ]
+    },
+    {
+      "a": "reproduction",
+      "b": "control",
+      "equal_tensor_count": 0,
+      "changed_tensor_count": 188,
+      "exactly_equal_values": 38,
+      "total_values": 6189056,
+      "max_absolute_difference": 0.00044715870171785355,
+      "mean_absolute_difference": 2.0249992920238643e-05,
+      "rms_difference": 2.7942934660296856e-05,
+      "identical_outputs": [
+        "delivery"
+      ],
+      "different_outputs": [
+        "meter",
+        "tickets"
+      ]
+    }
+  ]
+}

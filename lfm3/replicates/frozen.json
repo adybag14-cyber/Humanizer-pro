@@ -1,0 +1,28 @@
+{
+  "recipe": "Original 48-pair supervised fidelity experiment",
+  "seeds": [
+    57302,
+    57303
+  ],
+  "base_model": "LiquidAI/LFM3-1.7B",
+  "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+  "optimizer": "AdamW",
+  "learning_rate": 5e-05,
+  "batch_size": 1,
+  "epochs": 1,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.0,
+  "target_modules": [
+    "q_proj",
+    "v_proj",
+    "w1",
+    "w2",
+    "w3"
+  ],
+  "gradient_clip_norm": 1.0,
+  "sha256": {
+    "lfm3\\train.py": "ea54f9777409a9f4fc920bb311ef8d0e48012f28389f41172f1394a34d9a7931",
+    "lfm3\\training-pairs.json": "063a53735bd77654a4c6ce0abbdd0c36b0aae2766d21b1fbf4494986fda117fc"
+  }
+}

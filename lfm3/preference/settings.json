@@ -1,0 +1,22 @@
+{
+  "method": "direct_preference_optimization",
+  "model": "LiquidAI/LFM3-1.7B",
+  "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+  "seed": 41927,
+  "epochs": 2,
+  "pairs": 32,
+  "learning_rate": 0.00002,
+  "beta": 0.1,
+  "gradient_norm": 1.0,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.0,
+  "target_modules": ["q_proj", "v_proj", "w1", "w2", "w3"],
+  "max_sequence_tokens": 512,
+  "batch_pairs": 1,
+  "precision": "bfloat16",
+  "reference": "frozen base with adapter disabled",
+  "log_probability": "sum over completion tokens including EOS",
+  "dataset": "32 original synthetic triples across eight procedural domains",
+  "selection": "one fixed run with final checkpoint retained"
+}

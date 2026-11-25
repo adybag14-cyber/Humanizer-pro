@@ -1,0 +1,24 @@
+{
+  "edit-keep": {
+    "seed": 57421,
+    "rank": 8,
+    "alpha": 16,
+    "learning_rate": 0.00005,
+    "target_modules": ["q_proj", "v_proj", "w1", "w2", "w3"],
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_clip": 1.0,
+    "data_recipe": "16 clear identity examples and 16 clarity rewrites"
+  },
+  "minimal": {
+    "seed": 57422,
+    "rank": 8,
+    "alpha": 16,
+    "learning_rate": 0.00003,
+    "target_modules": ["q_proj", "v_proj"],
+    "epochs": 1,
+    "batch_size": 1,
+    "gradient_clip": 1.0,
+    "data_recipe": "32 singular corrections across agreement, redundancy and punctuation"
+  }
+}

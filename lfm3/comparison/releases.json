@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "published_adapters": [
+    {
+      "candidate": "fidelity",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Fidelity",
+      "subfolder": "adapter",
+      "method": "Original rank-8 supervised Fidelity adapter trained for 48 steps with seed 57301.",
+      "revision": "79ccfcea39ff768642c7e323e926bad979513a82",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "d5b9ca2a60cfa0b73222528371579ccd1e3ea4434bd3773d2c1e8194c6aad8ee",
+      "adapter_bytes": 24781056,
+      "trainable_parameters": 6189056,
+      "verification": "Anonymous download verified against all 15 files in the release. Four generations repeated exactly from the downloaded standalone model.",
+      "files_sha256": {
+        "adapter/adapter_model.safetensors": "d5b9ca2a60cfa0b73222528371579ccd1e3ea4434bd3773d2c1e8194c6aad8ee",
+        "model.safetensors": "8e0061d85c51490eb360aa5f6c4a5db752c48dd6cb85e69c0d76b44e3e390d0a",
+        "adapter/adapter_config.json": "e447e0a5465f615ec099d93b5b11c416e27c1e86620b204ba4c48531c6635b11"
+      }
+    },
+    {
+      "candidate": "preference",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-DPO",
+      "method": "Direct preference optimization on 32 original factual editing triples, two epochs and 64 updates. The preferred completion preserves the source facts, and the rejected completion contains a deliberate factual error. The frozen reference is the pinned original base. LoRA rank 8, alpha 16, beta 0.1, learning rate 0.00002 and seed 41927.",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3/preference",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "634fae0f3d64206c9eb375296714f38ee34da6926bae2c9628e327cf78466418",
+      "adapter_bytes": 24781056,
+      "trainable_parameters": 6189056,
+      "files_sha256": {
+        "adapter_config.json": "b13827340c0a24aea64d882fc6053d87a648a0746a20d31b5d88198265b3ee67",
+        "LICENSE": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c",
+        "README.md": "93dcae0141fb536c17d78652ec2399048a743371d70559c346d4bb3bcf07ae97",
+        "NOTICE": "c8e04650cfaa08f5bb31410cf7fbab7584eb78556523a6885698da9905ef6337",
+        "adapter_model.safetensors": "634fae0f3d64206c9eb375296714f38ee34da6926bae2c9628e327cf78466418"
+      },
+      "revision": "9cdc628a9c47c98ac941e423c2416c7e6cf1fed8",
+      "url": "https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-DPO",
+      "published_at_utc": "2026-11-25T16:00:44.611801+00:00",
+      "anonymous_download_verified": true,
+      "all_files_sha256_verified": true,
+      "cpu_peft_load_verified": true
+    },
+    {
+      "candidate": "edit-keep",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Edit-Keep",
+      "method": "Supervised target-only cross-entropy on 16 clear identity examples and 16 clarity rewrites. One epoch and 32 updates. LoRA rank 8, alpha 16, learning rate 0.00005 and seed 57421.",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3/supervised",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "bf362b8e9186747b70ff0f5d9285fd3afa00b23f325dc69c883bdd96131a2126",
+      "adapter_bytes": 24781056,
+      "trainable_parameters": 6189056,
+      "files_sha256": {
+        "adapter_config.json": "bbd4395fb43492c4a0235982654a9c7465f4a6fe203a5c270f994c5f0b1c2838",
+        "LICENSE": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c",
+        "README.md": "54f9fd79a0bb94b8e90a20510e72ded5fec26bd60ee1c7a4edea4fdea528b469",
+        "NOTICE": "7f94d9e44411f05dc391c2a47959f24ea4043f5cbc5513353d6cf47099de9d15",
+        "adapter_model.safetensors": "bf362b8e9186747b70ff0f5d9285fd3afa00b23f325dc69c883bdd96131a2126"
+      },
+      "revision": "8c1354bd720f2104e6592b3b1e4eec53027319fc",
+      "url": "https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Edit-Keep",
+      "published_at_utc": "2026-11-25T16:00:49.947394+00:00",
+      "anonymous_download_verified": true,
+      "all_files_sha256_verified": true,
+      "cpu_peft_load_verified": true
+    },
+    {
+      "candidate": "minimal",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Minimal",
+      "method": "Supervised target-only cross-entropy on 32 examples of singular corrections across agreement, redundancy and punctuation. One epoch and 32 updates. LoRA rank 8 on q_proj and v_proj, alpha 16, learning rate 0.00003 and seed 57422.",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3/supervised",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "59e89c7c1e8b004d319657f9be8fd4147b1e1b86ceb7cd9e57c4ce2f74fa41cf",
+      "adapter_bytes": 2348696,
+      "trainable_parameters": 585728,
+      "files_sha256": {
+        "adapter_config.json": "4e96e3b12f6ca12f081e2167ac5e87dfb2180b4cbcd8b0b67f47d55388de03fa",
+        "LICENSE": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c",
+        "README.md": "2985ee68e101718dfafa818f6245d3ba8ab4cac2716f28a3a08227ad8a982740",
+        "NOTICE": "81f3a5c0fe094d7fd8e365d887dad3dfb65edbd8d8928dac04a38bdbd50a6a05",
+        "adapter_model.safetensors": "59e89c7c1e8b004d319657f9be8fd4147b1e1b86ceb7cd9e57c4ce2f74fa41cf"
+      },
+      "revision": "da35d3d0d3f26df3e5cb507d42ea8f04b469f3a7",
+      "url": "https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Minimal",
+      "published_at_utc": "2026-11-25T16:00:53.382360+00:00",
+      "anonymous_download_verified": true,
+      "all_files_sha256_verified": true,
+      "cpu_peft_load_verified": true
+    },
+    {
+      "candidate": "weighted",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Weighted",
+      "method": "Critical-span weighted supervised fine-tuning on 24 synthetic editing pairs. Critical spans receive weight 3.0. One epoch and 24 updates. LoRA rank 8, alpha 16, learning rate 0.00005 and seed 57303.",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3/alternatives",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "a215cf4f20a5585e775d7db64adf3e122664ce7489163fe27520d0ece2840bc2",
+      "adapter_bytes": 24781056,
+      "trainable_parameters": 6189056,
+      "files_sha256": {
+        "adapter_config.json": "a25ef34190830769553eb8d55982205c00435184f697d21e0eda2f1a15f2b3dc",
+        "LICENSE": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c",
+        "README.md": "5b3e4462eabee7a40899b611e4edef3c693c043159a312f0fa8e4a0622499035",
+        "NOTICE": "fe964ae24b33858211bcd3e87b574e97cd73bfecf188639b98769d3b3893ce8b",
+        "adapter_model.safetensors": "a215cf4f20a5585e775d7db64adf3e122664ce7489163fe27520d0ece2840bc2"
+      },
+      "revision": "5009f1fa490e1a10278927a43a5bd297f9a73ffe",
+      "url": "https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Weighted",
+      "published_at_utc": "2026-11-25T16:00:57.776713+00:00",
+      "anonymous_download_verified": true,
+      "all_files_sha256_verified": true,
+      "cpu_peft_load_verified": true
+    },
+    {
+      "candidate": "unlikelihood",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Unlikelihood",
+      "method": "Supervised fine-tuning plus factual-token unlikelihood on 24 synthetic editing pairs. The unlikelihood coefficient is 0.5. One epoch and 24 updates. LoRA rank 8 on q_proj, k_proj, v_proj and out_proj, alpha 16, learning rate 0.00005 and seed 57304.",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3/alternatives",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "7da0194ffe27659085f15b67da51659fa4fa73183970a3e193e898c892d6cdcf",
+      "adapter_bytes": 4959976,
+      "trainable_parameters": 1236992,
+      "files_sha256": {
+        "adapter_config.json": "55283751682c7f4b98026c87d64187ad3f72e5a4d4cafa21da8b8deeebfc5124",
+        "LICENSE": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c",
+        "README.md": "3269faa0f986e22777658d61aa58d63e291e877f3bee452d3380ab87f349bc5e",
+        "NOTICE": "6967edf92102834905abf6efec69583379d296f88b3ce5ea1aa4ebff9392d263",
+        "adapter_model.safetensors": "7da0194ffe27659085f15b67da51659fa4fa73183970a3e193e898c892d6cdcf"
+      },
+      "revision": "af85d77b018e41def74e49a8f5771a11f0890e7c",
+      "url": "https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Unlikelihood",
+      "published_at_utc": "2026-11-25T16:01:01.693230+00:00",
+      "anonymous_download_verified": true,
+      "all_files_sha256_verified": true,
+      "cpu_peft_load_verified": true
+    },
+    {
+      "candidate": "seed-57302",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Seed-57302",
+      "method": "A seed replication of the 48-pair supervised factual editing recipe. One epoch and 48 updates. LoRA rank 8, alpha 16, learning rate 0.00005 and seed 57302.",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3/replicates",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "24014976a313deb7fed35265b37c0eba7926d8f2970e5a7b3ce35d81f42341cf",
+      "adapter_bytes": 24781056,
+      "trainable_parameters": 6189056,
+      "files_sha256": {
+        "adapter_config.json": "6c9e6cc5908302972d1dc7ee3935ee650ee2aac60ded71ba3a5d5345448fc30b",
+        "LICENSE": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c",
+        "README.md": "d343cc4798e59a1fdd4e429df8dc7d6f9019114bfdb08ffa57db0fe7f96e8b9d",
+        "NOTICE": "4084d1fed8c642132ff5822832c09604df2fb783462d8552d90fd994b2b2a2a8",
+        "adapter_model.safetensors": "24014976a313deb7fed35265b37c0eba7926d8f2970e5a7b3ce35d81f42341cf"
+      },
+      "revision": "b18f5ead5bb30fdd17ae1f310598f6c92612a7be",
+      "url": "https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Seed-57302",
+      "published_at_utc": "2026-11-25T16:01:18.614289+00:00",
+      "anonymous_download_verified": true,
+      "all_files_sha256_verified": true,
+      "cpu_peft_load_verified": true
+    },
+    {
+      "candidate": "seed-57303",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Seed-57303",
+      "method": "A seed replication of the 48-pair supervised factual editing recipe. One epoch and 48 updates. LoRA rank 8, alpha 16, learning rate 0.00005 and seed 57303.",
+      "source": "https://github.com/adybag14-cyber/Humanizer-pro/tree/main/lfm3/replicates",
+      "base_model": "LiquidAI/LFM3-1.7B",
+      "base_revision": "0dc4268b561499c648c7ba7c9466bf3d8d01517a",
+      "adapter_sha256": "76d5ac206af77653061a1728a2a0c986ea9073bfadcc969042733a0e9cc0de0c",
+      "adapter_bytes": 24781056,
+      "trainable_parameters": 6189056,
+      "files_sha256": {
+        "adapter_config.json": "5b78caf419fcbb2a79bb9110fa1c1aec57af3ec38fb36ba467b223e0b597f913",
+        "LICENSE": "4d28ca14dedc0b3d0fcc2b3339f0e79931faa33874f3d24f522183a8fc70068c",
+        "README.md": "028e26883a8618d4c1f862d0582480fafb652bcad1f3fdf974c0f9e7de7bf90d",
+        "NOTICE": "f75c58763894b30d04a485b4956059bd7049e973887b361e43ce2c3e1e13b94d",
+        "adapter_model.safetensors": "76d5ac206af77653061a1728a2a0c986ea9073bfadcc969042733a0e9cc0de0c"
+      },
+      "revision": "ad19ca4c1d15f6cc9d23e9e37d0148cc8a09325a",
+      "url": "https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Seed-57303",
+      "published_at_utc": "2026-11-25T16:01:23.798284+00:00",
+      "anonymous_download_verified": true,
+      "all_files_sha256_verified": true,
+      "cpu_peft_load_verified": true
+    }
+  ],
+  "verification_completed_at_utc": "2026-11-25T16:01:37.160858+00:00"
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ferry_bikes",
+    "edit_required": true,
+    "source": "For the purpose of managing space aboard the morning ferry, it has been decided that bicycles will be accepted on the 7:20 sailing on Saturday only if a space has been booked by 6 pm on Friday. The booking is for the bicycle, and passengers must buy their own ticket separately. A bicycle booking does not reserve a seat. There is a limit of six bicycles on that sailing. If the sailing is cancelled, the bicycle booking fee will be returned automatically. The passenger ticket follows its own refund terms, which are not described in this notice.",
+    "claims": [
+      "Bicycle rule applies to Saturday's 7:20 sailing.",
+      "A bicycle space must be booked by Friday at 6 pm.",
+      "Passengers buy their own ticket separately.",
+      "Bicycle booking reserves no passenger seat.",
+      "At most six bicycles are accepted.",
+      "Sailing cancellation triggers automatic refund of the bicycle booking fee.",
+      "Passenger ticket refund terms are separate and unspecified here."
+    ],
+    "editing_goal": "Remove bureaucratic lead-in and reduce repetition while preserving all booking and refund distinctions."
+  },
+  {
+    "id": "canoe_control",
+    "edit_required": false,
+    "source": "The canoe desk opens at 9 am. Each canoe must be returned by 4 pm on the day it is hired. A late return costs £8 for each hour or part of an hour. Staff may close the desk early if river conditions worsen. An early desk closure does not change the 4 pm return time. Bring the canoe back to the marked landing and call the number on the hire card if the desk is shut.",
+    "claims": [
+      "Desk opens at 9 am.",
+      "Same-day canoe return deadline is 4 pm.",
+      "Late fee is £8 per hour or part hour.",
+      "Worsening river conditions may cause early desk closure.",
+      "Early desk closure leaves the 4 pm deadline in force.",
+      "Return location is the marked landing.",
+      "If desk is shut, hirer calls the number on the hire card."
+    ],
+    "editing_goal": "Keep this already-clear instruction clear. An identical output is acceptable."
+  },
+  {
+    "id": "ceramics_collection",
+    "edit_required": true,
+    "source": "It is necessary for makers who are collecting finished pottery to make use of the east door on Monday, owing to the fact that the main corridor will be undergoing painting. Collection hours are from 1 pm to 5 pm. Pieces with a yellow label have not completed firing and must remain on the shelf. A blue label means that a piece may be collected, but it does not mean that it is suitable for food use. Makers should check the glaze record before using a piece with food. The volunteer at the door can locate that record but cannot certify a glaze.",
+    "claims": [
+      "Monday pottery collections use the east door.",
+      "Main corridor painting causes the door change.",
+      "Collection window is 1 pm to 5 pm.",
+      "Yellow-labelled pieces have not completed firing and must stay.",
+      "Blue-labelled pieces may be collected.",
+      "A blue label does not establish food suitability.",
+      "Makers check glaze record before food use.",
+      "Door volunteer can locate the record and cannot certify glaze."
+    ],
+    "editing_goal": "Replace redundant phrasing and keep the distinction between collection permission and food suitability."
+  },
+  {
+    "id": "rehearsal_control",
+    "edit_required": false,
+    "source": "Rehearsal starts in Room 3 at 6:30 pm on Wednesday. Arrive ten minutes early to set up. Only the conductor may move the piano. Players should bring their own music stands. Spare stands can be requested from reception, but availability is not guaranteed. If Room 3 is unavailable, reception will direct the group to another room. The start time stays the same.",
+    "claims": [
+      "Rehearsal is Wednesday at 6:30 pm in Room 3.",
+      "Players arrive ten minutes early to set up.",
+      "Only conductor may move piano.",
+      "Players bring their own music stands.",
+      "Reception can be asked for spare stands.",
+      "Spare stand availability is uncertain.",
+      "Reception directs group elsewhere if Room 3 is unavailable.",
+      "Room change leaves start time unchanged."
+    ],
+    "editing_goal": "Preserve this clear notice. An identical output is acceptable."
+  },
+  {
+    "id": "trail_detour",
+    "edit_required": true,
+    "source": "Walkers is asked to use the signed detour while the footbridge is repaired. The detour adds 900 metres to the usual route and includes 26 steps. It is not suitable for wheelchairs. The riverside path remains open as far as the bridge, but there is no crossing there. Repair work is expected to finish on 12 June; this is an estimate and the bridge will stay closed until the council removes the barriers. Dog walkers can use the detour if dogs are kept on leads. Cyclists must dismount before entering it.",
+    "claims": [
+      "Walkers use signed detour during footbridge repairs.",
+      "Detour adds 900 metres.",
+      "Detour includes 26 steps.",
+      "Detour is unsuitable for wheelchairs.",
+      "Riverside path remains open only as far as bridge, with no crossing there.",
+      "12 June is estimated completion.",
+      "Bridge remains closed until council removes barriers.",
+      "Dogs may use detour on leads.",
+      "Cyclists dismount before entering."
+    ],
+    "editing_goal": "Correct the subject-verb error and improve clarity without turning an estimate into an opening date."
+  },
+  {
+    "id": "print_order",
+    "edit_required": true,
+    "source": "Customers submitting a poster for printing should bear in mind the fact that the file must arrive by noon on Tuesday in order to qualify for collection on Thursday. This arrangement applies to files that are ready to print. If a correction is needed, the print team will email the customer and the Thursday collection date may change. The team will not make the correction without approval. A proof costs £3, which is additional to the printing price. Customers may decline a proof. Declining it does not reduce the printing price.",
+    "claims": [
+      "Ready-to-print file arrival deadline for Thursday collection is Tuesday noon.",
+      "Corrections can change Thursday collection date.",
+      "Print team emails customer when a correction is needed.",
+      "Team requires approval before correction.",
+      "Proof costs £3 in addition to print price.",
+      "Proof is optional.",
+      "Declining proof leaves print price unchanged."
+    ],
+    "editing_goal": "Simplify the lead-in and preserve the conditional collection date and separate proof charge."
+  },
+  {
+    "id": "tool_repair",
+    "edit_required": true,
+    "source": "In relation to the repair clinic on Sunday, please be advised that one broken hand tool per visitor may be brought for inspection. Electrical tools are excluded from the clinic. An inspection is free, however parts must be paid for by the visitor if a repair goes ahead. The volunteer will ask for agreement on the cost before fitting a part. Inspection does not guarantee that the tool can be repaired. Visitors aged under 16 must attend with an adult. The adult must remain throughout the inspection; dropping a child off is not permitted.",
+    "claims": [
+      "Clinic is Sunday.",
+      "Each visitor may bring one broken hand tool for inspection.",
+      "Electrical tools are excluded.",
+      "Inspection is free.",
+      "Visitor pays for parts if repair proceeds.",
+      "Volunteer gets cost agreement before fitting part.",
+      "Inspection provides no repair guarantee.",
+      "Under-16 visitors require adult attendance.",
+      "Adult remains throughout inspection."
+    ],
+    "editing_goal": "Remove formulaic introduction and fix the comma splice while retaining age, cost and consent conditions."
+  },
+  {
+    "id": "language_sessions",
+    "edit_required": true,
+    "source": "The conversation club has six Tuesday sessions which start on 8 September. Each session begins at 7 pm and lasts 50 minutes. It is possible to attend without being a member of the community centre. People must book each session they wish to attend, rather than assuming that booking the first gives a place at all six. There is no charge for the sessions themselves. Printed practice sheets are optional and cost £2 per session. If a session is cancelled by the club, any payment for its practice sheet will be returned; the notice gives no policy for a visitor who chooses not to attend.",
+    "claims": [
+      "Six Tuesday conversation sessions start on 8 September.",
+      "Each starts 7 pm and lasts 50 minutes.",
+      "Community-centre membership is unnecessary.",
+      "Every desired session needs separate booking.",
+      "First-session booking grants no place at others.",
+      "Sessions themselves are free.",
+      "Optional printed practice sheets cost £2 per session.",
+      "Club cancellation triggers refund of that session's practice-sheet payment.",
+      "Visitor nonattendance policy is unspecified."
+    ],
+    "editing_goal": "Simplify wording and preserve free attendance, optional materials, separate bookings and limited refund policy."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "source": "The list of ingredients are on the back of the packet.",
+    "target": "The list of ingredients is on the back of the packet.",
+    "kind": "agreement"
+  },
+  {
+    "source": "Each of the four lamps need a new bulb.",
+    "target": "Each of the four lamps needs a new bulb.",
+    "kind": "agreement"
+  },
+  {
+    "source": "The boxes beside the door belongs to the drama club.",
+    "target": "The boxes beside the door belong to the drama club.",
+    "kind": "agreement"
+  },
+  {
+    "source": "Neither of the proposed routes cross private land.",
+    "target": "Neither of the proposed routes crosses private land.",
+    "kind": "agreement"
+  },
+  {
+    "source": "The number of open tickets have fallen to eight.",
+    "target": "The number of open tickets has fallen to eight.",
+    "kind": "agreement"
+  },
+  {
+    "source": "A set of spare keys are kept by the librarian.",
+    "target": "A set of spare keys is kept by the librarian.",
+    "kind": "agreement"
+  },
+  {
+    "source": "The instructions for this machine was updated in April.",
+    "target": "The instructions for this machine were updated in April.",
+    "kind": "agreement"
+  },
+  {
+    "source": "Every visitor receive a paper wristband at the entrance.",
+    "target": "Every visitor receives a paper wristband at the entrance.",
+    "kind": "agreement"
+  },
+  {
+    "source": "The collection of postcards include three from Lisbon.",
+    "target": "The collection of postcards includes three from Lisbon.",
+    "kind": "agreement"
+  },
+  {
+    "source": "Those two chairs is reserved for the speakers.",
+    "target": "Those two chairs are reserved for the speakers.",
+    "kind": "agreement"
+  },
+  {
+    "source": "The sensor near the windows measure humidity every hour.",
+    "target": "The sensor near the windows measures humidity every hour.",
+    "kind": "agreement"
+  },
+  {
+    "source": "The library closes at 7 pm in the evening.",
+    "target": "The library closes at 7 pm.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "Please return back the borrowed recorder by Friday.",
+    "target": "Please return the borrowed recorder by Friday.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "The repairs cost a total sum of 85 pounds.",
+    "target": "The repairs cost 85 pounds.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "The two routes are both identical.",
+    "target": "The two routes are identical.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "The estimate is approximately about 60 metres.",
+    "target": "The estimate is approximately 60 metres.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "We will meet together at the main entrance.",
+    "target": "We will meet at the main entrance.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "The final outcome will be announced on Monday.",
+    "target": "The outcome will be announced on Monday.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "The room is completely empty of all furniture.",
+    "target": "The room is empty of furniture.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "Please repeat again the serial number.",
+    "target": "Please repeat the serial number.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "The parcel is small in size and weighs 900 grams.",
+    "target": "The parcel is small and weighs 900 grams.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "The new plan was first introduced for the first time in July.",
+    "target": "The new plan was introduced in July.",
+    "kind": "redundancy"
+  },
+  {
+    "source": "Before opening the case check the label.",
+    "target": "Before opening the case, check the label.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "If the red light flashes call the technician.",
+    "target": "If the red light flashes, call the technician.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "After the paint dries remove the masking tape.",
+    "target": "After the paint dries, remove the masking tape.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "While the floor is wet use the side entrance.",
+    "target": "While the floor is wet, use the side entrance.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "When the bell rings leave your papers on the desk.",
+    "target": "When the bell rings, leave your papers on the desk.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "Until the replacement arrives keep the old handle.",
+    "target": "Until the replacement arrives, keep the old handle.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "Because the pump is noisy the test will take place outside.",
+    "target": "Because the pump is noisy, the test will take place outside.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "To protect the surface place a mat under the tray.",
+    "target": "To protect the surface, place a mat under the tray.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "Once the file has uploaded close the browser window.",
+    "target": "Once the file has uploaded, close the browser window.",
+    "kind": "punctuation"
+  },
+  {
+    "source": "For your first visit bring a photo identity card.",
+    "target": "For your first visit, bring a photo identity card.",
+    "kind": "punctuation"
+  }
+]
