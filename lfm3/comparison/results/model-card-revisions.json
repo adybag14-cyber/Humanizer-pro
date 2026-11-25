@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "model_cards": [
+    {
+      "candidate": "fidelity",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Fidelity",
+      "tested_revision": "79ccfcea39ff768642c7e323e926bad979513a82",
+      "previous_main_revision": "79ccfcea39ff768642c7e323e926bad979513a82",
+      "documentation_revision": "7bd295f384900bf86a3a30542a17d4014a2e97e1",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "98be8bb26fcfb679282f78f75577aabb460e6d7458e4696b503bd5dec877a50a",
+      "weight_sha256": {
+        "adapter/adapter_model.safetensors": "d5b9ca2a60cfa0b73222528371579ccd1e3ea4434bd3773d2c1e8194c6aad8ee",
+        "model.safetensors": "8e0061d85c51490eb360aa5f6c4a5db752c48dd6cb85e69c0d76b44e3e390d0a"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    },
+    {
+      "candidate": "preference",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-DPO",
+      "tested_revision": "9cdc628a9c47c98ac941e423c2416c7e6cf1fed8",
+      "previous_main_revision": "9cdc628a9c47c98ac941e423c2416c7e6cf1fed8",
+      "documentation_revision": "ce3abcca3f89d4107335e534ce143fec392e63f1",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "3befe56723e9732a697440b0c49f7dc39952e12e41517faac28a1412ffbfc247",
+      "weight_sha256": {
+        "adapter_model.safetensors": "634fae0f3d64206c9eb375296714f38ee34da6926bae2c9628e327cf78466418"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    },
+    {
+      "candidate": "edit-keep",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Edit-Keep",
+      "tested_revision": "8c1354bd720f2104e6592b3b1e4eec53027319fc",
+      "previous_main_revision": "8c1354bd720f2104e6592b3b1e4eec53027319fc",
+      "documentation_revision": "708a32ce28afe171f9fc6544d366d01327240814",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "d19ceb12d33842c5c0093affaaea620d4e9f7cc718d6af55e777784cc1d35649",
+      "weight_sha256": {
+        "adapter_model.safetensors": "bf362b8e9186747b70ff0f5d9285fd3afa00b23f325dc69c883bdd96131a2126"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    },
+    {
+      "candidate": "minimal",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Minimal",
+      "tested_revision": "da35d3d0d3f26df3e5cb507d42ea8f04b469f3a7",
+      "previous_main_revision": "da35d3d0d3f26df3e5cb507d42ea8f04b469f3a7",
+      "documentation_revision": "0a72901e55b84341510e8e847a3a51b5eea8a3d7",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "b07fc4bb4b133bea7cb816a95a8a2f525cb1fc749620cb90429bf022af2ab54a",
+      "weight_sha256": {
+        "adapter_model.safetensors": "59e89c7c1e8b004d319657f9be8fd4147b1e1b86ceb7cd9e57c4ce2f74fa41cf"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    },
+    {
+      "candidate": "weighted",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Weighted",
+      "tested_revision": "5009f1fa490e1a10278927a43a5bd297f9a73ffe",
+      "previous_main_revision": "5009f1fa490e1a10278927a43a5bd297f9a73ffe",
+      "documentation_revision": "8708465f09e3d49e067a1249daa4d4072490c912",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "8fa94972214e3b213118facd51df7568faefaccca70ce8adf29cc2a6ef64478d",
+      "weight_sha256": {
+        "adapter_model.safetensors": "a215cf4f20a5585e775d7db64adf3e122664ce7489163fe27520d0ece2840bc2"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    },
+    {
+      "candidate": "unlikelihood",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Unlikelihood",
+      "tested_revision": "af85d77b018e41def74e49a8f5771a11f0890e7c",
+      "previous_main_revision": "af85d77b018e41def74e49a8f5771a11f0890e7c",
+      "documentation_revision": "3bb0217d9801bf62ae35020c5ac1ca0282c5ee50",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "cfb6dda25996624b32f7581319087ef402de16479d27007545a95ca6b6648885",
+      "weight_sha256": {
+        "adapter_model.safetensors": "7da0194ffe27659085f15b67da51659fa4fa73183970a3e193e898c892d6cdcf"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    },
+    {
+      "candidate": "seed-57302",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Seed-57302",
+      "tested_revision": "b18f5ead5bb30fdd17ae1f310598f6c92612a7be",
+      "previous_main_revision": "b18f5ead5bb30fdd17ae1f310598f6c92612a7be",
+      "documentation_revision": "7ddc4b008fb9a368f24731ba4964641e0119827e",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "185a1f4813ad366175dff6548d5c30cf4ac463aff5f058e42aacd64c7f84e8cd",
+      "weight_sha256": {
+        "adapter_model.safetensors": "24014976a313deb7fed35265b37c0eba7926d8f2970e5a7b3ce35d81f42341cf"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    },
+    {
+      "candidate": "seed-57303",
+      "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Seed-57303",
+      "tested_revision": "ad19ca4c1d15f6cc9d23e9e37d0148cc8a09325a",
+      "previous_main_revision": "ad19ca4c1d15f6cc9d23e9e37d0148cc8a09325a",
+      "documentation_revision": "943a31f8784823bd66dc0d26b1daa63ef2c4918c",
+      "changed_files": [
+        "README.md"
+      ],
+      "readme_sha256": "b9586f03db2a876c200397f8de9ab042ba6c3157ad5881520e76c983d94cca80",
+      "weight_sha256": {
+        "adapter_model.safetensors": "76d5ac206af77653061a1728a2a0c986ea9073bfadcc969042733a0e9cc0de0c"
+      },
+      "public_git_and_lfs_metadata_verified": true,
+      "public_readme_download_verified": true
+    }
+  ],
+  "verified_at_utc": "2026-11-25T16:13:11.158289+00:00"
+}
