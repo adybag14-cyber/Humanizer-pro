@@ -44,4 +44,6 @@ Use the command below for UTF-8 passages of 100–3,500 whitespace-delimited wor
 python lfm3/edit.py input.txt --candidate lfm-v2-r2
 ```
 
+Publication verification matched the anonymous download to the original adapter SHA-256. Using the released weights and the pinned base, the two-pass decoder reproduced all nine archived public outputs byte-for-byte, including the bus passage through the command above. [Per-passage replay hashes](evidence/v2-r2-replay.json)
+
 On the bus notice, Pangram reported 100% human and GPTZero reported 100% AI. The rewrite also omitted Route 14. On the bakery notice, Pangram reported 39% human coverage and 61% possibly AI. On the observatory notice, both services reported 100% AI. Across the historical evaluation, **0/6** development passages reached 90% human on each service and **0/3** holdout passages reached 80% on each. These readings are from the archived runs. [All nine public passages, outputs and timestamped readings](evidence/prior-v2-evaluation.json)

@@ -1,0 +1,61 @@
+{
+  "model_revision": "e54c8c4a107115b426490336c51c2396ad0e6188",
+  "adapter_sha256": "6b816dba81f7f38671be236ed8241192f0c818fb54c2fc99c99e19116da8cb36",
+  "bus_entry_point": "python lfm3/edit.py input.txt --candidate lfm-v2-r2",
+  "cases": [
+    {
+      "sample": "bus",
+      "historical_sha256": "d167c0ae7888bcf4558557fac0ee6bf8da054e255a486e90ba7a307d05250e5a",
+      "replayed_sha256": "d167c0ae7888bcf4558557fac0ee6bf8da054e255a486e90ba7a307d05250e5a",
+      "exact": true
+    },
+    {
+      "sample": "library",
+      "historical_sha256": "7c67c53b2ebcd3e0f54558d973e2f486ed585e638b399d06c33e3e822c13984f",
+      "replayed_sha256": "7c67c53b2ebcd3e0f54558d973e2f486ed585e638b399d06c33e3e822c13984f",
+      "exact": true
+    },
+    {
+      "sample": "orchard",
+      "historical_sha256": "2268040a370856a12e563e548d5af09f3f7988354978e2e3f878462896ad802c",
+      "replayed_sha256": "2268040a370856a12e563e548d5af09f3f7988354978e2e3f878462896ad802c",
+      "exact": true
+    },
+    {
+      "sample": "museum",
+      "historical_sha256": "4f3168acab02b507957064b2003db6f20e7c8883b9626edb571119230baf2bcf",
+      "replayed_sha256": "4f3168acab02b507957064b2003db6f20e7c8883b9626edb571119230baf2bcf",
+      "exact": true
+    },
+    {
+      "sample": "bakery",
+      "historical_sha256": "78f2cb44224cc808d4328081ba74a51879f079126143f9b3fb4b5ab1ff7eb615",
+      "replayed_sha256": "78f2cb44224cc808d4328081ba74a51879f079126143f9b3fb4b5ab1ff7eb615",
+      "exact": true
+    },
+    {
+      "sample": "archive",
+      "historical_sha256": "24cffffa11c41cfe4cae1df87b00d69bdda65a4666c9df5e9f0058e6e7d90039",
+      "replayed_sha256": "24cffffa11c41cfe4cae1df87b00d69bdda65a4666c9df5e9f0058e6e7d90039",
+      "exact": true
+    },
+    {
+      "sample": "chess",
+      "historical_sha256": "80d77e7cb3ffb2fbdc7bb5e8dada534c647e342bc34962283241c824998908af",
+      "replayed_sha256": "80d77e7cb3ffb2fbdc7bb5e8dada534c647e342bc34962283241c824998908af",
+      "exact": true
+    },
+    {
+      "sample": "pitch",
+      "historical_sha256": "7d506d12c9d279596797c4573066e5d7dbb3df7fc23acadaf69a64659dc4308e",
+      "replayed_sha256": "7d506d12c9d279596797c4573066e5d7dbb3df7fc23acadaf69a64659dc4308e",
+      "exact": true
+    },
+    {
+      "sample": "observatory",
+      "historical_sha256": "239e3de2775ccc6ad3f44e395d725c53d0b92e2d6c4852f986616166f7b18df2",
+      "replayed_sha256": "239e3de2775ccc6ad3f44e395d725c53d0b92e2d6c4852f986616166f7b18df2",
+      "exact": true
+    }
+  ]
+}
