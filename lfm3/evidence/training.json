@@ -1,0 +1,10 @@
+{
+  "model": "LiquidAI/LFM3-1.7B",
+  "seed": 57301,
+  "steps": 48,
+  "first_8_mean_loss": 0.9958443641662598,
+  "last_8_mean_loss": 0.00271617189355311,
+  "trainable_parameters": 6189056,
+  "adapter_bytes": 24781056,
+  "adapter_sha256": "d5b9ca2a60cfa0b73222528371579ccd1e3ea4434bd3773d2c1e8194c6aad8ee"
+}

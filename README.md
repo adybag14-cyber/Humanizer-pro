@@ -1,44 +1,18 @@
 # Humanizer Pro
 
-> Professional-grade text humanizer. Rewrites machine-generated text so it reads naturally — and scores **100% human** on Pangram 4 and GPTZero.
+Humanizer Pro is an experimental English text editor based on LiquidAI’s LFM3-1.7B. The first public fidelity checkpoint rewrote all three procedural notices in its evaluation. It preserved an inclusive parcel-weight limit and changed the meaning of a refund condition. [Training method and before-and-after results](lfm3/README.md)
 
-## Overview
+Download the standalone BF16 model or the original PEFT adapter from [Hugging Face](https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Fidelity/tree/79ccfcea39ff768642c7e323e926bad979513a82).
 
-**Humanizer Pro** is a text humanization tool designed to take AI-generated or stiff, mechanical writing and turn it into prose that reads like it was written by a person. It targets the signals that detectors such as Pangram 4 and GPTZero use to identify synthetic text, while preserving the original meaning and intent.
+## Run one edit
 
-## Features
+In a Python 3.12 environment with a CUDA-enabled build of PyTorch installed, run the following commands from the repository root.
 
-- **Detector-evasive rewriting** — engineered to score 100% human on Pangram 4 and GPTZero.
-- **Meaning-preserving paraphrase** — rewrites phrasing and structure without changing what the text says.
-- **Natural voice** — smooths out repetitive patterns, overly regular cadence, and formulaic transitions typical of LLM output.
-- **Any text** — works on prose of arbitrary length and subject matter.
+```sh
+python -m pip install -r lfm3/requirements.txt
+python lfm3/edit.py input.txt --revision 79ccfcea39ff768642c7e323e926bad979513a82
+```
 
-## Status
+On 25 November 2026 both GPTZero and Pangram classified the merged checkpoint’s fixed observatory edit as AI-generated. The repository includes the full passage and both readings. [Detector evidence](lfm3/evidence/observatory-scans.json)
 
-> **Early stage.** This repository has just been initialized. The implementation and public interface are not published yet — this README is the first piece of project documentation and will grow alongside the code.
-
-| Item | Status |
-| --- | --- |
-| Project description | ✅ Defined |
-| License (Apache 2.0) | ✅ Added |
-| Core humanizer implementation | 🚧 Planned |
-| CLI / library interface | 🚧 Planned |
-| Benchmark harness (Pangram 4, GPTZero) | 🚧 Planned |
-| Usage documentation | 🚧 Planned |
-
-## Benchmarks
-
-The humanizer is reported to achieve a **100% human** classification on:
-
-- **Pangram 4**
-- **GPTZero**
-
-Detailed methodology and reproducible benchmark scripts will be added to this repository as the project develops.
-
-## Getting started
-
-Installation and usage instructions will be published here once the first release is available. In the meantime, you can follow development by watching this repository.
-
-## License
-
-Licensed under the **Apache License 2.0**. See [LICENSE](LICENSE) for the full text.
+The repository code uses the [Apache 2.0 license](LICENSE). The model files carry the [LFM Open License v1.0](https://huggingface.co/Tdamre/LFM3-1.7B-Humanizer-Pro-Fidelity/blob/79ccfcea39ff768642c7e323e926bad979513a82/LICENSE).

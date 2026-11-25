@@ -1,0 +1,238 @@
+{
+  "adapter": "lfm-v2",
+  "inference_passes": 2,
+  "adapter_sha256": "6b816dba81f7f38671be236ed8241192f0c818fb54c2fc99c99e19116da8cb36",
+  "cases": [
+    {
+      "sample": "library",
+      "split": "development",
+      "threshold": 90,
+      "source": "The proposed Saturday tool library would give residents a convenient way to borrow equipment that they use only occasionally. Under the pilot arrangement, the collection would include hand drills, measuring tapes, clamps and small sanding blocks. Each borrower would need to present a library card and return the item by the following Saturday. A volunteer would inspect each tool at the counter before returning it to the shelf.\n\nThe proposal also sets out a simple way to evaluate demand. Staff would record the number of loans, the number of requests they could not fulfil and the time spent checking equipment. After eight weeks, the library committee would review those records and decide whether to extend the pilot. No purchase of additional tools is included in the initial budget. Residents who wish to suggest an item could leave a note at the counter.",
+      "output": "It will be easy for residents to take equipment home that they use only intermittently. As part of the pilot, the library would provide hand drills, measuring tapes, clamps and sanding blocks. People who borrow equipment would have to show their library card. It would need to be returned on the next Saturday. A volunteer would need to inspect each item before it goes back on the shelf. The pilot would also provide an example of how the library can measure demand. The library will keep track of the number of items borrowed and how many items were requested but couldn't be fulfilled and the time taken to check the items. After eight weeks, the committee will review the records and decide whether to continue the pilot. It will not be costing anyone extra to purchase tools. Residents can write to the counter with suggestions.",
+      "gptzero": {
+        "shown": "AI 14%, Mixed 0%, Human 86%",
+        "when": "2026-11-25T13:57:22.666Z",
+        "text_sha256": "7c67c53b2ebcd3e0f54558d973e2f486ed585e638b399d06c33e3e822c13984f",
+        "metrics": {
+          "AI": 14,
+          "Mixed": 0,
+          "Human": 86
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nPossibly AI\n146\nwords scanned\n\u2022\nShort text\nPangram\n4.1\nThis text is too short to classify with certainty, but we believe it may\nbe AI generated\n.\n100\n%\nof this text is\npossibly\nAI\nLess accurate on short text\n",
+        "when": "2026-11-25T13:57:22.632Z",
+        "text_sha256": "7c67c53b2ebcd3e0f54558d973e2f486ed585e638b399d06c33e3e822c13984f",
+        "metrics": {}
+      }
+    },
+    {
+      "sample": "orchard",
+      "split": "development",
+      "threshold": 90,
+      "source": "A school orchard can provide students with valuable opportunities to observe seasonal change in a familiar setting. The suggested plan calls for four apple trees and two pear trees in the open area beside the east fence. Teachers would assign one class to each tree, and the classes would take turns recording changes in a shared notebook. The observations would include the date of the first blossom, the appearance of new leaves and the number of pieces of fruit collected in autumn.\n\nDuring school holidays, two volunteers would check the watering schedule and report any damaged branches to the caretaker. The proposal does not assume that the first planting season will produce a harvest. Its initial purpose is to establish healthy trees and build a record that future classes can compare with their own observations.",
+      "output": "School orchards are a chance for schoolchildren to see the change of seasons in the area they are already familiar with. A plan for the orchard involves planting four apple trees and two pear trees in an open area on the east fence. Two classes will be responsible for the care of each tree, and they will be asked to note any changes they observe in the tree in a shared notebook. These records should include the date of the first bloom, the arrival of new leaves and the number of fruits harvested from the tree in autumn. Two volunteers will check on the watering schedule and report on the state of the branches during school holidays. It is not implied that a planting in the first year of the orchard will yield a harvest. The orchard is designed to grow the trees well, so that the records can be compared with the records made by future classes.",
+      "gptzero": {
+        "shown": "AI 100%, Mixed 0%, Human 0%",
+        "when": "2026-11-25T13:57:37.265Z",
+        "text_sha256": "2268040a370856a12e563e548d5af09f3f7988354978e2e3f878462896ad802c",
+        "metrics": {
+          "AI": 100,
+          "Mixed": 0,
+          "Human": 0
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nAI Generated\n158\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI\nThis text appears to have been paraphrased or rewritten\n",
+        "when": "2026-11-25T13:57:37.159Z",
+        "text_sha256": "2268040a370856a12e563e548d5af09f3f7988354978e2e3f878462896ad802c",
+        "metrics": {
+          "Human": 0,
+          "AI": 100
+        }
+      }
+    },
+    {
+      "sample": "bus",
+      "split": "development",
+      "threshold": 90,
+      "source": "The town transport office is seeking feedback on a temporary change to the evening bus timetable. During the proposed six week trial, the final Route 14 bus would leave the station at 9:20 pm instead of 9:05 pm. The change is intended to give passengers arriving on the evening train more time to reach the bus stop. The morning timetable and all weekend departures would remain the same.\n\nDrivers would record the number of passengers boarding at the station and any delay at the final stop. The office would also accept comments by telephone or on paper at the ticket counter. At the end of the trial, staff would compare passenger numbers with the previous six weeks. The council would then decide whether the later departure should become a permanent part of the timetable.",
+      "output": "The transport office is considering making a temporary change to the evening bus timetable.\nThe last bus of the evening timetable will leave the station at 9:20pm instead of its normal time of 9:05pm during the trial. Passengers coming on the evening train will get more time to get to the bus stop.\nThe timetable for the morning services will not change and will not change for the weekend. The drivers will record the number of passengers they board the station and any delays at the end of the line. Drivers can also provide feedback to the transport office by telephone or on paper at the ticket counter. When the trial has finished, drivers will compare the number of passengers during the trial with those who came during the previous six weeks. Then, the council will decide whether they want to make the later departure permanent in the timetable.",
+      "gptzero": {
+        "shown": "AI 100%, Mixed 0%, Human 0%",
+        "when": "2026-11-25T13:57:51.892Z",
+        "text_sha256": "d167c0ae7888bcf4558557fac0ee6bf8da054e255a486e90ba7a307d05250e5a",
+        "metrics": {
+          "AI": 100,
+          "Mixed": 0,
+          "Human": 0
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nHuman Written\n151\nwords scanned\nPangram\n4.1\nWe believe that this entire text is human-written.\n100\nof this text is\nHuman Written\n",
+        "when": "2026-11-25T13:57:51.850Z",
+        "text_sha256": "d167c0ae7888bcf4558557fac0ee6bf8da054e255a486e90ba7a307d05250e5a",
+        "metrics": {
+          "Human": 100,
+          "AI": 0
+        }
+      }
+    },
+    {
+      "sample": "museum",
+      "split": "development",
+      "threshold": 90,
+      "source": "A museum preparing a display of everyday objects needs to make consistent decisions about how much information to place on each label. In this proposed exhibition, the first line would identify the object and its approximate date. A second line would describe one feature that visitors can see for themselves. Where the owner is unknown, staff would say so rather than offering a speculative account of the object's history.\n\nThe team would test the labels with a group of twelve visitors before the exhibition opens. Each visitor would be asked to find one object using the description alone and to identify any unfamiliar words. Staff would record the responses without collecting names. The results would help the team revise confusing labels and choose a suitable type size for the final display.",
+      "output": "It is necessary for the museum to decide consistently on what information will be included in the labels in the proposed display of common objects. First-line information will be the name of the object and its approximate date of manufacture. Second-line information will be something that can be identified by the visitor with the naked eye. When an object's owner is unknown, staff will indicate that the person of the object is not known rather than make up information about the history of the object. The label team will use a group of 12 visitors to test the labels before opening the display. Each visitor will be asked to locate the object using only the information in the label and whether they can identify any unfamiliar words. These answers will be recorded without the collection of names. These answers will be used in order to revise the labels for confusing information and to decide the proper label size for the final display.",
+      "gptzero": {
+        "shown": "AI 100%, Mixed 0%, Human 0%",
+        "when": "2026-11-25T13:59:26.985Z",
+        "text_sha256": "4f3168acab02b507957064b2003db6f20e7c8883b9626edb571119230baf2bcf",
+        "metrics": {
+          "AI": 100,
+          "Mixed": 0,
+          "Human": 0
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nAI Generated\n165\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI\nThis text appears to have been paraphrased or rewritten\n",
+        "when": "2026-11-25T13:58:04.041Z",
+        "text_sha256": "4f3168acab02b507957064b2003db6f20e7c8883b9626edb571119230baf2bcf",
+        "metrics": {
+          "Human": 0,
+          "AI": 100
+        }
+      }
+    },
+    {
+      "sample": "bakery",
+      "split": "development",
+      "threshold": 90,
+      "source": "The bakery plans to trial a new collection system for its Friday bread orders. Customers would place an order by noon on Thursday and select one of three collection periods. The first period would begin at eight in the morning, the second at ten and the third at noon. Orders would be labelled with a reference number so that customers with similar names receive the correct bags.\n\nStaff would use a printed list to record each collection. If a customer needed to change the time, the bakery would ask for a telephone call before the original collection period began. After four Fridays, the manager would compare waiting times and the number of uncollected orders with the preceding month. The bakery would continue to sell unreserved loaves at the counter throughout the trial.",
+      "output": "The bakery is going to try a new way of collecting orders for Friday bread. Customers will be able to place an order by noon on Thursday. They must also choose a collection time: 8am, 10am and 12pm. All the orders will have a reference number, so customers with the same names will be directed to the right bag. Staff will have to use a printed list to record each collection. If a customer wants to change their time, the bakery will have to call them before 8am. Every four Fridays, the manager will look at the collection time and uncollected order number for the month and compare that to last month. They will also be continuing to sell uncollected loaves at the counter during the trial.",
+      "gptzero": {
+        "shown": "AI 0%, Mixed 0%, Human 100%",
+        "when": "2026-11-25T13:59:50.050Z",
+        "text_sha256": "78f2cb44224cc808d4328081ba74a51879f079126143f9b3fb4b5ab1ff7eb615",
+        "metrics": {
+          "AI": 0,
+          "Mixed": 0,
+          "Human": 100
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nPossibly AI\n127\nwords scanned\n\u2022\nShort text\nPangram\n4.1\nThis text is too short to classify with certainty, but we believe it may\nbe AI generated\n.\n61\n%\nof this text is\npossibly\nAI\nAI\n61\n%\nHuman\n39\n%\nLess accurate on short text\nAI percentage could vary\nEstimated range\n55\n\u2013\n75\n% AI text\n0%\n100%\nOur best estimate is\n61\n%, with a likely range of\n55\n\u2013\n75\n%.\nThis text appears to have been paraphrased or rewritten\nAI-generated content appears in the later part\n",
+        "when": "2026-11-25T13:59:49.332Z",
+        "text_sha256": "78f2cb44224cc808d4328081ba74a51879f079126143f9b3fb4b5ab1ff7eb615",
+        "metrics": {
+          "AI": 61,
+          "Human": 39
+        }
+      }
+    },
+    {
+      "sample": "archive",
+      "split": "development",
+      "threshold": 90,
+      "source": "Organising a small community sound archive requires a clear approach to naming files and documenting their origins. The proposed system assigns each recording a number and keeps the contributor's description in a separate catalogue. That description would include the location, the approximate date and any restrictions on public listening. If a date is uncertain, the entry would record the uncertainty instead of assigning a precise day.\n\nThe archive would keep one copy on the office computer and a second on a drive stored at another site. Once a month, a volunteer would select five recordings and check that both copies can be played. Any failed check would be recorded in the maintenance log. The first public listening session would use only recordings for which the contributor had given written permission.",
+      "output": "It will need to decide how to name and file recordings in the small community sound archive. This new system will number each recording and provide a list with the person who recorded the recording and the description of what is being recorded. This list will include information regarding where the recording was made, the date when it was made, and any restrictions on the playback of the recording. If the date when the recording was made is not known, it will be noted. There will be one copy of the recordings in the main computer in the office and another on a drive at a different site. Each month one volunteer will select five recordings to play from both copies. If a playback check is failed, the failure will be written in the maintenance log. Recordings for which a written permission was given by the person who recorded the recording will be played during the first public playback.",
+      "gptzero": {
+        "shown": "AI 52%, Mixed 0%, Human 48%",
+        "when": "2026-11-25T14:00:04.981Z",
+        "text_sha256": "24cffffa11c41cfe4cae1df87b00d69bdda65a4666c9df5e9f0058e6e7d90039",
+        "metrics": {
+          "AI": 52,
+          "Mixed": 0,
+          "Human": 48
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nAI Generated\n159\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI\nThis text appears to have been paraphrased or rewritten\n",
+        "when": "2026-11-25T14:00:04.942Z",
+        "text_sha256": "24cffffa11c41cfe4cae1df87b00d69bdda65a4666c9df5e9f0058e6e7d90039",
+        "metrics": {
+          "Human": 0,
+          "AI": 100
+        }
+      }
+    },
+    {
+      "sample": "chess",
+      "split": "holdout",
+      "threshold": 80,
+      "source": "An organiser who borrows chess clocks from another club takes on two jobs. One is to get the clocks to the tournament and back. The other is to return each clock in a condition that allows the lending club to use it at its next meeting. The second job is easy to overlook when several games finish at once and the last volunteers want to go home.\n\nFor a junior tournament with eighteen boards, the organiser has arranged to borrow twenty clocks. Two will be held at the results desk as spares. Before the doors open, a volunteer will set every clock to the same time control and play through a short practice game. The aim is to catch a faulty button or an incorrect setting while there is still time to exchange the clock. Small numbered cards on the tables will allow the volunteer to record where each clock was placed.\n\nAt the end of the afternoon, players should leave the clocks on their boards. Two volunteers will collect them, compare the serial numbers with the list from the lending club and put the clocks into padded trays. A clock that failed during the tournament should go into a separate box with a description of the fault. The lending club has asked for that information even if the fault disappears after a battery change.",
+      "output": "The organiser is away out of town for the day, so he has to arrange for the chess clocks to be delivered to and from the tournament. He also has to return each clock to the club after the tournament, as they need it in that state for the next time they use them. It was easy to forget this as games were played until it was over and it was time for the last people to go home. For the junior event with 18 boards, the organiser has borrowed 20 clocks. Two will be used as spare clocks at the results desk. Before the tournament starts, a volunteer will set the clock to the same time control and play through a short practice game. The organiser is looking for a faulty button or setting before he has a chance to change the clock. There will be small numbered cards on the tables that the volunteer can use to mark down where each clock ended up. At the end of the afternoon, the players should put the clocks back on the boards. There will be two volunteers to collect the clocks and compare the serial numbers against the list from the lending club. The clocks will be placed in padded trays. If a clock fails during the tournament, it will be taken in a separate box with a note explaining the fault, even if the fault is fixed after replacing the batteries.",
+      "gptzero": {
+        "shown": "AI 39%, Mixed 0%, Human 61%",
+        "when": "2026-11-25T14:04:39.773Z",
+        "text_sha256": "80d77e7cb3ffb2fbdc7bb5e8dada534c647e342bc34962283241c824998908af",
+        "metrics": {
+          "AI": 39,
+          "Mixed": 0,
+          "Human": 61
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nAI Generated\n242\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI\nThis text appears to have been paraphrased or rewritten\n",
+        "when": "2026-11-25T14:04:39.343Z",
+        "text_sha256": "80d77e7cb3ffb2fbdc7bb5e8dada534c647e342bc34962283241c824998908af",
+        "metrics": {
+          "Human": 0,
+          "AI": 100
+        }
+      }
+    },
+    {
+      "sample": "pitch",
+      "split": "holdout",
+      "threshold": 80,
+      "source": "Heavy rain on Thursday left standing water across the lower half of the football pitch. Friday's inspection found that the goalmouth at the park end was still soft enough to take a deep footprint. The groundskeeper has therefore asked the club to move Saturday morning's junior fixture to the school playing field. The school has confirmed that its main gate will open at nine and that the match may start at its usual time of ten.\n\nThere are two practical differences for families. The school car park has fewer spaces than the park, and the changing rooms will be closed for cleaning. Players should arrive in their kit and bring a bag for muddy boots. Anyone who usually walks across the park should use the school entrance on Mill Road. The side gate beside the tennis courts will remain locked.\n\nThe club will inspect the park pitch again on Sunday afternoon. That inspection concerns next week's training sessions and will have no effect on Saturday's decision. The team manager will send a message to both sets of parents and ask the visiting coach to acknowledge it. A notice will also be placed at the park gate on Saturday morning for spectators who have not seen the change.",
+      "output": "It was found on Thursday that the stand water on the lower part of the football pitch was not dry enough. The inspection found on Friday that the goalmouth at the end of the park was still soft enough for players to make large footprints. The groundsman has asked the football club to play the junior game on Saturday morning on the school field. The school has now confirmed that the main gate will be open at 9am and the match will begin at the usual time of 10am. Families will notice two differences. The school car park has fewer car spaces than the park. Players will have to bring a bag for their muddy boots. Players who usually walk across the park should now use the school entrance on Mill Road. The side gate beside the tennis courts will still be closed. The club will inspect the park pitch again on Sunday afternoon. This is an inspection of the upcoming training sessions next week, not a decision affecting Saturday. The club manager will send a message to both sets of parents and expect the visiting coach to reply. A notice will be posted at the park gate on Saturday morning for spectators who have not been informed of the change.",
+      "gptzero": {
+        "shown": "AI 100%, Mixed 0%, Human 0%",
+        "when": "2026-11-25T14:04:54.171Z",
+        "text_sha256": "7d506d12c9d279596797c4573066e5d7dbb3df7fc23acadaf69a64659dc4308e",
+        "metrics": {
+          "AI": 100,
+          "Mixed": 0,
+          "Human": 0
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nAI Generated\n211\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI\n",
+        "when": "2026-11-25T14:04:54.129Z",
+        "text_sha256": "7d506d12c9d279596797c4573066e5d7dbb3df7fc23acadaf69a64659dc4308e",
+        "metrics": {
+          "Human": 0,
+          "AI": 100
+        }
+      }
+    },
+    {
+      "sample": "observatory",
+      "split": "holdout",
+      "threshold": 80,
+      "source": "The observatory has one public telescope and a narrow staircase leading to the dome. On a clear evening visitors often reach the top faster than the telescope operator can show them an object. If the next group waits on the stairs, people leaving the dome have very little space to pass. The problem is the position of the queue as much as its length.\n\nFor the next two open evenings, visitors will collect a numbered card in the downstairs hall. A volunteer will call four numbers at a time and wait for the previous group to come down before sending the next group up. Visitors who miss their first call can speak to the volunteer and join a later group. The cards are intended to organise the queue, so they will be issued without names or telephone numbers.\n\nA small monitor in the hall will show which numbers are in the dome. It will also carry a short description of the object currently in the telescope. If cloud covers the object for more than ten minutes, the operator will pause the calls and give an update over the hall speaker. After the second evening the volunteers will compare the longest waiting time with the time recorded at the last open evening. They will also note whether the staircase stayed clear.",
+      "output": "There is one public telescope at the observatory, and a narrow path up to the dome. In the evenings, sometimes visitors arrive sooner than the operator can show them an object. If the next group of visitors have to wait on the stairs, the visitors exiting the dome have very little room to pass. Not only the queue length, but the order of visitors is important. Visitors will get a numbered card from the downstairs hall the next two nights. A volunteer will call the next group of visitors four times. If the previous group has come down, the next group can be sent up. Visitors who have missed their first call can speak to the volunteer and join a later group. The cards will be issued without names and telephone numbers, as they will be useful in organising the queue. A small monitor will be set up in the hall to display which number is in the dome. It will also have a short description of the object in the telescope. If the object is cloudy for more than ten minutes, the operator will make the calls interrupt and give an update over the hall speaker. After the second evening, the volunteers will look at the longest waiting time compared with the last evening, at which the volunteers were the most. They will also note whether the stairs was clear.",
+      "gptzero": {
+        "shown": "AI 100%, Mixed 0%, Human 0%",
+        "when": "2026-11-25T14:05:10.907Z",
+        "text_sha256": "239e3de2775ccc6ad3f44e395d725c53d0b92e2d6c4852f986616166f7b18df2",
+        "metrics": {
+          "AI": 100,
+          "Mixed": 0,
+          "Human": 0
+        }
+      },
+      "pangram": {
+        "shown": "Overview\nDetails\nNotes\nAI Generated\n231\nwords scanned\nPangram\n4.1\nWe believe that this entire text is AI.\n100\nof this text is\nAI\n",
+        "when": "2026-11-25T14:05:10.083Z",
+        "text_sha256": "239e3de2775ccc6ad3f44e395d725c53d0b92e2d6c4852f986616166f7b18df2",
+        "metrics": {
+          "Human": 0,
+          "AI": 100
+        }
+      }
+    }
+  ]
+}

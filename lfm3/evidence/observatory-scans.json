@@ -1,0 +1,27 @@
+{
+  "model": "Tdamre/LFM3-1.7B-Humanizer-Pro-Fidelity",
+  "merged_weights_sha256": "8e0061d85c51490eb360aa5f6c4a5db752c48dd6cb85e69c0d76b44e3e390d0a",
+  "source_file": "observatory-source.txt",
+  "output_file": "observatory-edit.txt",
+  "output_sha256": "0676ad3443fbc500d8e667b7bf9adb7ac517dc3db87e4458271a45b390a66bd6",
+  "word_count_whitespace": 191,
+  "gptzero": {
+    "observed_utc": "2026-11-25T15:50:22Z",
+    "model": "5.0b",
+    "scan": "Advanced AI Scan",
+    "words_displayed_before_scan": 191,
+    "document_probability_percent": {
+      "ai": 100,
+      "mixed": 0,
+      "human": 0
+    }
+  },
+  "pangram": {
+    "observed_utc": "2026-11-25T15:50:27Z",
+    "model": "4.1",
+    "scan": "Text Detection",
+    "words_displayed": 193,
+    "verdict": "AI Generated",
+    "ai_coverage_percent": 100
+  }
+}

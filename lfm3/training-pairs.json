@@ -1,0 +1,194 @@
+[
+  {
+    "source": "It should be noted that the red storeroom may hold a maximum of 24 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 2 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The red storeroom can hold up to 24 cartons. If it holds more, the shift leader must tell the stock clerk within 2 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 28 degrees for more than 11 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 28 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 28 degrees for more than 11 minutes, the night porter gets a message. A reading of exactly 28 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 7 valid responses were received during the survey and 1 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 7 valid responses and 1 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the green storeroom may hold a maximum of 27 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 3 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The green storeroom can hold up to 27 cartons. If it holds more, the shift leader must tell the stock clerk within 3 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 29 degrees for more than 12 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 29 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 29 degrees for more than 12 minutes, the night porter gets a message. A reading of exactly 29 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 8 valid responses were received during the survey and 2 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 8 valid responses and 2 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the blue storeroom may hold a maximum of 30 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 4 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The blue storeroom can hold up to 30 cartons. If it holds more, the shift leader must tell the stock clerk within 4 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 30 degrees for more than 13 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 30 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 30 degrees for more than 13 minutes, the night porter gets a message. A reading of exactly 30 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 9 valid responses were received during the survey and 3 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 9 valid responses and 3 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the west storeroom may hold a maximum of 33 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 5 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The west storeroom can hold up to 33 cartons. If it holds more, the shift leader must tell the stock clerk within 5 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 31 degrees for more than 14 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 31 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 31 degrees for more than 14 minutes, the night porter gets a message. A reading of exactly 31 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 10 valid responses were received during the survey and 1 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 10 valid responses and 1 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the red storeroom may hold a maximum of 36 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 6 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The red storeroom can hold up to 36 cartons. If it holds more, the shift leader must tell the stock clerk within 6 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 32 degrees for more than 15 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 32 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 32 degrees for more than 15 minutes, the night porter gets a message. A reading of exactly 32 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 11 valid responses were received during the survey and 2 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 11 valid responses and 2 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the green storeroom may hold a maximum of 39 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 2 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The green storeroom can hold up to 39 cartons. If it holds more, the shift leader must tell the stock clerk within 2 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 33 degrees for more than 16 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 33 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 33 degrees for more than 16 minutes, the night porter gets a message. A reading of exactly 33 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 12 valid responses were received during the survey and 3 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 12 valid responses and 3 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the blue storeroom may hold a maximum of 42 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 3 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The blue storeroom can hold up to 42 cartons. If it holds more, the shift leader must tell the stock clerk within 3 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 34 degrees for more than 17 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 34 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 34 degrees for more than 17 minutes, the night porter gets a message. A reading of exactly 34 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 13 valid responses were received during the survey and 1 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 13 valid responses and 1 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the west storeroom may hold a maximum of 45 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 4 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The west storeroom can hold up to 45 cartons. If it holds more, the shift leader must tell the stock clerk within 4 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 35 degrees for more than 18 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 35 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 35 degrees for more than 18 minutes, the night porter gets a message. A reading of exactly 35 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 14 valid responses were received during the survey and 2 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 14 valid responses and 2 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the red storeroom may hold a maximum of 48 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 5 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The red storeroom can hold up to 48 cartons. If it holds more, the shift leader must tell the stock clerk within 5 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 36 degrees for more than 19 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 36 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 36 degrees for more than 19 minutes, the night porter gets a message. A reading of exactly 36 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 15 valid responses were received during the survey and 3 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 15 valid responses and 3 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the green storeroom may hold a maximum of 51 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 6 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The green storeroom can hold up to 51 cartons. If it holds more, the shift leader must tell the stock clerk within 6 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 37 degrees for more than 20 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 37 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 37 degrees for more than 20 minutes, the night porter gets a message. A reading of exactly 37 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 16 valid responses were received during the survey and 1 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 16 valid responses and 1 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the blue storeroom may hold a maximum of 54 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 2 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The blue storeroom can hold up to 54 cartons. If it holds more, the shift leader must tell the stock clerk within 2 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 38 degrees for more than 21 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 38 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 38 degrees for more than 21 minutes, the night porter gets a message. A reading of exactly 38 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 17 valid responses were received during the survey and 2 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 17 valid responses and 2 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the west storeroom may hold a maximum of 57 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 3 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The west storeroom can hold up to 57 cartons. If it holds more, the shift leader must tell the stock clerk within 3 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 39 degrees for more than 22 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 39 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 39 degrees for more than 22 minutes, the night porter gets a message. A reading of exactly 39 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 18 valid responses were received during the survey and 3 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 18 valid responses and 3 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the red storeroom may hold a maximum of 60 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 4 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The red storeroom can hold up to 60 cartons. If it holds more, the shift leader must tell the stock clerk within 4 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 40 degrees for more than 23 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 40 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 40 degrees for more than 23 minutes, the night porter gets a message. A reading of exactly 40 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 19 valid responses were received during the survey and 1 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 19 valid responses and 1 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the green storeroom may hold a maximum of 63 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 5 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The green storeroom can hold up to 63 cartons. If it holds more, the shift leader must tell the stock clerk within 5 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 41 degrees for more than 24 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 41 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 41 degrees for more than 24 minutes, the night porter gets a message. A reading of exactly 41 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 20 valid responses were received during the survey and 2 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 20 valid responses and 2 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the blue storeroom may hold a maximum of 66 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 6 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The blue storeroom can hold up to 66 cartons. If it holds more, the shift leader must tell the stock clerk within 6 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 42 degrees for more than 25 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 42 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 42 degrees for more than 25 minutes, the night porter gets a message. A reading of exactly 42 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 21 valid responses were received during the survey and 3 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 21 valid responses and 3 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  },
+  {
+    "source": "It should be noted that the west storeroom may hold a maximum of 69 cartons. If this number is exceeded, the shift leader must notify the stock clerk within 2 working days. Recounting the cartons is the responsibility of the stock clerk, not the shift leader.",
+    "target": "The west storeroom can hold up to 69 cartons. If it holds more, the shift leader must tell the stock clerk within 2 working days. The stock clerk is responsible for the recount."
+  },
+  {
+    "source": "In the event that the cabinet temperature remains above 43 degrees for more than 26 minutes, a message will be sent to the night porter. No message will be sent if the temperature reaches 43 degrees exactly. The porter is required to record the alert, but the engineer alone is authorised to reset the device.",
+    "target": "If the cabinet stays above 43 degrees for more than 26 minutes, the night porter gets a message. A reading of exactly 43 degrees does not trigger one. The porter records the alert. Only the engineer may reset the device."
+  },
+  {
+    "source": "A total of 22 valid responses were received during the survey and 1 forms were returned without an answer. The blank forms have been excluded from the calculation. The team has not established why these forms were left blank, and they must not be counted as negative responses.",
+    "target": "The survey returned 22 valid responses and 1 blank forms. The calculation excludes the blanks. The team does not know why those forms were blank and must not count them as negative answers."
+  }
+]
