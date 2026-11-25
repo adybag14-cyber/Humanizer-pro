@@ -1,0 +1,99 @@
+{
+  "candidate": "preference",
+  "provenance": {
+    "kind": "adapter",
+    "public_repo": "Tdamre/LFM3-1.7B-Humanizer-Pro-DPO",
+    "revision": "9cdc628a9c47c98ac941e423c2416c7e6cf1fed8",
+    "weight_sha256": "634fae0f3d64206c9eb375296714f38ee34da6926bae2c9628e327cf78466418"
+  },
+  "cases": [
+    {
+      "case": "ferry_bikes",
+      "source": "For the purpose of managing space aboard the morning ferry, it has been decided that bicycles will be accepted on the 7:20 sailing on Saturday only if a space has been booked by 6 pm on Friday. The booking is for the bicycle, and passengers must buy their own ticket separately. A bicycle booking does not reserve a seat. There is a limit of six bicycles on that sailing. If the sailing is cancelled, the bicycle booking fee will be returned automatically. The passenger ticket follows its own refund terms, which are not described in this notice.",
+      "output": {
+        "success": true,
+        "text": "For the morning ferry’s 7:20 sailing on Saturday, bicycles may be accepted only if a space is booked by 6 pm on Friday. The booking is for the bicycle itself; passengers must purchase a separate ticket. Booking a bicycle does not reserve a seat, and there is a limit of six bicycles for that sailing. If the sailing is cancelled, the bicycle‑booking fee will be returned automatically. Ticket refunds follow their own terms, which are not described here.\n\n**Revised passage:**\n- Bicycle acceptance limited to the 7:20 Saturday ferry.\n- Must have a space booked by 6 pm Friday.\n- Book only the bicycle; get a separate ticket.\n- No seat reservation for a bike booking (max six bikes).\n- Cancelled sailings: bicycle fee returned automatically.\n- Passenger tickets: separate refund terms, not detailed in this notice.",
+        "sha256": "21231f7607b07c008fa3871c9addb4f59c014d658f3c074623c4b0acd88cbd0a"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.7391304347826086
+    },
+    {
+      "case": "canoe_control",
+      "source": "The canoe desk opens at 9 am. Each canoe must be returned by 4 pm on the day it is hired. A late return costs £8 for each hour or part of an hour. Staff may close the desk early if river conditions worsen. An early desk closure does not change the 4 pm return time. Bring the canoe back to the marked landing and call the number on the hire card if the desk is shut.",
+      "output": {
+        "success": true,
+        "text": "The canoe desk opens at 9 am. Each canoe must be returned by 4 pm on the day it is hired; a late return costs £8 per hour or part of an hour. Staff may close the desk early if river conditions worsen, but an early closure does not change the 4 pm return time. Bring the canoe back to the marked landing and call the number on the hire card if the desk is shut.\n\n- Opening: 9 am  \n- Return deadline: 4 pm (same day) – £8 per hour or fraction thereof for late returns  \n- Early closure allowed under worsening river conditions; early closure doesn’t move the 4 pm deadline  \n- If the desk is closed, use the phone number on the hire card.",
+        "sha256": "bd9c525ca300dcf769a96e9de879c48b69f450653f5e74cfe020f3b17552f2c9"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.9137931034482759
+    },
+    {
+      "case": "ceramics_collection",
+      "source": "It is necessary for makers who are collecting finished pottery to make use of the east door on Monday, owing to the fact that the main corridor will be undergoing painting. Collection hours are from 1 pm to 5 pm. Pieces with a yellow label have not completed firing and must remain on the shelf. A blue label means that a piece may be collected, but it does not mean that it is suitable for food use. Makers should check the glaze record before using a piece with food. The volunteer at the door can locate that record but cannot certify a glaze.",
+      "output": {
+        "success": true,
+        "text": "It is necessary for makers who collect finished pottery to use the east door on Monday because the main corridor will be painted. Collection hours are from 1 pm to 5 pm. Pieces labeled yellow have not yet fired and must stay on the shelf; a blue label allows collection but does not guarantee suitability for food, so makers should consult the glaze record (the volunteer at the door can find the record) though they cannot certify the glaze.\n\n**Revised passage:**\n- Use the east door on Monday while the main corridor is being painted.\n- Collection hours: 1 pm–5 pm.\n- Yellow label = not fired; keep on shelf.\n- Blue label = collectable, but not necessarily safe for food; check the glaze record before food use.\n- Volunteers can locate the glaze record but cannot certify it.",
+        "sha256": "8457ff060928dee76d6e9241f32e978cd61e651d6d55e0be1185d1ef2cf15e5d"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.6753246753246753
+    },
+    {
+      "case": "rehearsal_control",
+      "source": "Rehearsal starts in Room 3 at 6:30 pm on Wednesday. Arrive ten minutes early to set up. Only the conductor may move the piano. Players should bring their own music stands. Spare stands can be requested from reception, but availability is not guaranteed. If Room 3 is unavailable, reception will direct the group to another room. The start time stays the same.",
+      "output": {
+        "success": true,
+        "text": "Rehearsal starts in Room 3 at 6:30 pm on Wednesday; arrive ten minutes early to set up. Only the conductor may move the piano. Players must bring their own music stands. Spare stands can be requested from reception, but they are not guaranteed. If Room 3 is unavailable, reception will direct the group to another room, and the start time remains the same.",
+        "sha256": "f2da1b4914f9722c3b498210ea639ad6678823d00956517935e9e2e4a0999635"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.8727272727272727
+    },
+    {
+      "case": "trail_detour",
+      "source": "Walkers is asked to use the signed detour while the footbridge is repaired. The detour adds 900 metres to the usual route and includes 26 steps. It is not suitable for wheelchairs. The riverside path remains open as far as the bridge, but there is no crossing there. Repair work is expected to finish on 12 June; this is an estimate and the bridge will stay closed until the council removes the barriers. Dog walkers can use the detour if dogs are kept on leads. Cyclists must dismount before entering it.",
+      "output": {
+        "success": true,
+        "text": "Walkers is required to use the signed detour while the footbridge is under repair. The detour lengthens the usual route by 900 metres, contains 26 steps, and is not suitable for wheelchairs. The riverside path stays open up to the bridge, but no crossing is possible there. Repair is estimated to be finished on 12 June (an estimate); the bridge remains closed until the council removes the barriers. Dog walkers may use the detour if dogs are kept on leads, cyclists must dismount before entering, and the detour is appropriate for them with those conditions.",
+        "sha256": "861bc08e9e9eb5c1cdc0d00dd3c6e7f9b11b15ad4d649aa5389980d12ca4d08a"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.6571428571428571
+    },
+    {
+      "case": "print_order",
+      "source": "Customers submitting a poster for printing should bear in mind the fact that the file must arrive by noon on Tuesday in order to qualify for collection on Thursday. This arrangement applies to files that are ready to print. If a correction is needed, the print team will email the customer and the Thursday collection date may change. The team will not make the correction without approval. A proof costs £3, which is additional to the printing price. Customers may decline a proof. Declining it does not reduce the printing price.",
+      "output": {
+        "success": true,
+        "text": "Customers submitting a poster for printing should note that the file must arrive by noon on Tuesday to qualify for Thursday collection. This applies to files ready to print. Corrections require the print team’s approval; if approved, they will email the customer and may change the Thursday collection date. A proof costs an additional £3 and is not included in the printing price, though customers may decline it—declining a proof does not affect the printing price.",
+        "sha256": "7906e868694b898953344c847cb7d77c67502223e46949f0c2a6228176706941"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.640625
+    },
+    {
+      "case": "tool_repair",
+      "source": "In relation to the repair clinic on Sunday, please be advised that one broken hand tool per visitor may be brought for inspection. Electrical tools are excluded from the clinic. An inspection is free, however parts must be paid for by the visitor if a repair goes ahead. The volunteer will ask for agreement on the cost before fitting a part. Inspection does not guarantee that the tool can be repaired. Visitors aged under 16 must attend with an adult. The adult must remain throughout the inspection; dropping a child off is not permitted.",
+      "output": {
+        "success": true,
+        "text": "In relation to the repair clinic on Sunday: visitors may bring up to one broken hand tool for inspection; electrical tools are excluded. The inspection is free, but any needed parts are paid for by the visitor, and the volunteer will confirm the cost before fitting. Inspection does not guarantee the tool can be repaired. Visitors under 16 must be accompanied by an adult who stays throughout the inspection—dropping off a child is not allowed. Parts costs are agreed to by the volunteer before work begins.\n\n**Key points preserved:** \n- One broken hand‑tool per visitor (hand tools only). \n- Electrical tools excluded. \n- Free inspection; visitor pays for parts if repaired; volunteer asks for cost approval first. \n- Inspection doesn’t ensure repairability. \n- Under‑16s need an adult present at all times; no dropping off children.",
+        "sha256": "28f4fbc15730daaf37f3ef04d415782a8db5e609c4d8f53adbfcb9b6d876f18e"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.6805555555555556
+    },
+    {
+      "case": "language_sessions",
+      "source": "The conversation club has six Tuesday sessions which start on 8 September. Each session begins at 7 pm and lasts 50 minutes. It is possible to attend without being a member of the community centre. People must book each session they wish to attend, rather than assuming that booking the first gives a place at all six. There is no charge for the sessions themselves. Printed practice sheets are optional and cost £2 per session. If a session is cancelled by the club, any payment for its practice sheet will be returned; the notice gives no policy for a visitor who chooses not to attend.",
+      "output": {
+        "success": true,
+        "text": "The conversation club holds six Tuesday sessions starting on 8 September. Each session begins at 7 pm and runs for 50 minutes. Attendance is possible even if you are not a member, but you must book each session you want to go to—booking one does not guarantee a place in all six. The sessions cost nothing; printed practice sheets are optional and cost £2 per session. If a session is cancelled, any payment for its practice sheet will be returned, though the notice provides no policy for visitors who do not attend.\n\n**Revised passage:**\n- Six Tuesday sessions begin on 8 September at 7 pm, lasting 50 minutes each.\n- No membership is required to attend, but you must book every session you wish to see; one booking does not secure a seat for all six.\n- Sessions are free; optional printed practice sheets cost £2 per session.\n- Cancelled sessions result in refunds for any practice‑sheet payments, and the cancellation notice does not cover visitors who choose not to attend.",
+        "sha256": "ccfe0534b78f5c8535a775bc0babf9caa0deb5912ce9c2862d5bd198b69b15e8"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.6428571428571429
+    }
+  ]
+}

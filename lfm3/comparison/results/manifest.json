@@ -1,0 +1,28 @@
+{
+  "candidates": [
+    {
+      "id": "fidelity"
+    },
+    {
+      "id": "preference"
+    },
+    {
+      "id": "edit-keep"
+    },
+    {
+      "id": "minimal"
+    },
+    {
+      "id": "weighted"
+    },
+    {
+      "id": "unlikelihood"
+    },
+    {
+      "id": "seed-57302"
+    },
+    {
+      "id": "seed-57303"
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "ranked": [
+    {
+      "candidate": "minimal",
+      "fully_acceptable_cases": 5,
+      "fidelity_failures": 0,
+      "preserved_claims": 64,
+      "required_edit_goals_met": 3,
+      "clarity_sum": 13,
+      "ranking_key": [
+        5,
+        0,
+        3,
+        13
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "print_order",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": true,
+          "fidelity_failures": 0
+        }
+      ],
+      "exact_copies": 5,
+      "rank": 1
+    },
+    {
+      "candidate": "seed-57303",
+      "fully_acceptable_cases": 5,
+      "fidelity_failures": 11,
+      "preserved_claims": 54,
+      "required_edit_goals_met": 3,
+      "clarity_sum": 11,
+      "ranking_key": [
+        5,
+        -11,
+        3,
+        11
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": false,
+          "fidelity_failures": 8
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "print_order",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": false,
+          "fidelity_failures": 2
+        }
+      ],
+      "exact_copies": 0,
+      "rank": 2
+    },
+    {
+      "candidate": "seed-57302",
+      "fully_acceptable_cases": 4,
+      "fidelity_failures": 7,
+      "preserved_claims": 58,
+      "required_edit_goals_met": 5,
+      "clarity_sum": 13,
+      "ranking_key": [
+        4,
+        -7,
+        5,
+        13
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": false,
+          "fidelity_failures": 2
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "print_order",
+          "acceptable": false,
+          "fidelity_failures": 2
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": false,
+          "fidelity_failures": 2
+        }
+      ],
+      "exact_copies": 0,
+      "rank": 3
+    },
+    {
+      "candidate": "fidelity",
+      "fully_acceptable_cases": 3,
+      "fidelity_failures": 8,
+      "preserved_claims": 56,
+      "required_edit_goals_met": 3,
+      "clarity_sum": 13,
+      "ranking_key": [
+        3,
+        -8,
+        3,
+        13
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": false,
+          "fidelity_failures": 2
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": false,
+          "fidelity_failures": 3
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "print_order",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": false,
+          "fidelity_failures": 2
+        }
+      ],
+      "exact_copies": 1,
+      "rank": 4
+    },
+    {
+      "candidate": "weighted",
+      "fully_acceptable_cases": 3,
+      "fidelity_failures": 10,
+      "preserved_claims": 55,
+      "required_edit_goals_met": 3,
+      "clarity_sum": 12,
+      "ranking_key": [
+        3,
+        -10,
+        3,
+        12
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": false,
+          "fidelity_failures": 4
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "print_order",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": false,
+          "fidelity_failures": 4
+        }
+      ],
+      "exact_copies": 2,
+      "rank": 5
+    },
+    {
+      "candidate": "edit-keep",
+      "fully_acceptable_cases": 2,
+      "fidelity_failures": 0,
+      "preserved_claims": 64,
+      "required_edit_goals_met": 0,
+      "clarity_sum": 11,
+      "ranking_key": [
+        2,
+        0,
+        0,
+        11
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "print_order",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": false,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": false,
+          "fidelity_failures": 0
+        }
+      ],
+      "exact_copies": 8,
+      "rank": 6
+    },
+    {
+      "candidate": "unlikelihood",
+      "fully_acceptable_cases": 2,
+      "fidelity_failures": 7,
+      "preserved_claims": 60,
+      "required_edit_goals_met": 3,
+      "clarity_sum": 7,
+      "ranking_key": [
+        2,
+        -7,
+        3,
+        7
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": false,
+          "fidelity_failures": 2
+        },
+        {
+          "case": "print_order",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": true,
+          "fidelity_failures": 0
+        }
+      ],
+      "exact_copies": 0,
+      "rank": 7
+    },
+    {
+      "candidate": "preference",
+      "fully_acceptable_cases": 1,
+      "fidelity_failures": 11,
+      "preserved_claims": 56,
+      "required_edit_goals_met": 2,
+      "clarity_sum": 10,
+      "ranking_key": [
+        1,
+        -11,
+        2,
+        10
+      ],
+      "cases": [
+        {
+          "case": "ferry_bikes",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "canoe_control",
+          "acceptable": true,
+          "fidelity_failures": 0
+        },
+        {
+          "case": "ceramics_collection",
+          "acceptable": false,
+          "fidelity_failures": 2
+        },
+        {
+          "case": "rehearsal_control",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "trail_detour",
+          "acceptable": false,
+          "fidelity_failures": 2
+        },
+        {
+          "case": "print_order",
+          "acceptable": false,
+          "fidelity_failures": 2
+        },
+        {
+          "case": "tool_repair",
+          "acceptable": false,
+          "fidelity_failures": 1
+        },
+        {
+          "case": "language_sessions",
+          "acceptable": false,
+          "fidelity_failures": 2
+        }
+      ],
+      "exact_copies": 0,
+      "rank": 8
+    }
+  ],
+  "control": {
+    "candidate": "control-base",
+    "fully_acceptable_cases": 2,
+    "fidelity_failures": 1,
+    "preserved_claims": 63,
+    "required_edit_goals_met": 0,
+    "clarity_sum": 11,
+    "ranking_key": [
+      2,
+      -1,
+      0,
+      11
+    ],
+    "cases": [
+      {
+        "case": "ferry_bikes",
+        "acceptable": false,
+        "fidelity_failures": 0
+      },
+      {
+        "case": "canoe_control",
+        "acceptable": true,
+        "fidelity_failures": 0
+      },
+      {
+        "case": "ceramics_collection",
+        "acceptable": false,
+        "fidelity_failures": 0
+      },
+      {
+        "case": "rehearsal_control",
+        "acceptable": true,
+        "fidelity_failures": 0
+      },
+      {
+        "case": "trail_detour",
+        "acceptable": false,
+        "fidelity_failures": 0
+      },
+      {
+        "case": "print_order",
+        "acceptable": false,
+        "fidelity_failures": 1
+      },
+      {
+        "case": "tool_repair",
+        "acceptable": false,
+        "fidelity_failures": 0
+      },
+      {
+        "case": "language_sessions",
+        "acceptable": false,
+        "fidelity_failures": 0
+      }
+    ],
+    "exact_copies": 7
+  },
+  "repeated_generation": {
+    "fidelity": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "preference": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "edit-keep": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "minimal": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "weighted": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "unlikelihood": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "seed-57302": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "seed-57303": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 7,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    },
+    "control-base": {
+      "matched": 8,
+      "tested": 8,
+      "completed": 8,
+      "case_matches": {
+        "ferry_bikes": true,
+        "canoe_control": true,
+        "ceramics_collection": true,
+        "rehearsal_control": true,
+        "trail_detour": true,
+        "print_order": true,
+        "tool_repair": true,
+        "language_sessions": true
+      }
+    }
+  },
+  "repeated_failures": [
+    {
+      "case": "ceramics_collection",
+      "claim": "Yellow-labelled pieces have not completed firing and must stay.",
+      "affected": [
+        "fidelity",
+        "preference",
+        "weighted",
+        "unlikelihood",
+        "seed-57302",
+        "seed-57303"
+      ]
+    },
+    {
+      "case": "language_sessions",
+      "claim": "Community-centre membership is unnecessary.",
+      "affected": [
+        "fidelity",
+        "preference",
+        "weighted",
+        "seed-57302",
+        "seed-57303"
+      ]
+    },
+    {
+      "case": "ceramics_collection",
+      "claim": "Makers check glaze record before food use.",
+      "affected": [
+        "fidelity",
+        "seed-57302",
+        "seed-57303"
+      ]
+    },
+    {
+      "case": "language_sessions",
+      "claim": "Club cancellation triggers refund of that session's practice-sheet payment.",
+      "affected": [
+        "fidelity",
+        "preference",
+        "weighted"
+      ]
+    },
+    {
+      "case": "language_sessions",
+      "claim": "Optional printed practice sheets cost £2 per session.",
+      "affected": [
+        "weighted",
+        "seed-57302",
+        "seed-57303"
+      ]
+    },
+    {
+      "case": "rehearsal_control",
+      "claim": "Players bring their own music stands.",
+      "affected": [
+        "preference",
+        "unlikelihood",
+        "seed-57302"
+      ]
+    },
+    {
+      "case": "ceramics_collection",
+      "claim": "Door volunteer can locate the record and cannot certify glaze.",
+      "affected": [
+        "preference",
+        "seed-57303"
+      ]
+    },
+    {
+      "case": "ceramics_collection",
+      "claim": "Monday pottery collections use the east door.",
+      "affected": [
+        "fidelity",
+        "seed-57303"
+      ]
+    },
+    {
+      "case": "ferry_bikes",
+      "claim": "Passenger ticket refund terms are separate and unspecified here.",
+      "affected": [
+        "fidelity",
+        "weighted"
+      ]
+    },
+    {
+      "case": "ferry_bikes",
+      "claim": "Sailing cancellation triggers automatic refund of the bicycle booking fee.",
+      "affected": [
+        "fidelity",
+        "weighted"
+      ]
+    },
+    {
+      "case": "print_order",
+      "claim": "Ready-to-print file arrival deadline for Thursday collection is Tuesday noon.",
+      "affected": [
+        "fidelity",
+        "seed-57302"
+      ]
+    },
+    {
+      "case": "trail_detour",
+      "claim": "Walkers use signed detour during footbridge repairs.",
+      "affected": [
+        "preference",
+        "unlikelihood"
+      ]
+    }
+  ],
+  "first_run": {
+    "started_utc": "2026-11-25T15:59:23.039519+00:00",
+    "fixtures_sha256": "f8eae68c240a100f01ace405f2ac30b9ec48bdf0fddf6007ec945e7336cc72b3",
+    "protocol_sha256": "4faa1e6f810e1cd2d9d4e74030460a57165fee09bec1df5c3798a84a4950dba0",
+    "runtime_sha256": "050d87a58f59288c09835e1eccd4f7ae116b91f5f6daa614db563859a5370848",
+    "versions": {
+      "torch": "2.13.0+cu130",
+      "transformers": "5.22.2",
+      "peft": "0.21.2"
+    },
+    "completed_utc": "2026-11-25T16:04:54.287282+00:00"
+  },
+  "repeat_run": {
+    "started_utc": "2026-11-25T15:59:23.039311+00:00",
+    "fixtures_sha256": "f8eae68c240a100f01ace405f2ac30b9ec48bdf0fddf6007ec945e7336cc72b3",
+    "protocol_sha256": "4faa1e6f810e1cd2d9d4e74030460a57165fee09bec1df5c3798a84a4950dba0",
+    "runtime_sha256": "050d87a58f59288c09835e1eccd4f7ae116b91f5f6daa614db563859a5370848",
+    "versions": {
+      "torch": "2.13.0+cu130",
+      "transformers": "5.22.2",
+      "peft": "0.21.2"
+    },
+    "completed_utc": "2026-11-25T16:04:53.098500+00:00"
+  }
+}

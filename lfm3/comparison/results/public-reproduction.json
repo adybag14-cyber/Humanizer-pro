@@ -1,0 +1,107 @@
+{
+  "public_run": {
+    "started_utc": "2026-11-25T16:06:01.906788+00:00",
+    "fixtures_sha256": "f8eae68c240a100f01ace405f2ac30b9ec48bdf0fddf6007ec945e7336cc72b3",
+    "protocol_sha256": "4faa1e6f810e1cd2d9d4e74030460a57165fee09bec1df5c3798a84a4950dba0",
+    "runtime_sha256": "050d87a58f59288c09835e1eccd4f7ae116b91f5f6daa614db563859a5370848",
+    "versions": {
+      "torch": "2.13.0+cu130",
+      "transformers": "5.22.2",
+      "peft": "0.21.2"
+    },
+    "completed_utc": "2026-11-25T16:10:07.130837+00:00"
+  },
+  "case_matches_against_original": {
+    "control-base": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "edit-keep": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "fidelity": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "minimal": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "preference": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "seed-57302": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "seed-57303": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "unlikelihood": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    },
+    "weighted": {
+      "ferry_bikes": true,
+      "canoe_control": true,
+      "ceramics_collection": true,
+      "rehearsal_control": true,
+      "trail_detour": true,
+      "print_order": true,
+      "tool_repair": true,
+      "language_sessions": true
+    }
+  },
+  "minimal_cli_reproduced_selected_passage": true
+}

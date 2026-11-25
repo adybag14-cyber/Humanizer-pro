@@ -1,0 +1,407 @@
+{
+  "candidate": "seed-57303",
+  "cases": [
+    {
+      "case": "ferry_bikes",
+      "claims": [
+        {
+          "claim": "Bicycle rule applies to Saturday's 7:20 sailing.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "A bicycle space must be booked by Friday at 6 pm.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Passengers buy their own ticket separately.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Bicycle booking reserves no passenger seat.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "At most six bicycles are accepted.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Sailing cancellation triggers automatic refund of the bicycle booking fee.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Passenger ticket refund terms are separate and unspecified here.",
+          "status": "preserved",
+          "evidence": ""
+        }
+      ],
+      "unsupported_assertions": [],
+      "clarity": 2,
+      "editing_goal_met": true,
+      "notes": "A clear, shorter notice. 'Passenger-ticket refund rules are handled elsewhere' communicates separate terms not set out here.",
+      "review_complete": true
+    },
+    {
+      "case": "canoe_control",
+      "claims": [
+        {
+          "claim": "Desk opens at 9 am.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Same-day canoe return deadline is 4 pm.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Late fee is £8 per hour or part hour.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Worsening river conditions may cause early desk closure.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Early desk closure leaves the 4 pm deadline in force.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Return location is the marked landing.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "If desk is shut, hirer calls the number on the hire card.",
+          "status": "preserved",
+          "evidence": ""
+        }
+      ],
+      "unsupported_assertions": [],
+      "clarity": 2,
+      "editing_goal_met": true,
+      "notes": "Minor streamlining retains all conditions and the complete return procedure.",
+      "review_complete": true
+    },
+    {
+      "case": "ceramics_collection",
+      "claims": [
+        {
+          "claim": "Monday pottery collections use the east door.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        },
+        {
+          "claim": "Main corridor painting causes the door change.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        },
+        {
+          "claim": "Collection window is 1 pm to 5 pm.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        },
+        {
+          "claim": "Yellow-labelled pieces have not completed firing and must stay.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        },
+        {
+          "claim": "Blue-labelled pieces may be collected.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        },
+        {
+          "claim": "A blue label does not establish food suitability.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        },
+        {
+          "claim": "Makers check glaze record before food use.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        },
+        {
+          "claim": "Door volunteer can locate the record and cannot certify glaze.",
+          "status": "omitted",
+          "evidence": "Generation reached the token limit before the end of the edit"
+        }
+      ],
+      "unsupported_assertions": [],
+      "clarity": 0,
+      "editing_goal_met": false,
+      "notes": "No completed passage was returned.",
+      "review_complete": true
+    },
+    {
+      "case": "rehearsal_control",
+      "claims": [
+        {
+          "claim": "Rehearsal is Wednesday at 6:30 pm in Room 3.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Players arrive ten minutes early to set up.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Only conductor may move piano.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Players bring their own music stands.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Reception can be asked for spare stands.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Spare stand availability is uncertain.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Reception directs group elsewhere if Room 3 is unavailable.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Room change leaves start time unchanged.",
+          "status": "preserved",
+          "evidence": ""
+        }
+      ],
+      "unsupported_assertions": [],
+      "clarity": 1,
+      "editing_goal_met": true,
+      "notes": "The notice's practical instructions and contingencies are preserved. 'Players bring' reads as a notice instruction in context; 'Spare stands can be asked from reception' is awkward.",
+      "review_complete": true
+    },
+    {
+      "case": "trail_detour",
+      "claims": [
+        {
+          "claim": "Walkers use signed detour during footbridge repairs.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Detour adds 900 metres.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Detour includes 26 steps.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Detour is unsuitable for wheelchairs.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Riverside path remains open only as far as bridge, with no crossing there.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "12 June is estimated completion.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Bridge remains closed until council removes barriers.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Dogs may use detour on leads.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Cyclists dismount before entering.",
+          "status": "preserved",
+          "evidence": ""
+        }
+      ],
+      "unsupported_assertions": [],
+      "clarity": 2,
+      "editing_goal_met": true,
+      "notes": "The generic singular 'The walker should' corrects agreement. Quantities, access restrictions, estimated completion and barrier-removal condition remain intact.",
+      "review_complete": true
+    },
+    {
+      "case": "print_order",
+      "claims": [
+        {
+          "claim": "Ready-to-print file arrival deadline for Thursday collection is Tuesday noon.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Corrections can change Thursday collection date.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Print team emails customer when a correction is needed.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Team requires approval before correction.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Proof costs £3 in addition to print price.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Proof is optional.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Declining proof leaves print price unchanged.",
+          "status": "preserved",
+          "evidence": ""
+        }
+      ],
+      "unsupported_assertions": [
+        "'To get printed, customers must send their poster by noon on Tuesday' makes Tuesday a general prerequisite for printing; the source makes Tuesday noon an arrival deadline for Thursday collection only."
+      ],
+      "clarity": 1,
+      "editing_goal_met": false,
+      "notes": "The second sentence preserves the arrival deadline for Thursday collection, and the correction and proof provisions remain. The opening incorrectly broadens the deadline's scope and 'customers ... get printed' is awkward.",
+      "review_complete": true
+    },
+    {
+      "case": "tool_repair",
+      "claims": [
+        {
+          "claim": "Clinic is Sunday.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Each visitor may bring one broken hand tool for inspection.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Electrical tools are excluded.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Inspection is free.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Visitor pays for parts if repair proceeds.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Volunteer gets cost agreement before fitting part.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Inspection provides no repair guarantee.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Under-16 visitors require adult attendance.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Adult remains throughout inspection.",
+          "status": "preserved",
+          "evidence": ""
+        }
+      ],
+      "unsupported_assertions": [],
+      "clarity": 2,
+      "editing_goal_met": true,
+      "notes": "Removes the formulaic introduction and splits the splice while preserving inspection, payment, consent and supervision conditions.",
+      "review_complete": true
+    },
+    {
+      "case": "language_sessions",
+      "claims": [
+        {
+          "claim": "Six Tuesday conversation sessions start on 8 September.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Each starts 7 pm and lasts 50 minutes.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Community-centre membership is unnecessary.",
+          "status": "uncertain",
+          "evidence": "'Attendance is possible without being a member' leaves the membership organization unspecified; the source identifies the community centre."
+        },
+        {
+          "claim": "Every desired session needs separate booking.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "First-session booking grants no place at others.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Sessions themselves are free.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Optional printed practice sheets cost £2 per session.",
+          "status": "uncertain",
+          "evidence": "'Practice sheets can be printed for £2 per session' does not say the practice sheets themselves are optional."
+        },
+        {
+          "claim": "Club cancellation triggers refund of that session's practice-sheet payment.",
+          "status": "preserved",
+          "evidence": ""
+        },
+        {
+          "claim": "Visitor nonattendance policy is unspecified.",
+          "status": "preserved",
+          "evidence": ""
+        }
+      ],
+      "unsupported_assertions": [],
+      "clarity": 1,
+      "editing_goal_met": false,
+      "notes": "Preserves individual bookings and club-triggered refunds, but optional materials are unclear. The booking sentence contains a comma splice.",
+      "review_complete": true
+    }
+  ]
+}

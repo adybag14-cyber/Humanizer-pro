@@ -1,0 +1,99 @@
+{
+  "candidate": "unlikelihood",
+  "provenance": {
+    "kind": "adapter",
+    "public_repo": "Tdamre/LFM3-1.7B-Humanizer-Pro-Unlikelihood",
+    "revision": "af85d77b018e41def74e49a8f5771a11f0890e7c",
+    "weight_sha256": "7da0194ffe27659085f15b67da51659fa4fa73183970a3e193e898c892d6cdcf"
+  },
+  "cases": [
+    {
+      "case": "ferry_bikes",
+      "source": "For the purpose of managing space aboard the morning ferry, it has been decided that bicycles will be accepted on the 7:20 sailing on Saturday only if a space has been booked by 6 pm on Friday. The booking is for the bicycle, and passengers must buy their own ticket separately. A bicycle booking does not reserve a seat. There is a limit of six bicycles on that sailing. If the sailing is cancelled, the bicycle booking fee will be returned automatically. The passenger ticket follows its own refund terms, which are not described in this notice.",
+      "output": {
+        "success": true,
+        "text": "For the purpose of managing space aboard the morning ferry, bicycles may be accepted on the 7:20 sailing on Saturday **only if** a space has been reserved by 6 pm on Friday. The reservation applies to the bicycle itself; passengers must purchase their own separate ticket. Booking a bicycle does not guarantee a seat. There is a maximum of six bicycles allowed per sailing. Should the sailing be canceled, the bicycle booking fee will be refunded automatically. Ticket refunds follow their own terms, as those details are not provided here.\n\n*Original:* \"For the purpose of managing space aboard the morning ferry, it has been decided that bicycles will be accepted on the 7:20 sailing on Saturday only if a space has been booked by 6 pm on Friday. The booking is for the bicycle, and passengers must buy their own ticket separately. A bicycle booking does not reserve a seat. There is a limit of six bicycles on that sailing. If the sailing is cancelled, the bicycle booking fee will be returned automatically. The passenger ticket follows its own refund terms, which are not described in this notice.\"\n\n*Revised:* (See above)</think>For the purpose of managing space aboard the morning ferry, bicycles may be accepted on the 7:20 sailing on Saturday **only if** a space has been reserved by 6 pm on Friday. The reservation applies to the bicycle itself; passengers must purchase their own separate ticket. Booking a bicycle does not guarantee a seat. There is a maximum of six bicycles allowed per sailing. Should the sailing be canceled, the bicycle booking fee will be refunded automatically. Ticket refunds follow their own terms, as those details are not provided here.",
+        "sha256": "430647824f87a9a654893fb0f71eedec744ed501a809c48643c67d1fa036b84c"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.9855072463768116
+    },
+    {
+      "case": "canoe_control",
+      "source": "The canoe desk opens at 9 am. Each canoe must be returned by 4 pm on the day it is hired. A late return costs £8 for each hour or part of an hour. Staff may close the desk early if river conditions worsen. An early desk closure does not change the 4 pm return time. Bring the canoe back to the marked landing and call the number on the hire card if the desk is shut.",
+      "output": {
+        "success": true,
+        "text": "The canoe desk opens at 9 a.m. Each canoe must be returned by 4 p.m. on the day it is hired; returning it later incurs a charge of £8 per hour or fraction thereof. If river conditions deteriorate, staff may close the desk early, but this does not alter the required 4 p.m. return deadline. To retrieve your canoe, bring it back to the marked landing and dial the phone number listed on your hire card if the desk is closed.",
+        "sha256": "31ed7827f5688ff418d200eda22b830d0461b73e301ef621e3f5cb1dc36b3913"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.6379310344827587
+    },
+    {
+      "case": "ceramics_collection",
+      "source": "It is necessary for makers who are collecting finished pottery to make use of the east door on Monday, owing to the fact that the main corridor will be undergoing painting. Collection hours are from 1 pm to 5 pm. Pieces with a yellow label have not completed firing and must remain on the shelf. A blue label means that a piece may be collected, but it does not mean that it is suitable for food use. Makers should check the glaze record before using a piece with food. The volunteer at the door can locate that record but cannot certify a glaze.",
+      "output": {
+        "success": true,
+        "text": "Here is the revised passage:\n\nIt is necessary for makers who are collecting finished pottery to use the east door on Monday because the main corridor will be undergoing painting. Collection hours are from 1 pm to 5 pm. Pieces labeled yellow have not yet been fired and must stay on the shelf. A blue label indicates that a piece may be collected, but it does not guarantee suitability for food use; makers should review the glaze record before using any piece intended for food. While volunteers at the door can find this record, they cannot certify whether a glaze is safe.\n\n**Changes made:**\n*   Changed \"owing to\" to \"because\" for better flow.\n*   Clarified \"Pieces with a yellow label have not completed firing\" to \"Pieces labeled yellow have not yet been fired.\"\n*   Clarified \"A blue label means that a piece may be collected, but it does not mean that it is suitable for food use\" to \"A blue label indicates that a piece may be collected, but it does not guarantee suitability for food use...\"\n*   Added \"intended for food\" after \"piece\" in the second sentence to clarify the context of the glaze record.\n*   Corrected \"The volunteer... can locate that record but cannot certify a glaze\" to \"While volunteers at the door can find this record, they cannot certify whether a glaze is safe.\" (Added \"whether\" for logical completeness regarding certification).",
+        "sha256": "a619b4b964051b9b0ce056b5280fc1d25a7b07a20933162d515f7092405f846b"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.8441558441558441
+    },
+    {
+      "case": "rehearsal_control",
+      "source": "Rehearsal starts in Room 3 at 6:30 pm on Wednesday. Arrive ten minutes early to set up. Only the conductor may move the piano. Players should bring their own music stands. Spare stands can be requested from reception, but availability is not guaranteed. If Room 3 is unavailable, reception will direct the group to another room. The start time stays the same.",
+      "output": {
+        "success": true,
+        "text": "Rehearsal starts in Room 3 at 6:30 pm on Wednesday. Please arrive ten minutes early to set up; only the conductor may move the piano. Players must bring their own music stands. Spare stands can be requested from reception, though availability is not guaranteed. If Room 3 is unavailable, reception will direct the group to another room, and the start time remains unchanged.",
+        "sha256": "6559253a5cd7bd0d0eb7d79590f5e97b15d9144e66e7f4de76a179ebeb0b7617"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.8363636363636363
+    },
+    {
+      "case": "trail_detour",
+      "source": "Walkers is asked to use the signed detour while the footbridge is repaired. The detour adds 900 metres to the usual route and includes 26 steps. It is not suitable for wheelchairs. The riverside path remains open as far as the bridge, but there is no crossing there. Repair work is expected to finish on 12 June; this is an estimate and the bridge will stay closed until the council removes the barriers. Dog walkers can use the detour if dogs are kept on leads. Cyclists must dismount before entering it.",
+      "output": {
+        "success": true,
+        "text": "Walkers is required to employ the approved detour during the repair of the footbridge. This detour extends the standard route by 900 metres and contains 26 steps; however, it is unsuitable for wheelchair users. The riverside path stays accessible up to the bridge, though no crossing is possible at that point. The repair is projected to complete on 12 June (an estimate), after which the council must remove the barriers before the bridge reopens. Dog-walking is permitted via the detour provided dogs remain on leads. Cyclists are instructed to dismount prior to entering the detour.",
+        "sha256": "9afd6ceb76ebabbd25eed997f7eee3a91dd3297c8dc845ca2d2cebabcfb917d4"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.4142857142857143
+    },
+    {
+      "case": "print_order",
+      "source": "Customers submitting a poster for printing should bear in mind the fact that the file must arrive by noon on Tuesday in order to qualify for collection on Thursday. This arrangement applies to files that are ready to print. If a correction is needed, the print team will email the customer and the Thursday collection date may change. The team will not make the correction without approval. A proof costs £3, which is additional to the printing price. Customers may decline a proof. Declining it does not reduce the printing price.",
+      "output": {
+        "success": true,
+        "text": "Customers who submit a poster for printing need to keep in mind that their file must be received by noon on Tuesday to be eligible for collection on Thursday. This rule applies specifically to files that are ready to print. If any corrections are required, the print team will contact the customer via email and the Thursday collection date might shift. However, the team cannot make changes without prior approval. A proof costs an extra £3, which is added to the standard printing fee. Customers have the option to reject a proof; doing so will not lower the printing cost.",
+        "sha256": "3d3664112ff08971ddeba07dbb1e0382f2fbdbc18b791be37d5e1ebc2ab9a47c"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.671875
+    },
+    {
+      "case": "tool_repair",
+      "source": "In relation to the repair clinic on Sunday, please be advised that one broken hand tool per visitor may be brought for inspection. Electrical tools are excluded from the clinic. An inspection is free, however parts must be paid for by the visitor if a repair goes ahead. The volunteer will ask for agreement on the cost before fitting a part. Inspection does not guarantee that the tool can be repaired. Visitors aged under 16 must attend with an adult. The adult must remain throughout the inspection; dropping a child off is not permitted.",
+      "output": {
+        "success": true,
+        "text": "In relation to the repair clinic on Sunday, please note that one broken hand tool per visitor may be brought for inspection. **Electrical tools are excluded** from the clinic. An inspection is free, but any necessary repairs require payment of parts by the visitor. The volunteer will discuss the cost with the visitor before fitting a part. Please understand that inspection does not guarantee the tool can be repaired. Visitors under 16 must be accompanied by an adult at all times during the inspection; dropping off a child is not allowed.\n\n**Revised Passage:**\n- \"one broken hand tool per visitor\" -> kept.\n- \"Electrical tools are excluded from the clinic.\" -> clarified as exclusion.\n- \"Inspection is free, however parts must be paid for by the visitor if a repair goes ahead.\" -> clearer structure: \"free... but parts must be paid.\"\n- \"The volunteer will ask for agreement on the cost before fitting a part.\" -> changed to \"discuss the cost with the visitor before fitting a part.\"\n- \"Inspection does not guarantee...\" -> kept.\n- \"Visitors aged under 16 must attend with an adult.\" -> kept.\n- \"The adult must remain throughout the inspection; dropping a child off is not permitted.\" -> combined/clarified.</think>In relation to the repair clinic on Sunday, please be advised that one broken hand tool per visitor may be brought for inspection. **Electrical tools are excluded** from the clinic. An inspection is free, but any necessary repairs require payment of parts by the visitor. The volunteer will discuss the cost with the visitor before fitting a part. Please understand that inspection does not guarantee the tool can be repaired. Visitors under 16 must attend with an adult at all times during the inspection; dropping off a child is not allowed.",
+        "sha256": "84cd74fc18ca0bf9f46629253f667a7e4361e24ba6ee296253afc7eaca54a1bc"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.9305555555555556
+    },
+    {
+      "case": "language_sessions",
+      "source": "The conversation club has six Tuesday sessions which start on 8 September. Each session begins at 7 pm and lasts 50 minutes. It is possible to attend without being a member of the community centre. People must book each session they wish to attend, rather than assuming that booking the first gives a place at all six. There is no charge for the sessions themselves. Printed practice sheets are optional and cost £2 per session. If a session is cancelled by the club, any payment for its practice sheet will be returned; the notice gives no policy for a visitor who chooses not to attend.",
+      "output": {
+        "success": true,
+        "text": "The conversation club offers six Tuesday sessions starting on 8 September. Each session starts at 7 pm and runs for 50 minutes. You can attend even if you are not a member of the community centre. To get a place in any session, you must book it individually—booking one does not guarantee a spot in all six. The sessions are free. Optional printed practice sheets cost £2 per session. If the club cancels a session, any money paid for its practice sheet will be refunded; however, there is no stated policy for visitors who decide not to go.",
+        "sha256": "db532d9a3b33ab19ddcd86eaab45a2553f3b404475429ccb82e1b2923f00b887"
+      },
+      "copy_after_whitespace_normalization": false,
+      "source_token_recall": 0.5833333333333334
+    }
+  ]
+}

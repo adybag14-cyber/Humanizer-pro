@@ -1,0 +1,99 @@
+{
+  "candidate": "edit-keep",
+  "provenance": {
+    "kind": "adapter",
+    "public_repo": "Tdamre/LFM3-1.7B-Humanizer-Pro-Edit-Keep",
+    "revision": "8c1354bd720f2104e6592b3b1e4eec53027319fc",
+    "weight_sha256": "bf362b8e9186747b70ff0f5d9285fd3afa00b23f325dc69c883bdd96131a2126"
+  },
+  "cases": [
+    {
+      "case": "ferry_bikes",
+      "source": "For the purpose of managing space aboard the morning ferry, it has been decided that bicycles will be accepted on the 7:20 sailing on Saturday only if a space has been booked by 6 pm on Friday. The booking is for the bicycle, and passengers must buy their own ticket separately. A bicycle booking does not reserve a seat. There is a limit of six bicycles on that sailing. If the sailing is cancelled, the bicycle booking fee will be returned automatically. The passenger ticket follows its own refund terms, which are not described in this notice.",
+      "output": {
+        "success": true,
+        "text": "For the purpose of managing space aboard the morning ferry, it has been decided that bicycles will be accepted on the 7:20 sailing on Saturday only if a space has been booked by 6 pm on Friday. The booking is for the bicycle, and passengers must buy their own ticket separately. A bicycle booking does not reserve a seat. There is a limit of six bicycles on that sailing. If the sailing is cancelled, the bicycle booking fee will be returned automatically. The passenger ticket follows its own refund terms, which are not described in this notice.",
+        "sha256": "17c5cce678b650789d44b906a9652e3d289e9d77efef207fe1ec793a1235f00c"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    },
+    {
+      "case": "canoe_control",
+      "source": "The canoe desk opens at 9 am. Each canoe must be returned by 4 pm on the day it is hired. A late return costs £8 for each hour or part of an hour. Staff may close the desk early if river conditions worsen. An early desk closure does not change the 4 pm return time. Bring the canoe back to the marked landing and call the number on the hire card if the desk is shut.",
+      "output": {
+        "success": true,
+        "text": "The canoe desk opens at 9 am. Each canoe must be returned by 4 pm on the day it is hired. A late return costs £8 for each hour or part of an hour. Staff may close the desk early if river conditions worsen. An early desk closure does not change the 4 pm return time. Bring the canoe back to the marked landing and call the number on the hire card if the desk is shut.",
+        "sha256": "60bae85f061f124fb18aa8c9099670b6a22ab70836c193346fe97698351e316a"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    },
+    {
+      "case": "ceramics_collection",
+      "source": "It is necessary for makers who are collecting finished pottery to make use of the east door on Monday, owing to the fact that the main corridor will be undergoing painting. Collection hours are from 1 pm to 5 pm. Pieces with a yellow label have not completed firing and must remain on the shelf. A blue label means that a piece may be collected, but it does not mean that it is suitable for food use. Makers should check the glaze record before using a piece with food. The volunteer at the door can locate that record but cannot certify a glaze.",
+      "output": {
+        "success": true,
+        "text": "It is necessary for makers who are collecting finished pottery to make use of the east door on Monday, owing to the fact that the main corridor will be undergoing painting. Collection hours are from 1 pm to 5 pm. Pieces with a yellow label have not completed firing and must remain on the shelf. A blue label means that a piece may be collected, but it does not mean that it is suitable for food use. Makers should check the glaze record before using a piece with food. The volunteer at the door can locate that record but cannot certify a glaze.",
+        "sha256": "9348945040bf4766a43949028978a890c648b01c56242bcd6df7034cda98a391"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    },
+    {
+      "case": "rehearsal_control",
+      "source": "Rehearsal starts in Room 3 at 6:30 pm on Wednesday. Arrive ten minutes early to set up. Only the conductor may move the piano. Players should bring their own music stands. Spare stands can be requested from reception, but availability is not guaranteed. If Room 3 is unavailable, reception will direct the group to another room. The start time stays the same.",
+      "output": {
+        "success": true,
+        "text": "Rehearsal starts in Room 3 at 6:30 pm on Wednesday. Arrive ten minutes early to set up. Only the conductor may move the piano. Players should bring their own music stands. Spare stands can be requested from reception, but availability is not guaranteed. If Room 3 is unavailable, reception will direct the group to another room. The start time stays the same.",
+        "sha256": "6f9ae509ba14326854c9b8ae8763587e1192d40749d209d241e4871e8e630de0"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    },
+    {
+      "case": "trail_detour",
+      "source": "Walkers is asked to use the signed detour while the footbridge is repaired. The detour adds 900 metres to the usual route and includes 26 steps. It is not suitable for wheelchairs. The riverside path remains open as far as the bridge, but there is no crossing there. Repair work is expected to finish on 12 June; this is an estimate and the bridge will stay closed until the council removes the barriers. Dog walkers can use the detour if dogs are kept on leads. Cyclists must dismount before entering it.",
+      "output": {
+        "success": true,
+        "text": "Walkers is asked to use the signed detour while the footbridge is repaired. The detour adds 900 metres to the usual route and includes 26 steps. It is not suitable for wheelchairs. The riverside path remains open as far as the bridge, but there is no crossing there. Repair work is expected to finish on 12 June; this is an estimate and the bridge will stay closed until the council removes the barriers. Dog walkers can use the detour if dogs are kept on leads. Cyclists must dismount before entering it.",
+        "sha256": "eeff6088144062f545a4ffceb9418d491ff8ab0bd8e0460866dfc10e5cd9dc9d"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    },
+    {
+      "case": "print_order",
+      "source": "Customers submitting a poster for printing should bear in mind the fact that the file must arrive by noon on Tuesday in order to qualify for collection on Thursday. This arrangement applies to files that are ready to print. If a correction is needed, the print team will email the customer and the Thursday collection date may change. The team will not make the correction without approval. A proof costs £3, which is additional to the printing price. Customers may decline a proof. Declining it does not reduce the printing price.",
+      "output": {
+        "success": true,
+        "text": "Customers submitting a poster for printing should bear in mind the fact that the file must arrive by noon on Tuesday in order to qualify for collection on Thursday. This arrangement applies to files that are ready to print. If a correction is needed, the print team will email the customer and the Thursday collection date may change. The team will not make the correction without approval. A proof costs £3, which is additional to the printing price. Customers may decline a proof. Declining it does not reduce the printing price.",
+        "sha256": "a19d69e3797aee39e66e8972178437658c73b79ce3a1c521002806e6d81becd6"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    },
+    {
+      "case": "tool_repair",
+      "source": "In relation to the repair clinic on Sunday, please be advised that one broken hand tool per visitor may be brought for inspection. Electrical tools are excluded from the clinic. An inspection is free, however parts must be paid for by the visitor if a repair goes ahead. The volunteer will ask for agreement on the cost before fitting a part. Inspection does not guarantee that the tool can be repaired. Visitors aged under 16 must attend with an adult. The adult must remain throughout the inspection; dropping a child off is not permitted.",
+      "output": {
+        "success": true,
+        "text": "In relation to the repair clinic on Sunday, please be advised that one broken hand tool per visitor may be brought for inspection. Electrical tools are excluded from the clinic. An inspection is free, however parts must be paid for by the visitor if a repair goes ahead. The volunteer will ask for agreement on the cost before fitting a part. Inspection does not guarantee that the tool can be repaired. Visitors aged under 16 must attend with an adult. The adult must remain throughout the inspection; dropping a child off is not permitted.",
+        "sha256": "b9adc8af2cc1a14c0681fdd70cef95aa8340b8140294c64f876f2372525a1b5b"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    },
+    {
+      "case": "language_sessions",
+      "source": "The conversation club has six Tuesday sessions which start on 8 September. Each session begins at 7 pm and lasts 50 minutes. It is possible to attend without being a member of the community centre. People must book each session they wish to attend, rather than assuming that booking the first gives a place at all six. There is no charge for the sessions themselves. Printed practice sheets are optional and cost £2 per session. If a session is cancelled by the club, any payment for its practice sheet will be returned; the notice gives no policy for a visitor who chooses not to attend.",
+      "output": {
+        "success": true,
+        "text": "The conversation club has six Tuesday sessions which start on 8 September. Each session begins at 7 pm and lasts 50 minutes. It is possible to attend without being a member of the community centre. People must book each session they wish to attend, rather than assuming that booking the first gives a place at all six. There is no charge for the sessions themselves. Printed practice sheets are optional and cost £2 per session. If a session is cancelled by the club, any payment for its practice sheet will be returned; the notice gives no policy for a visitor who chooses not to attend.",
+        "sha256": "db35997ffd8979ffeaae08c09e69293eff4fef71eb1f2ce4fcd2c97ddc3fadc9"
+      },
+      "copy_after_whitespace_normalization": true,
+      "source_token_recall": 1.0
+    }
+  ]
+}

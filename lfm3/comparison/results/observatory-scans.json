@@ -1,0 +1,29 @@
+{
+  "candidate": "minimal",
+  "repo_id": "Tdamre/LFM3-1.7B-Humanizer-Pro-Minimal",
+  "adapter_revision": "da35d3d0d3f26df3e5cb507d42ea8f04b469f3a7",
+  "adapter_sha256": "59e89c7c1e8b004d319657f9be8fd4147b1e1b86ceb7cd9e57c4ce2f74fa41cf",
+  "output_file": "observatory-selected.txt",
+  "output_sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+  "source_copy_exact": true,
+  "word_count_whitespace": 220,
+  "gptzero": {
+    "observed_utc": "2026-11-25T16:09:08Z",
+    "model": "5.0b",
+    "scan": "Advanced AI Scan",
+    "words_displayed_before_scan": 220,
+    "document_probability_percent": {
+      "ai": 100,
+      "mixed": 0,
+      "human": 0
+    }
+  },
+  "pangram": {
+    "observed_utc": "2026-11-25T16:09:13Z",
+    "model": "4.1",
+    "scan": "Text Detection",
+    "words_displayed": 220,
+    "verdict": "AI Generated",
+    "ai_coverage_percent": 100
+  }
+}
