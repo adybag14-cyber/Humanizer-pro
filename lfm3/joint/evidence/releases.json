@@ -1,0 +1,90 @@
+[
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "c7d12783d738f0d4e72d7316604b1f16541695d3",
+    "tag": "v2026.11.27-baseline",
+    "verified_manifest_files": 14,
+    "public_generation": {
+      "matches": true,
+      "sha256": "c32b74b24aaa731123336be6334ef216edc64023b3ebe3279608c71812f25dbc",
+      "words": 174
+    }
+  },
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "79df86dddd3ef89883190bf88fa3ede3932085b4",
+    "tag": "v2026.11.27-joint-15-of-41",
+    "verified_manifest_files": 25,
+    "public_generation": {
+      "matches": true,
+      "sha256": "ae42e992ce238680e5b7d1faefab24621b92f106b049a2fa61de52603a38db68",
+      "words": 185
+    }
+  },
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "2bf2ffbd42afe8fc51dba1d27a3d5561e3d76d92",
+    "tag": "v2026.11.27-joint-18-of-41",
+    "verified_manifest_files": 26,
+    "public_generation": {
+      "matches": true,
+      "sha256": "052d3b700bc96cd083064ddf1b697a0f813861e3fc2248d1608a087d077c4268",
+      "words": 159
+    }
+  },
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "d407b74c6094c6e0ea580c0dd924cc4cba91f5b1",
+    "tag": "v2026.11.27-joint-22-of-41",
+    "verified_manifest_files": 30,
+    "public_generation": {
+      "matches": true,
+      "sha256": "ec2fbbd1e40a99e9322eaee7c30fbbd88a48c3819be0efd839c45fc4ce7498eb",
+      "words": 180
+    }
+  },
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "ac9ca7997b8878341189a250d99f3cf5a396711e",
+    "tag": "v2026.11.27-joint-23-of-41",
+    "verified_manifest_files": 34,
+    "public_generation": {
+      "matches": true,
+      "sha256": "a7bb49251cd2ba36e20eaec88dee09c24f941c0dbecf5654751954ace1c65618",
+      "words": 216
+    }
+  },
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "436a892c343d3bfc9e1c15b7853147e116e08fb0",
+    "tag": "v2026.11.27-joint-34-of-57",
+    "verified_manifest_files": 36,
+    "public_generation": {
+      "matches": true,
+      "sha256": "a7bb49251cd2ba36e20eaec88dee09c24f941c0dbecf5654751954ace1c65618",
+      "words": 216
+    }
+  },
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "63cf3f7b38af2f63511a1d4f6ec40c8d118bc91b",
+    "tag": "v2026.11.27-joint-34-of-57-seed-audit",
+    "verified_manifest_files": 38,
+    "public_generation": {
+      "matches": true,
+      "sha256": "a7bb49251cd2ba36e20eaec88dee09c24f941c0dbecf5654751954ace1c65618",
+      "words": 216
+    }
+  },
+  {
+    "repo": "Tdamre/LFM3-1.7B-Humanizer-Pro",
+    "revision": "2cde52c70bd4e10d48cd66048828facb92560db5",
+    "tag": "v2026.11.27-joint-34-of-57-three-seeds",
+    "verified_manifest_files": 39,
+    "public_generation": {
+      "matches": true,
+      "sha256": "a7bb49251cd2ba36e20eaec88dee09c24f941c0dbecf5654751954ace1c65618",
+      "words": 216
+    }
+  }
+]

@@ -1,0 +1,515 @@
+{
+  "old": {
+    "screen": {
+      "sha256": "b66fda2fa1cfe183f67293a338af41ab4d50ff4d640170c14d65e9224e49f7b8",
+      "words": 172,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "bread": {
+      "sha256": "99e3aaa6aeaa64e111eb4be4e9d3faded526943dee214e92973920325829a01d",
+      "words": 169,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "costume": {
+      "sha256": "0e75674e46bbf4f0859f26a44c18b99c475a8c976c62457b1494fcf46645356d",
+      "words": 168,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "ferry": {
+      "sha256": "29ca0c6baf1cda04acdc6a1f9678ac84fa8b066c66c6f2ec11fedb0a288191da",
+      "words": 164,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "observatory": {
+      "sha256": "3daed6a6cdee3c8bb1f07840da0488c82bfb307dce50de9add2b34128950c27b",
+      "words": 220,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "cassette": {
+      "sha256": "a51dfcf19921e41711996ef75a4a794af5dd22b42f4ecf627d8adc50cfb7c6dc",
+      "words": 167,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "press": {
+      "sha256": "e58ae5d5369bc74d8136e91a400e3d879edf3afb2bcc58495706c1700225be16",
+      "words": 159,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "coat": {
+      "sha256": "a15c8425102ced955b7e0dec22f97a43363fb2e6861ed03ddb4f9e1d52e95ad2",
+      "words": 171,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "wicket": {
+      "sha256": "71be234026b8d1741eb6b31fa47a77a3609e5b607cbf2541f25750e4e8232137",
+      "words": 182,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "mural": {
+      "sha256": "cf5a215fcf3f3c6a5f420c6865aa7d10960d788f27e074319b1cc2da8d121fa1",
+      "words": 162,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "notebook": {
+      "sha256": "2bc95b65e461a6709ee8a57c62bcce2ea6a09590b4b0af1a76c5a3ee1eafbb99",
+      "words": 176,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "kiln": {
+      "sha256": "46143a5e3acd47605a354f205638573b44f3ae6bc2c1c89beac9f1430cf47b00",
+      "words": 173,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "wiki": {
+      "sha256": "77dd1e8bcd153ac271a55f130298065b2bd689b4b6db06f3a6d2ce221521fd9d",
+      "words": 210,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "news": {
+      "sha256": "38fde57ab4ce1566511d80250fe3e4e590cf6751298ee8fce37b2473ced92bdf",
+      "words": 356,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "abstracts": {
+      "sha256": "7ce04e8197e2e04aff172cad12dd04e6597d98b230bb38650479c3e0c5682aca",
+      "words": 153,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "books": {
+      "sha256": "d18f459df92f04cbd49dc20c52118b853abcb803cda5f34f80f67cf7a578e705",
+      "words": 122,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "bell": {
+      "sha256": "60416404eaa8255c09fa5d99145f1d817fb62382af821b2f6f283914545003e5",
+      "words": 164,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "prints": {
+      "sha256": "7c7b33a873665fcbe2fed1c4da25516adf72f90138f84e37c699c47ce2eb1995",
+      "words": 164,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "boat": {
+      "sha256": "91ae6d1a276aad36ec7e5d292d7ebf2d1dc3fa995b1ee79f6f7aaf8825709273",
+      "words": 171,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "atlas": {
+      "sha256": "b15aae5c14ac4ba96179a1d8f9f426f5920e61ffabd9d4bb09d0157ab60351a7",
+      "words": 148,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "bench": {
+      "sha256": "e40559a60a3970b27825a269acbbc7b83f84fb3bac1ca20eb1ba8d9260ed089f",
+      "words": 148,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "tiles": {
+      "sha256": "adc8e7b6eae7a94f23850eed39584de7d164766df691cf15d51c9918360719ea",
+      "words": 165,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "choir": {
+      "sha256": "fa0cff849d2f3a849395958ad3f953d5eec884f18702063fce41ca17fba76f3e",
+      "words": 151,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "postcard": {
+      "sha256": "9cde856cf92af783289d9c3394e54731c45b344cce853945325773c4b821c1a1",
+      "words": 170,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "reeds": {
+      "sha256": "1646d40c2050a6e0cb39b72c1a18d20f71e4e7f75138cc26dc67979a6c6a2c2c",
+      "words": 173,
+      "max_train_eightgram_fraction": 0.0
+    }
+  },
+  "dev": {
+    "hip-1": {
+      "sha256": "3669da76b81be845e1dc8e3d5edcede6b795dd03da55a19bf0141f55f8875ebd",
+      "words": 208,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-7": {
+      "sha256": "75300adda7f79ffc919c5c5957c8798999e3767a343b01b22bcd26988f4bc0b3",
+      "words": 187,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-8": {
+      "sha256": "90005b447d3bde05ba2e0e72ae87ab6c4545fe10a3f0f83fc51a56a46e44adc1",
+      "words": 228,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-9": {
+      "sha256": "c276b19503bb49247a52466b5a08d6ce8e26bea2ee6b50e32bb7f05e99a4b65d",
+      "words": 239,
+      "max_train_eightgram_fraction": 0.0040650406504065045
+    },
+    "hip-12": {
+      "sha256": "8c2b00611f272075207070cec47c5d08b3e01b93a235e7e3b5638ec003115bb1",
+      "words": 216,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-17": {
+      "sha256": "8f01fe686fea3a9cf41c714ce614f563fda01f6f8743d056c52f9e5f863706fb",
+      "words": 329,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-18": {
+      "sha256": "2069b813cf6d773f7cfeb7d42dd6a0d2e7373256a533d37906739224fc86d747",
+      "words": 219,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-20": {
+      "sha256": "eca65f73736f8788ab9aaa30bf2e8fb8e639ac9f1b5832cd2c52c4f0ca7769e9",
+      "words": 193,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-21": {
+      "sha256": "1d69bc10f7bae49547f4e7aba9121a7a5095c4853bc11ba1b831c3d2934c4bd1",
+      "words": 256,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-22": {
+      "sha256": "b712f75bd8f10be0bca3d376ab394e0479f4f8f4790cebb69a819a8b0946c3ab",
+      "words": 180,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-24": {
+      "sha256": "379d6db2a43aaa7d79c8cc99e4131181e6da7fb06e5891cc7bbebccd459d5e56",
+      "words": 165,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-28": {
+      "sha256": "5955c47ffa115137d308bee7bb939ba8e52a0ee8321a82f2400106d49689018f",
+      "words": 208,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-32": {
+      "sha256": "ba024431a059e141fa54d0a085d484d330ae1674296aa63b31347e882b3a75a4",
+      "words": 112,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-33": {
+      "sha256": "7e1e6e0df1bde98e78be2ff645193c9dbdd85e4302b80365f21f1c6bd5d9fea7",
+      "words": 278,
+      "max_train_eightgram_fraction": 0.0035971223021582736
+    },
+    "hip-34": {
+      "sha256": "6cdf92adf3350d05d2a4838960264e30e1e02804d520e405f45654be206342c1",
+      "words": 180,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-42": {
+      "sha256": "e3da08726d601a7490f328884a52aac2f01bb451b91f99668ecfc05ef1b96230",
+      "words": 122,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-48": {
+      "sha256": "95c5dea1a4bf9ec27ab8a51689ec5ac322c702e25d5b63b95d69409d716a5c23",
+      "words": 117,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-49": {
+      "sha256": "9e5c042b891ffe2cad759c8fb1a199c368747e2aef6e0ae3fbd371f20f31644a",
+      "words": 187,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-51": {
+      "sha256": "d066540dbbcc3228a8f1c51c40ecbde1b321c5c83b637cccfd5a2403d4adea78",
+      "words": 201,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-55": {
+      "sha256": "2b3f8818d8c3931cf19bb8857d9916f9650c77ec921fb1e973f30ee130552ab3",
+      "words": 316,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-61": {
+      "sha256": "a5d8bfc97b0ac7b4de7f0929eb629b9ad6184131ebba84eb2dc5f311c2522306",
+      "words": 238,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-67": {
+      "sha256": "a075ccdab06384e622529543ea91905f5c27a79aa18f03177985f903646fabe5",
+      "words": 276,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-68": {
+      "sha256": "869003ed4b7d3fff8aef8503b1f331d10370b38fe991fecea63d61dbfb2cc143",
+      "words": 238,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-74": {
+      "sha256": "f1a610edd07bd37d1c9b44f13a7fa6e6b81550dc6a1b92248fc436ae223219d8",
+      "words": 161,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-77": {
+      "sha256": "c915d2e61ecd3f4048f7e047b22c70e7dc2f16f4ecf07667d3cf13a6cf592c23",
+      "words": 256,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-82": {
+      "sha256": "de47ab3ee43a4f5368cb12342cb2b69004c6e828215de2828a9efa864033c40e",
+      "words": 361,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-88": {
+      "sha256": "d2f5cb9317f8877be9243f4487a2c8e8ec697f34090db8121fa9ab9e1b1f3fa5",
+      "words": 154,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-93": {
+      "sha256": "92ef3e2a1fdf2bb70b0161e12b26f87216009b60fc96c6ab26cecee55d8b6df3",
+      "words": 166,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-167": {
+      "sha256": "ffc76a2d89212081ad6b525f004a6ac1f7a4961169c5d216dad2d2f49bbe6d28",
+      "words": 269,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-188": {
+      "sha256": "17c4b5f6bd2ec80ccda436f2ffc354359a01881cde92bd104b8d24c6a23e39e4",
+      "words": 176,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-195": {
+      "sha256": "1ea40f2bc94be107732a158b0763c1e4dbde879ed601b7ae10e7c091a147af50",
+      "words": 216,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-199": {
+      "sha256": "13d83864ded71a58a48f3cd61a4ccf4e3cf4a21b3d1766bb08747948ea10bd2c",
+      "words": 168,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-oven": {
+      "sha256": "a3e6eb17cf7135e174c78c97df668f4d242aab661767a7a86100c60dd2ee2a24",
+      "words": 162,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-keys": {
+      "sha256": "9f0c8434d34a21b77ddff3f7da2691d77e782a56e722d7727dc8358e627fe5b3",
+      "words": 167,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-mug": {
+      "sha256": "b8e86d13f429ed9732e865f5bf59e6050665d1cf0733d66ead6b5990d90e6cc4",
+      "words": 166,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-mist": {
+      "sha256": "34b88d017393252c5e2e7bdc0b6b72374785f427789f61605305a175e9a70782",
+      "words": 159,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-necktie": {
+      "sha256": "4d91af2399371479f2a21f5a5eb02c1f4ec6f55bb14ea3f1329d52e85fe6f122",
+      "words": 162,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-map": {
+      "sha256": "2b130de60e8b6e1d76b82b1c489e270ef456c0295a62fc74d3918d340cfd41fb",
+      "words": 161,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-timer": {
+      "sha256": "cb850184455c1b0a58495c2a6664bf2214514c84e03a120876728dc934d959b9",
+      "words": 156,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-paper": {
+      "sha256": "149236a34df4a8373a689c1a605ab4dbc3306bcb1a8306eb88aa6e2c11e77917",
+      "words": 157,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-stripes": {
+      "sha256": "939bcbd84aebf6d09dbc3f17644c39208ff403fe81f732011812d3cbc5c951ad",
+      "words": 153,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-programme": {
+      "sha256": "638c32da75e61b3fdb240bcdd4e07f26b7c410e7acc84f674ba95a588c0287d3",
+      "words": 157,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-springs": {
+      "sha256": "8f0e1578d9ae27719322268caab02dfef2362287ea52c6afac8ead5c9b057ec1",
+      "words": 161,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "d-samples": {
+      "sha256": "1f0aaf17dca6bee8d92d7788d8ce4ed8da058f87a6aeece96c6221ff330a5d4d",
+      "words": 155,
+      "max_train_eightgram_fraction": 0.0
+    }
+  },
+  "check": {
+    "hip-4": {
+      "sha256": "d472d53467aa8ca55e182139dc5f71e1a51e1115068fd05e28381906d67bd201",
+      "words": 228,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-11": {
+      "sha256": "337cc9fd874447fe428597faf7530e9feffa5a571ea754a2b93a0dcd4124be68",
+      "words": 299,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-16": {
+      "sha256": "2f4942d6de7474363c0220aa951d652ca036930c0920f6b616a8c560ca8b942b",
+      "words": 124,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-23": {
+      "sha256": "c882929141561a02cbf97be56cc51d85e50b9723f51b88ec9cb8923fbe4ad136",
+      "words": 266,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-30": {
+      "sha256": "e98947e6d3120fcce8b2690a056fd8ee7a2c1a00b8b7de516f98015f455d45e3",
+      "words": 211,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-44": {
+      "sha256": "574ea580161b59d540976258c0280b4fda4b18d3faf09db77504d0abb38afcc4",
+      "words": 132,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-58": {
+      "sha256": "dd453163ec3c349f4abf16ecf1e1969d622b4e3f466de329e2c07abd577f6360",
+      "words": 264,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-89": {
+      "sha256": "44c8dffe9cef3c7717fe7e837f7e12abd091e653e2767799f1c66c920a577b86",
+      "words": 109,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-fiddle": {
+      "sha256": "6fe1e3e61293a745736d265a5bf44c1e21ebe7fe762f4c29d3725362f1f8a07d",
+      "words": 161,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-parcels": {
+      "sha256": "4fb56f12b693f3ffc40f7d412b595cc9349707a6dde957043c65b2745f4d85c6",
+      "words": 160,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-rain": {
+      "sha256": "7b3a63c785b747037a6908e31c567bea6a164c16bb3907c18441b28639f4b1c4",
+      "words": 163,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-film": {
+      "sha256": "4e52fc5d0a296fae5e96b417f299715c92f05c5125ca60cf2cca769084b3af3e",
+      "words": 160,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-currency": {
+      "sha256": "35d99a1f188f106dea6957a18587cbf7a8170edb67a0e31c11545cf02b617ac6",
+      "words": 166,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-gauge": {
+      "sha256": "5f4c32706cabe6024d8611077826e5400e9ba75530f21b14f4d8975bdf47fcac",
+      "words": 164,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-tickets": {
+      "sha256": "e679309d926a1caeb495afdeab8a13f3265d407630b52a6b0aa542358ae8012d",
+      "words": 170,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "c-grants": {
+      "sha256": "b4f6664b9d325755b0993a02a7f865a2f64896a34a7183dc035369da4d0d5c85",
+      "words": 157,
+      "max_train_eightgram_fraction": 0.0
+    }
+  },
+  "final": {
+    "hip-53": {
+      "sha256": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+      "words": 333,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-69": {
+      "sha256": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+      "words": 246,
+      "max_train_eightgram_fraction": 0.0041841004184100415
+    },
+    "hip-76": {
+      "sha256": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+      "words": 290,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-84": {
+      "sha256": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+      "words": 210,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-176": {
+      "sha256": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+      "words": 366,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-192": {
+      "sha256": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+      "words": 159,
+      "max_train_eightgram_fraction": 0.006211180124223602
+    },
+    "hip-209": {
+      "sha256": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+      "words": 111,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "hip-247": {
+      "sha256": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+      "words": 132,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-slide": {
+      "sha256": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+      "words": 160,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-clubroom": {
+      "sha256": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+      "words": 163,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-compass": {
+      "sha256": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+      "words": 159,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-jars": {
+      "sha256": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+      "words": 167,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-score": {
+      "sha256": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+      "words": 160,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-sundial": {
+      "sha256": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+      "words": 162,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-ferrybell": {
+      "sha256": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+      "words": 164,
+      "max_train_eightgram_fraction": 0.0
+    },
+    "f-proofs": {
+      "sha256": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+      "words": 158,
+      "max_train_eightgram_fraction": 0.0
+    }
+  }
+}

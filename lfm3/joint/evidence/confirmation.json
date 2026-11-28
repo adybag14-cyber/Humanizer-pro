@@ -1,0 +1,776 @@
+{
+  "frozen_utc": "2026-11-27T23:21:02.109295+00:00",
+  "source_count": 16,
+  "methods": {
+    "v1-pure": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "3a674bd8693237ded50d8efed37082b6f7c97f34757a2b42586fe62f99306bb9"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "02d87c756379ada62deabeb18515a70f7cf74eee6b900f910d258100135075a5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "e5ffa1ff01f65368ec83191970a845413ba644360c13fafd635a7c08244e4f56"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "b555f85fe8c8f4f644f7ba2cf56295f3ba3872337b73d5b5c0d02ec81d1e118e"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "75b069e2d36cc309f34fa68c26696469818484b3d80365af610035c8ad52ee16"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "c29fa5f6762c39043a2d5b90153915930165792b720e1d813d34576951e19762"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "3c93a93d6f1ffb8b99d8949cf6cb5aa147945651cded8dcbe0303718eb49707c"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "bfabf3b1d7202fbe43f84508a76536eeba9469c63189b82a82108fd5aa83fa52"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "19b885f869ee61822e4ad46a4e53a1df9031ed08cc794594a5a4798e2694c13d"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "ae62b95480e1d3026331d8ccfd1c2dc955896e42aeb8f6be337af52714ef9fb4"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "aff94ee87c7acad6b1456abbb91276cb17ba0ee43bd3250ec729d127afed7150"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "073b58fdfbdaa7bf3f7e938d1a64365f8fa10d479fd686703d305353bae2553e"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "e1706bacb94d33d43aa9d417094c1387d8963679314c0b8fd208392b8bc448c2"
+        }
+      },
+      "method_sha256": "886668f1d3309c0d8943ba98490c137b3e9c4036c07c7a4434f4ebcb4ea898b6",
+      "ranker_sha256": "4b902f539c99f465d4ba95b0d73d01281ea12458d6d2355955af27f1689a1806"
+    },
+    "v2-mosaic": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "85145d547623a933e13f17675ede136b31664c96713fb3e9b279e8e761f71f9c"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "c77038f29852bc87a5c24357c3fa3b6844f77d1e674c58d8f3b5c9fda7c2a2e5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "20b63185f9480d9b02b58a4d9c25ac077aaa215860878f60b7dbfd405f480b6b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "6518037c834865b8de8e835d7b7252461e706536c3fcd374d97ef2a3c6fc8cf9"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "c29fa5f6762c39043a2d5b90153915930165792b720e1d813d34576951e19762"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "ee3300cc374ce46cc29a70177906c9297befdbb3a152fd7a15b784e6c4b504d0"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "bfabf3b1d7202fbe43f84508a76536eeba9469c63189b82a82108fd5aa83fa52"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "15da5748d7538898553f5ccd7450dd405c354566735a709a726318f4ac550155"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "547a110957ef72b66613a0d45e3561c7f1abc59015ed58b243f22971b8a41d01"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "73e1a6f3fe27807e3b700630a40a940f67437582d0f5d4c4712be9d04b4e56d7"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "7fca60d96f0cc990e31bad2d673debc7cd65292375c8a3bceb4bba15de18371a"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "0252dc5a5a76054cc4836cf2332191b651f3646af6353b1d19b6561c743cf3d0"
+        }
+      },
+      "method_sha256": "7548c14a74af680d0fd5510a6171d9d1bdbffc07b346dbda6b4dc0f68758e315",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "feedback-v2": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "1820b980bacc306e3003a0c601ed00fc55b6b7ac645e0eb0fa31ae209e95ea93"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "bb4a4a0cee477ff23734a2ce4925558249af20816d6d27c43e03ef4aa325e28b"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6b1f3dd722c9240308fb6efbea4d70ec971be441ada000d87b0cd3f0db393a47"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "3cdd880ddaed2a0149e4839aba11dbab21dc225e13817759c54b86b2ad774b86"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "0a17e31b4ddfddbbf0dad68a177b14d6adff5032d1dd07eda64353b030194b56"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "6bb50f2401d15b314ef107048d76e6b39e77faa97872b105cbe510bedb13dd94"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "d8c5130afa2c02a6fff740ca7bf4400a47ffe6021267efc19712de7420074ceb"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "cb70d7928af8528e6f9d0af3d0cfad33a62d5f4d68df09f410c00b8c44b3aeaa"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "8e72a315e77d417b629d4808439a13aebb5598276174695b5eb1276c2bb88416"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "fb39d7128e175d1c149c84a33a789cd7351324cf6ed0f615a02d93d6dbad04a2"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "b6b0a31e3e367a38ef484b2727e279892c75c0b6b134e391cac326e2a63f48e9"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "d5060bfee9b92b22373d3211b847112bc6b155b6f7e83e65330d50c534e8a6d3"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "1ec768f41e4054f9f656b689a390adb62f6e9ec85f8b8f502d31341fc9607b61"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+        }
+      },
+      "method_sha256": "bb97dae164d7f262d5c81f44b92011901293d56f0da058882bce5f5fb3b82066",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "mix-v2": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "85145d547623a933e13f17675ede136b31664c96713fb3e9b279e8e761f71f9c"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "c77038f29852bc87a5c24357c3fa3b6844f77d1e674c58d8f3b5c9fda7c2a2e5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "20b63185f9480d9b02b58a4d9c25ac077aaa215860878f60b7dbfd405f480b6b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "6518037c834865b8de8e835d7b7252461e706536c3fcd374d97ef2a3c6fc8cf9"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "ee3300cc374ce46cc29a70177906c9297befdbb3a152fd7a15b784e6c4b504d0"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "fb39d7128e175d1c149c84a33a789cd7351324cf6ed0f615a02d93d6dbad04a2"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "15da5748d7538898553f5ccd7450dd405c354566735a709a726318f4ac550155"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "d5060bfee9b92b22373d3211b847112bc6b155b6f7e83e65330d50c534e8a6d3"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "7fca60d96f0cc990e31bad2d673debc7cd65292375c8a3bceb4bba15de18371a"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+        }
+      },
+      "method_sha256": "f2baf0f69e0106f207d7287793bf6612894cec7ef5c1ab936c730e3abd28c3a1",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "cross-v2": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "85145d547623a933e13f17675ede136b31664c96713fb3e9b279e8e761f71f9c"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "c77038f29852bc87a5c24357c3fa3b6844f77d1e674c58d8f3b5c9fda7c2a2e5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "20b63185f9480d9b02b58a4d9c25ac077aaa215860878f60b7dbfd405f480b6b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "6518037c834865b8de8e835d7b7252461e706536c3fcd374d97ef2a3c6fc8cf9"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "ee3300cc374ce46cc29a70177906c9297befdbb3a152fd7a15b784e6c4b504d0"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "fb39d7128e175d1c149c84a33a789cd7351324cf6ed0f615a02d93d6dbad04a2"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "19f100749ff911d31ccc22694aa3eb6824b7fc1dda186f2e6cec8312957efd5b"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "b14eb046fcf5f5d3ad79cb4d7e2fb6bf3269e70e148d0cc9cd3d06c1a3bd8144"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "d5060bfee9b92b22373d3211b847112bc6b155b6f7e83e65330d50c534e8a6d3"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "7fca60d96f0cc990e31bad2d673debc7cd65292375c8a3bceb4bba15de18371a"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+        }
+      },
+      "method_sha256": "dec72dbe3f438f9d15364107ee34a37be74b1e2d8869c8227cad0125a1101474",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "mix-length": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "85145d547623a933e13f17675ede136b31664c96713fb3e9b279e8e761f71f9c"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "c77038f29852bc87a5c24357c3fa3b6844f77d1e674c58d8f3b5c9fda7c2a2e5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "20b63185f9480d9b02b58a4d9c25ac077aaa215860878f60b7dbfd405f480b6b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "074ea629b79df9d972798d5de4edfd392e0a12bf75cc68322de8d277c531c0b1"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "ee3300cc374ce46cc29a70177906c9297befdbb3a152fd7a15b784e6c4b504d0"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "fb39d7128e175d1c149c84a33a789cd7351324cf6ed0f615a02d93d6dbad04a2"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "15da5748d7538898553f5ccd7450dd405c354566735a709a726318f4ac550155"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "d5060bfee9b92b22373d3211b847112bc6b155b6f7e83e65330d50c534e8a6d3"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "7fca60d96f0cc990e31bad2d673debc7cd65292375c8a3bceb4bba15de18371a"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+        }
+      },
+      "method_sha256": "0f647ce4ac4a93039f3914b7ec6b21951a97839e695f86161c4054eebaebad0c",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "mix-short": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "85145d547623a933e13f17675ede136b31664c96713fb3e9b279e8e761f71f9c"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "c77038f29852bc87a5c24357c3fa3b6844f77d1e674c58d8f3b5c9fda7c2a2e5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "7682725cf63a9ecc862464ea2a7d32ff06a091ad3623c6b984cf3b3bb4b8263d"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "439238148e4cd6a2e70f051e5f53ba33e5bf06eabfc2456a407d9a300998454e"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "074ea629b79df9d972798d5de4edfd392e0a12bf75cc68322de8d277c531c0b1"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "ee3300cc374ce46cc29a70177906c9297befdbb3a152fd7a15b784e6c4b504d0"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "05fe6a1ebc0d0aa91eac590f0e53a8573ae4cd7c936d857485da8d4cec3c0815"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "15da5748d7538898553f5ccd7450dd405c354566735a709a726318f4ac550155"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "d5060bfee9b92b22373d3211b847112bc6b155b6f7e83e65330d50c534e8a6d3"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "7fca60d96f0cc990e31bad2d673debc7cd65292375c8a3bceb4bba15de18371a"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "55d1451590d51ee2acfe1f893992521b000095d5361f36426f19ef36c58e42a2"
+        }
+      },
+      "method_sha256": "805f7fb24453b915b8cceaf2a81ae3afa74dce415c600f7e8dd2b3cedbb6f7ce",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "voice-mix": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "7e54c302ed78d925eddd34bfd29a6d42609a7faa6108337d7d6dbbaa80636f96"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "c77038f29852bc87a5c24357c3fa3b6844f77d1e674c58d8f3b5c9fda7c2a2e5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "94961e771265d5d4f42a46f887abac4bc4c7a316194c166fba42513e2e872c8b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "305c9b6fcfa01ece0ed915ee498ca9b87dfb66097cb3db53df7c7c0523be1690"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "ee3300cc374ce46cc29a70177906c9297befdbb3a152fd7a15b784e6c4b504d0"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "32cdbb1c7d1768c9cbfffa22581a24f8447567765cd689b5481900e15c3161b5"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "4bfa586bec7723182d4a915464f72cbf69534a11f617f4842b3f178783e03e45"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "d5060bfee9b92b22373d3211b847112bc6b155b6f7e83e65330d50c534e8a6d3"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "7fca60d96f0cc990e31bad2d673debc7cd65292375c8a3bceb4bba15de18371a"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+        }
+      },
+      "method_sha256": "a5f6e8182e976861bd99c512822f336e2b7829f3a2ca096d846051a443cd83b3",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "all-length": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "c3efe1eeab5e691ad2e79f8a1c31e0364f16069bd93262aa649339d7ac9be810"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "7e54c302ed78d925eddd34bfd29a6d42609a7faa6108337d7d6dbbaa80636f96"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "b0e744805c21cdda5b08c641cf0cde8c39168d2b39de50c70ae6d9a502b1b58d"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "c77038f29852bc87a5c24357c3fa3b6844f77d1e674c58d8f3b5c9fda7c2a2e5"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "94961e771265d5d4f42a46f887abac4bc4c7a316194c166fba42513e2e872c8b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "305c9b6fcfa01ece0ed915ee498ca9b87dfb66097cb3db53df7c7c0523be1690"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "ee3300cc374ce46cc29a70177906c9297befdbb3a152fd7a15b784e6c4b504d0"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "32cdbb1c7d1768c9cbfffa22581a24f8447567765cd689b5481900e15c3161b5"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "4bfa586bec7723182d4a915464f72cbf69534a11f617f4842b3f178783e03e45"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "d5060bfee9b92b22373d3211b847112bc6b155b6f7e83e65330d50c534e8a6d3"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "7fca60d96f0cc990e31bad2d673debc7cd65292375c8a3bceb4bba15de18371a"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+        }
+      },
+      "method_sha256": "d8589b2dd42bbaa9d2ae3a4646cb80b6a007d470162242f62e383c1ccd24db15",
+      "ranker_sha256": "ca55a0fbb8944cc23ff425d15778b4dc202f55cc59796a3c3b6ee51f4478d46a"
+    },
+    "mix-pair-trees": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "6ffb7237517e16a0d445ff28dd7d013ec1d2e1ff7c6fa56a19c95509c4f710cf"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "d544475a8d42ea7135d873f44381493893a0432f128f235700657441d61a1367"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "cf3135bd0d82b56f4a7352ae1205b9c92b8cd12303d87e6ebf99c45a97cfbc0f"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "0a17e31b4ddfddbbf0dad68a177b14d6adff5032d1dd07eda64353b030194b56"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "20b63185f9480d9b02b58a4d9c25ac077aaa215860878f60b7dbfd405f480b6b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "e8d24e1a856acfd3551bf9e0e6d4e5e24cd38f49c99e7be042c5e5778f3f7ba3"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "c735ea8c02a2e786f2c3f0ca2e9ff5f2ce90f2d5b9af047fedbfc150e1bfc185"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "bbe448cb5929eb4cee0da2367d2aec6b96e758e9685f972a77097a4335aa2182"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "a2d811c69b5c627febed1f536649f7e2058ade3e35861ab99506f225a0b2845d"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "44198a1bf44294f49b5f58e573b83f44143a6b3a3eccfa0810950a6e4ef284bf"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "728816c2c4515c5639508ef1b576ed037da65b1aeed4bfcd6fe25a25f65c324e"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "73e1a6f3fe27807e3b700630a40a940f67437582d0f5d4c4712be9d04b4e56d7"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "1ec768f41e4054f9f656b689a390adb62f6e9ec85f8b8f502d31341fc9607b61"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "ef70ec0cd4c77a31ea63045aa4b0e44097d11614571d83976ab8673696ebb1de"
+        }
+      },
+      "method_sha256": "e4bbe043260f9936bdc0db23250b72e9ce33bef495d55762bbd272bd30566172",
+      "ranker_sha256": "87614aa09cf27f379b8e9fa8fb34db262737c59624ff241cd6284df5ed055285"
+    },
+    "voice-pair-trees": {
+      "cases": {
+        "hip-53": {
+          "source": "439f3265a54401634a78b8c12f4f05ce138f6a1d785b56856d8a3e6bacff3be8",
+          "output": "6ffb7237517e16a0d445ff28dd7d013ec1d2e1ff7c6fa56a19c95509c4f710cf"
+        },
+        "hip-69": {
+          "source": "6203f5700fe1c06fdc9df958829a2ec48d6e522f8fd464a1a3c193c788489cb8",
+          "output": "d544475a8d42ea7135d873f44381493893a0432f128f235700657441d61a1367"
+        },
+        "hip-76": {
+          "source": "2e50b3e4bf2b8353e4f256416e70bff97912a96d6dda4a344b0328f9117ba75f",
+          "output": "6ea1d664349e785ca72506d27d33873e928872b8a4f6be6c72263a7955090477"
+        },
+        "hip-84": {
+          "source": "e254a20c2ae8b1b7b611a0bd5a8401e895132af9a2e1e605fd27f43114d5d1cf",
+          "output": "cf3135bd0d82b56f4a7352ae1205b9c92b8cd12303d87e6ebf99c45a97cfbc0f"
+        },
+        "hip-176": {
+          "source": "bae9e4eb9ecf53394a7e5d1bba73b89eeb9cee62d8c7c3bf1a78ffc55a882215",
+          "output": "0a17e31b4ddfddbbf0dad68a177b14d6adff5032d1dd07eda64353b030194b56"
+        },
+        "hip-192": {
+          "source": "1d84de5c0ac27d1f5653ae7348792c7fd7202bcbc0e42558464d61ec72e3a815",
+          "output": "20b63185f9480d9b02b58a4d9c25ac077aaa215860878f60b7dbfd405f480b6b"
+        },
+        "hip-209": {
+          "source": "052d3566bbfd3154970fe7d8535f8dbab7904fbc7549744cbefed1b66018fe50",
+          "output": "665b87ca849c5db03a653792b76ff285cd0d304ac613cbb5047f445b2467218f"
+        },
+        "hip-247": {
+          "source": "52d7fc727371d58fa4bc2b3fe5e798a25a1f8bb322bf63cb3ef55eb6161c70aa",
+          "output": "305c9b6fcfa01ece0ed915ee498ca9b87dfb66097cb3db53df7c7c0523be1690"
+        },
+        "f-slide": {
+          "source": "3fa779e429999759236c0ea2881a1074db8f74aa323a2052bb2f543580416c11",
+          "output": "c735ea8c02a2e786f2c3f0ca2e9ff5f2ce90f2d5b9af047fedbfc150e1bfc185"
+        },
+        "f-clubroom": {
+          "source": "946d89b0288da8dfa655ca3c735f89f127505c2bb728f8a199be129ebc02cc74",
+          "output": "bbe448cb5929eb4cee0da2367d2aec6b96e758e9685f972a77097a4335aa2182"
+        },
+        "f-compass": {
+          "source": "0e9d78d16b493c12570f070339dd8ea6a208b8c52da861604cd76f1cc68995d5",
+          "output": "72f1d64f0ef178c2c37780c54a73acb006c161f7326ebb0c4e7fe68eacb6523b"
+        },
+        "f-jars": {
+          "source": "cb72bd69bba5bf078e4a1bfed68d0e584e8996484da88d41f93b9443bdb03340",
+          "output": "64c08285509cdc3f9fe60162abb99d69e4595d3edd17499095500853437f2b5d"
+        },
+        "f-score": {
+          "source": "99c8bc39a2d85e0d64964f88e3f9308025e861732a9ae446cd96b46546f581a7",
+          "output": "728816c2c4515c5639508ef1b576ed037da65b1aeed4bfcd6fe25a25f65c324e"
+        },
+        "f-sundial": {
+          "source": "2039b1f75f7dc5f33d22e3003b59e35b16327f340de35862de0778ab24c6c0cc",
+          "output": "73e1a6f3fe27807e3b700630a40a940f67437582d0f5d4c4712be9d04b4e56d7"
+        },
+        "f-ferrybell": {
+          "source": "6ab5eb224563e11c237f6b12de86dd01126d1725ed2db49b3c407ee0c23c04e6",
+          "output": "1ec768f41e4054f9f656b689a390adb62f6e9ec85f8b8f502d31341fc9607b61"
+        },
+        "f-proofs": {
+          "source": "eb321fd014a742eb34c541eebfc3599ef7279abeb56c1d8ee935588bcfe5a970",
+          "output": "310d6d67ea189b57b0eb770ffe1af15a05196144994c0c14536028965cd54801"
+        }
+      },
+      "method_sha256": "fad4f69deabd88c8601d38bbe274d9eda4c29ed89303e5832e02c1b151997bab",
+      "ranker_sha256": "87614aa09cf27f379b8e9fa8fb34db262737c59624ff241cd6284df5ed055285"
+    }
+  }
+}

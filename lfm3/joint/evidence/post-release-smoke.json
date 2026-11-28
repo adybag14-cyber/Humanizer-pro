@@ -1,0 +1,60 @@
+{
+  "method": "voice-mix",
+  "default_seed": 27183,
+  "public_model_revision": "436a892c343d3bfc9e1c15b7853147e116e08fb0",
+  "purpose": "Two new project-authored inputs tried after selecting the release, reported separately from the registered 57 passages.",
+  "joint_passes": 1,
+  "inputs": 2,
+  "cases": [
+    {
+      "key": "recipe-cards",
+      "source": {
+        "sha256": "0d5f58418dc832ed580096ca90fda591fa7dd21c5fa073030238f2d75a53486b",
+        "text": "My aunt left two recipe cards for an orange cake. Both use the same amount of flour, but only the card written in blue ink mentions warming the juice. I tried them on Saturday because I wanted to know whether that step made the cake rise more. I divided one bag of flour between the bowls and used oranges from the same box. The blue card called for a round tin. I had lent mine to a friend, so that cake went into a loaf tin while the other one went into the usual round one. The loaf looked taller when it came out. That is the result I wrote in my notebook, alongside the widths of the two tins. I did not put a tick beside either recipe. There is enough juice left for another attempt next weekend, when I should have the second round tin back. Until then I cannot tell how much of the difference came from warming the juice.",
+        "gptzero_human": 0,
+        "pangram_human": 0,
+        "joint": false
+      },
+      "rewrite": {
+        "sha256": "8f277ebc9d324840452408242bcad69d49831cb026cc8a2155fb77e2abcf1c8e",
+        "text": "My aunt had put in both recipe cards to make orange cake and they both said the same amount of flour, but the card with orange juice and blue recipe just said you had to warm the juice up. I baked them both in the oven on Saturday, so I thought I'd do something just to see if that was the reason or if they turned out bigger. I put the same bag of flour in each cup and the same oranges I got from the packet. My recipe with orange juice said to put it in the round tin, and the one in my notebook said it went in the tin I had borrowed from my friend. It turned out taller. That is all I write in my notebook along with the width of the two tins. No ticks. I've got more juice to do next weekend which is when I will have the second tin. I will still not know how much more it makes a difference.",
+        "gptzero_human": 68,
+        "pangram_human": 100,
+        "joint": false
+      },
+      "checks": [
+        "Only the blue card mentions warming the juice",
+        "Flour came from one bag and oranges from one box",
+        "Blue-card cake went in a loaf tin because the round tin was lent out",
+        "Loaf looked taller and both tin widths were recorded",
+        "Neither recipe was chosen and the juice effect remains uncertain"
+      ],
+      "retained": "11001"
+    },
+    {
+      "key": "bus-tally",
+      "source": {
+        "sha256": "399c0283d590e70e7bfb2acbf70147b6f0b99d10fb0c8b47124e64525483a9ee",
+        "text": "On the first two Fridays in March our village bus group will count people who wait at the market stop after the last afternoon service. The driver will put a pencil and a card in the shop beside the stop. Anyone who misses the bus can put one mark on the card. The shopkeeper has agreed to keep the card until half past six, but she will not take names or ask where people meant to go. A mark made by a couple travelling together stands for two people only if they draw two strokes. On Monday we will collect the cards and put the two totals beside the number of seats on the minibus. That comparison will help us decide whether to ask for a trial evening trip. It cannot show how many people would actually buy a ticket. Some will have found a lift before they saw the card, and a person who leaves a mark has made no promise to travel the following week.",
+        "gptzero_human": 0,
+        "pangram_human": 0,
+        "joint": false
+      },
+      "rewrite": {
+        "sha256": "080af5bbce0de2fb78569b0072be5d3f6c8d775362d0e0a0c7147235354efb81",
+        "text": "All of the people in the line at the market who will be going on the bus in our local village will be picked up by our group of villagers on the first and second Friday in March. We are going to put a pencil and card up at the shop next to the bus stop. People can put a mark on the card if we miss the bus. We are sure that the shop owner will be happy to hold the cards until 6:30pm. She doesn't like it when people take names or tell her where they want to go. If people who do two strokes on one card it will be counted as two people. On Monday we will put the numbers against the number of places in the minibus. We can see the number of people being put onto trial for a night out. We can't tell how many people will be able to actually get a ticket. Some people have found a lift, and some people who have put a mark on a card have not said they will be taking the lift the next week.",
+        "gptzero_human": 100,
+        "pangram_human": 100,
+        "joint": true
+      },
+      "checks": [
+        "First two Fridays in March at the market stop after the last afternoon service",
+        "Driver leaves pencil and card in the neighbouring shop",
+        "Card kept until half past six without names or destinations",
+        "Two travellers need two strokes",
+        "Monday comparison with minibus seats informs a trial request and does not establish ticket sales"
+      ],
+      "retained": "00110"
+    }
+  ]
+}

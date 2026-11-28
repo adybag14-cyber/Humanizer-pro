@@ -1,0 +1,757 @@
+{
+  "baseline": "stable",
+  "methods": {
+    "stable": {
+      "groups": {
+        "old": {
+          "inputs": 25,
+          "gptzero_100": 6,
+          "pangram_100": 16,
+          "joint_100": 5,
+          "qualified_or_missing_pangram_percentage": 2,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 5,
+          "gained_vs_baseline": 0,
+          "lost_vs_baseline": 0
+        },
+        "check": {
+          "inputs": 16,
+          "gptzero_100": 11,
+          "pangram_100": 12,
+          "joint_100": 8,
+          "qualified_or_missing_pangram_percentage": 2,
+          "generation_failure": 0,
+          "source_joint_100": 1,
+          "joint_from_nonpassing_source": 7,
+          "gained_vs_baseline": 0,
+          "lost_vs_baseline": 0
+        },
+        "final": {
+          "inputs": 16,
+          "gptzero_100": 7,
+          "pangram_100": 9,
+          "joint_100": 5,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 5,
+          "gained_vs_baseline": 0,
+          "lost_vs_baseline": 0
+        }
+      },
+      "total": {
+        "inputs": 57,
+        "gptzero_100": 24,
+        "pangram_100": 37,
+        "joint_100": 18,
+        "qualified_or_missing_pangram_percentage": 5,
+        "generation_failure": 0,
+        "source_joint_100": 1,
+        "joint_from_nonpassing_source": 17,
+        "gained_vs_baseline": 0,
+        "lost_vs_baseline": 0
+      },
+      "facts": {
+        "old": {
+          "passed": 7,
+          "total": 20,
+          "cases": {
+            "cassette": {
+              "bits": "01000",
+              "note": "Restores the software’s one-channel reading. Omits the loan, changes evening to all night and next morning to next day, and describes noise removal on the original.",
+              "sha256": "c32b74b24aaa731123336be6334ef216edc64023b3ebe3279608c71812f25dbc"
+            },
+            "observatory": {
+              "bits": "00100",
+              "note": "Keeps the missed-call and privacy rule. Omits the two open evenings and descent requirement; the actor pausing the calls is unclear, and the final check changes.",
+              "sha256": "5fc1d317708046c0e324ce02c9a1f24ebd3cb49e74b83b68a2cfd9ff3d2d1acc"
+            },
+            "mural": {
+              "bits": "10011",
+              "note": "Places the map behind the cupboard but makes the workers paint it and dates creation to before the pier extension. Keeps the photograph details and indirect speech.",
+              "sha256": "8f5169f484eeafcba9a79cc98f0e7734a79c8e73afad0f6b0e935032a442efc4"
+            },
+            "kiln": {
+              "bits": "01100",
+              "note": "Retains the combed surfaces and scratched number. Omits red clay and guesses clay caused the difference despite the different shelves.",
+              "sha256": "55da7ef163f1206ea83d2cfe89212cb6314236b2085ba29939dace5a09c0d954"
+            }
+          }
+        },
+        "check": {
+          "passed": 9,
+          "total": 20,
+          "cases": {
+            "c-fiddle": {
+              "bits": "00010",
+              "note": "Retains the possible reflection on the jacket. It shifts the pupil's uncertainty to the narrator and omits the chip and date. Retaining the separate enlargement is unclear.",
+              "sha256": "878412aba9c25f913603676a35b4998a2dacd6c91733979c4565a216189f0c7b"
+            },
+            "c-film": {
+              "bits": "10001",
+              "note": "Keeps the scope of display photography and the undecided talks policy with speaker conditions. The capture and uninterrupted screening are ambiguous, and the notice is already decided.",
+              "sha256": "559ac523c8b021b39733eccb1aaccc08e1ac0b1db7f1fbba102091fc421c1b4e"
+            },
+            "c-gauge": {
+              "bits": "11101",
+              "note": "Preserves the slower refill, table tilt and board position. Two readings on the board do not clearly establish both sets were kept; it also adds a next-day test.",
+              "sha256": "6b349fcc1de15c667a20ed6cca47ae621297284794ab057b0bfb69230cec95be"
+            },
+            "c-grants": {
+              "bits": "10010",
+              "note": "Keeps the grant scope and nonbinding three-set quote. Rules out equipment costs, loses explicit before-order timing and does not specify email for print recipients.",
+              "sha256": "3f08d20d458a095fdbbded98a82e9e32945878bb182b2bd89d83d7f03c9b8ed7"
+            }
+          }
+        },
+        "final": {
+          "passed": 15,
+          "total": 20,
+          "cases": {
+            "f-slide": {
+              "bits": "11110",
+              "note": "Keeps the opposite viewpoints, months without a year, quay-wall reflection, and uncertainty over adding or removing the letter. The purchaser replaces the open catalogue sequence.",
+              "sha256": "b5e9c8590e942cb52499832a564d5f48b4069ba01040954a732901fe03a22e61"
+            },
+            "f-jars": {
+              "bits": "11111",
+              "note": "Retains lid and side labels, price cards, two sizes, no-lift check, maker identification, colour rule and limits of the end count.",
+              "sha256": "d2fd0fce00b5b33b98984ea5f767924327c682cbde7a99d05161e4cbbb1e2512"
+            },
+            "f-score": {
+              "bits": "11010",
+              "note": "Retains the conflicting rest, published corrections and practical pause. Invents both the composer's intention and direct agreement, then confuses the borrower with the owner.",
+              "sha256": "10c63edcb7c494a29d7624ebc4555be596fd620e8e47cc2bfa668b6f0aca0311"
+            },
+            "f-proofs": {
+              "bits": "01101",
+              "note": "Retains the reverse labels, trimming, readable half-name, lost orientation and limitations. It omits the hall location and locates the new arrow in the dark corner without establishing it will survive trimming.",
+              "sha256": "f5c7a506fac94fa0a49ecb3e73adbbe7120ebb0987c8314f68b238f962b4f047"
+            }
+          }
+        }
+      }
+    },
+    "feedback-v2": {
+      "groups": {
+        "old": {
+          "inputs": 25,
+          "gptzero_100": 14,
+          "pangram_100": 15,
+          "joint_100": 11,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 11,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 1
+        },
+        "check": {
+          "inputs": 16,
+          "gptzero_100": 14,
+          "pangram_100": 11,
+          "joint_100": 11,
+          "qualified_or_missing_pangram_percentage": 2,
+          "generation_failure": 0,
+          "source_joint_100": 1,
+          "joint_from_nonpassing_source": 10,
+          "gained_vs_baseline": 5,
+          "lost_vs_baseline": 2
+        },
+        "final": {
+          "inputs": 16,
+          "gptzero_100": 8,
+          "pangram_100": 10,
+          "joint_100": 7,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 7,
+          "gained_vs_baseline": 3,
+          "lost_vs_baseline": 1
+        }
+      },
+      "total": {
+        "inputs": 57,
+        "gptzero_100": 36,
+        "pangram_100": 36,
+        "joint_100": 29,
+        "qualified_or_missing_pangram_percentage": 4,
+        "generation_failure": 0,
+        "source_joint_100": 1,
+        "joint_from_nonpassing_source": 28,
+        "gained_vs_baseline": 15,
+        "lost_vs_baseline": 4
+      },
+      "facts": {
+        "old": {
+          "passed": 6,
+          "total": 20,
+          "cases": {
+            "cassette": {
+              "bits": "10000",
+              "note": "Keeps the working loan but describes one-sided playback, all night, next day, and a copy still to be made. Adds a boyfriend.",
+              "sha256": "ef0e75b37258a42f182b03e570fdb1240ccdce92d16ee950d1ec5c0b8d032558"
+            },
+            "observatory": {
+              "bits": "11011",
+              "note": "Keeps two evenings, lower hall cards, four-number calls, descent, operator threshold and speaker update, plus the wait and stair comparison. Changes missing an individual call to receiving no call on the first night.",
+              "sha256": "20265dbd21f0d3b47611cd289be35fe2ab56b24e48b5f79c6dad16edbfe393b0"
+            },
+            "mural": {
+              "bits": "00001",
+              "note": "Keeps indirect speech. Places the map on the cupboard, changes extension into installation, changes discovery into a line drawn, and excludes the cupboard rather than explicitly excluding the map area.",
+              "sha256": "c247a152d325c40e72bec95f07352361e015e90a804666c2cec235d92cd13522"
+            },
+            "kiln": {
+              "bits": "00000",
+              "note": "Keeps the same bag but omits red clay, the smooth upper half and the shelf comparison. A pen replaces the scratched number.",
+              "sha256": "960625eccc616d522ad26c2d5c60eb08cee1d2077367f37dfbbcdf5ad8a0f87e"
+            }
+          }
+        },
+        "check": {
+          "passed": 10,
+          "total": 20,
+          "cases": {
+            "c-fiddle": {
+              "bits": "11010",
+              "note": "Retains the chip, pupil's recollection and reflection on the jacket. Moves the date onto the bow, invents a room number, and garbles the decision about the teacher.",
+              "sha256": "8d7703a67265930aa1bd1099e67066992b98453a0e2c73d36fc88659be0de031"
+            },
+            "c-film": {
+              "bits": "11000",
+              "note": "Keeps the permission and Saturday capture. Adds direct quotes, loses the precise catalogue offer and conditional sign decision, and omits speaker control.",
+              "sha256": "aa811a8bd2c184518d33a8871c18856ca7c53253550b178983ae72a7eb0aef42"
+            },
+            "c-gauge": {
+              "bits": "10000",
+              "note": "The slower refill and board placement are unclear. It moves the marks and changes another table into another tank.",
+              "sha256": "ec2fbbd1e40a99e9322eaee7c30fbbd88a48c3819be0efd839c45fc4ce7498eb"
+            },
+            "c-grants": {
+              "bits": "10111",
+              "note": "Retains the grant scope, pre-order check, comparison quote and email for print recipients. An absent equipment quote does not capture uncertainty about the grant's eligibility rules.",
+              "sha256": "af9071ac6f462ae6d85228dbc88941cdda037ec19c53c8eb70dd0f4b72ddaf6d"
+            }
+          }
+        },
+        "final": {
+          "passed": 9,
+          "total": 20,
+          "cases": {
+            "f-slide": {
+              "bits": "01000",
+              "note": "Keeps the April and May markings without a fuller date. Loses opposite viewpoints and the quay wall, changes the uncertainty to the mount, and does not preserve the open sequence.",
+              "sha256": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+            },
+            "f-jars": {
+              "bits": "01001",
+              "note": "Retains notebook identification and table prices for the two sizes, with remaining jars counted by kind and no batch estimate. Straight labels, removing the number, and repainting change the other details.",
+              "sha256": "b6b0a31e3e367a38ef484b2727e279892c75c0b6b134e391cac326e2a63f48e9"
+            },
+            "f-score": {
+              "bits": "11100",
+              "note": "Retains the pencilled rest, different correction and page-turn rationale without an intent claim. It does not specify the practical marking in the narrator's copy or the programme file.",
+              "sha256": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+            },
+            "f-proofs": {
+              "bits": "11001",
+              "note": "Retains two copies for the hall frame, writing on the backs before trimming and the limit on printer-direction inference. The lost sheet orientation becomes the writing side, and the repeated arrow is absent.",
+              "sha256": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+            }
+          }
+        }
+      }
+    },
+    "mix-v2": {
+      "groups": {
+        "old": {
+          "inputs": 25,
+          "gptzero_100": 11,
+          "pangram_100": 14,
+          "joint_100": 9,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 9,
+          "gained_vs_baseline": 6,
+          "lost_vs_baseline": 2
+        },
+        "check": {
+          "inputs": 16,
+          "gptzero_100": 14,
+          "pangram_100": 15,
+          "joint_100": 13,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 1,
+          "joint_from_nonpassing_source": 12,
+          "gained_vs_baseline": 6,
+          "lost_vs_baseline": 1
+        },
+        "final": {
+          "inputs": 16,
+          "gptzero_100": 12,
+          "pangram_100": 13,
+          "joint_100": 10,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 10,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 2
+        }
+      },
+      "total": {
+        "inputs": 57,
+        "gptzero_100": 37,
+        "pangram_100": 42,
+        "joint_100": 32,
+        "qualified_or_missing_pangram_percentage": 3,
+        "generation_failure": 0,
+        "source_joint_100": 1,
+        "joint_from_nonpassing_source": 31,
+        "gained_vs_baseline": 19,
+        "lost_vs_baseline": 5
+      },
+      "facts": {
+        "old": {
+          "passed": 7,
+          "total": 20,
+          "cases": {
+            "cassette": {
+              "bits": "10000",
+              "note": "Retains the loan. The rewrite changes the evening and next-morning timing and loses the distinct copy for removing noise.",
+              "sha256": "ddc69d53e7076453df5a7edbc87a1f361165098b815a4676a9b0dded574214dc"
+            },
+            "observatory": {
+              "bits": "11100",
+              "note": "Retains the two evenings, downstairs cards, group size, descent, missed calls and privacy. The volunteer replaces the operator and the former record is not clearly the immediately preceding evening.",
+              "sha256": "5f8f89a2f461def1cd6ba422177ce182338195903cc4809ffc98ce5e6407ad48"
+            },
+            "mural": {
+              "bits": "10101",
+              "note": "Retains the cupboard, afternoon archive call and indirect speech. It changes the pier extension into installation and leaves the photograph's map-area exclusion unclear.",
+              "sha256": "15b88bc9d6ed94841e4d85bcd324077af0e6c614f0e53ac6eedc819d5f677a91"
+            },
+            "kiln": {
+              "bits": "00000",
+              "note": "Keeps the same bag but omits red clay, the smooth upper half and the shelf comparison. A pen replaces the scratched number.",
+              "sha256": "960625eccc616d522ad26c2d5c60eb08cee1d2077367f37dfbbcdf5ad8a0f87e"
+            }
+          }
+        },
+        "check": {
+          "passed": 7,
+          "total": 20,
+          "cases": {
+            "c-fiddle": {
+              "bits": "11010",
+              "note": "Keeps the chip, former student's recollection, and possible reflection. Moves the date to the bow, adds Google and identifies the teacher as previous owner.",
+              "sha256": "0fcdb8dd0b45400899134c1bb5a636d4fdf0533669e13795dc7642aa1dd443f2"
+            },
+            "c-film": {
+              "bits": "11000",
+              "note": "Keeps the permission and Saturday capture. Adds direct quotes, loses the precise catalogue offer and conditional sign decision, and omits speaker control.",
+              "sha256": "aa811a8bd2c184518d33a8871c18856ca7c53253550b178983ae72a7eb0aef42"
+            },
+            "c-gauge": {
+              "bits": "10000",
+              "note": "The slower refill and board placement are unclear. It moves the marks and changes another table into another tank.",
+              "sha256": "ec2fbbd1e40a99e9322eaee7c30fbbd88a48c3819be0efd839c45fc4ce7498eb"
+            },
+            "c-grants": {
+              "bits": "10000",
+              "note": "Turns uncertain equipment eligibility into refusal, changes the ordering check and limits email to people who do not need a printout.",
+              "sha256": "bee815ab686500a87364726e945beae8f0090cecbb070829cb09149d861bee25"
+            }
+          }
+        },
+        "final": {
+          "passed": 11,
+          "total": 20,
+          "cases": {
+            "f-slide": {
+              "bits": "01000",
+              "note": "Keeps the April and May markings without a fuller date. Loses opposite viewpoints and the quay wall, changes the uncertainty to the mount, and does not preserve the open sequence.",
+              "sha256": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+            },
+            "f-jars": {
+              "bits": "11110",
+              "note": "Retains both labels, notebook number, prices, no-lift check and set-aside identification, although the colour sentence is awkward. The end count loses its by-size breakdown.",
+              "sha256": "15da5748d7538898553f5ccd7450dd405c354566735a709a726318f4ac550155"
+            },
+            "f-score": {
+              "bits": "11100",
+              "note": "Retains the pencilled rest, different correction and page-turn rationale without an intent claim. It does not specify the practical marking in the narrator's copy or the programme file.",
+              "sha256": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+            },
+            "f-proofs": {
+              "bits": "11001",
+              "note": "Retains two copies for the hall frame, writing on the backs before trimming and the limit on printer-direction inference. The lost sheet orientation becomes the writing side, and the repeated arrow is absent.",
+              "sha256": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+            }
+          }
+        }
+      }
+    },
+    "voice-mix": {
+      "groups": {
+        "old": {
+          "inputs": 25,
+          "gptzero_100": 11,
+          "pangram_100": 16,
+          "joint_100": 9,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 9,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 3
+        },
+        "check": {
+          "inputs": 16,
+          "gptzero_100": 14,
+          "pangram_100": 15,
+          "joint_100": 14,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 1,
+          "joint_from_nonpassing_source": 13,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 1
+        },
+        "final": {
+          "inputs": 16,
+          "gptzero_100": 11,
+          "pangram_100": 14,
+          "joint_100": 11,
+          "qualified_or_missing_pangram_percentage": 0,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 11,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 1
+        }
+      },
+      "total": {
+        "inputs": 57,
+        "gptzero_100": 36,
+        "pangram_100": 45,
+        "joint_100": 34,
+        "qualified_or_missing_pangram_percentage": 2,
+        "generation_failure": 0,
+        "source_joint_100": 1,
+        "joint_from_nonpassing_source": 33,
+        "gained_vs_baseline": 21,
+        "lost_vs_baseline": 5
+      },
+      "facts": {
+        "old": {
+          "passed": 10,
+          "total": 20,
+          "cases": {
+            "cassette": {
+              "bits": "10001",
+              "note": "Keeps the working loan and separate backup. Replaces the apparent software reading with playback, changes one evening to several nights and next morning to next day, and confuses the sister and aunt.",
+              "sha256": "6415f8b85ddd826b877cd2bede8b30fcfb06f52631a5ac145c85d01005d6eb06"
+            },
+            "observatory": {
+              "bits": "00100",
+              "note": "Retains later entry and privacy. Omits the downstairs-card schedule, group of four, speaker update and a clear volunteer comparison with the preceding open evening.",
+              "sha256": "28dc82c5c7d1dc1beca7d0374e4d4af033cbd28aa219121d339bf01fd7abd624"
+            },
+            "mural": {
+              "bits": "10101",
+              "note": "Retains the cupboard, afternoon archive call and indirect speech. It changes the pier extension into installation and leaves the photograph's map-area exclusion unclear.",
+              "sha256": "15b88bc9d6ed94841e4d85bcd324077af0e6c614f0e53ac6eedc819d5f677a91"
+            },
+            "kiln": {
+              "bits": "11011",
+              "note": "Retains the red-clay scraps, combed and smooth surfaces, contrasting glaze travel, different shelves and planned side-by-side test. The number goes on the back before drying, but the text does not say it was scratched.",
+              "sha256": "a7bb49251cd2ba36e20eaec88dee09c24f941c0dbecf5654751954ace1c65618"
+            }
+          }
+        },
+        "check": {
+          "passed": 7,
+          "total": 20,
+          "cases": {
+            "c-fiddle": {
+              "bits": "11010",
+              "note": "Keeps the chip, former student's recollection, and possible reflection. Moves the date to the bow, adds Google and identifies the teacher as previous owner.",
+              "sha256": "0fcdb8dd0b45400899134c1bb5a636d4fdf0533669e13795dc7642aa1dd443f2"
+            },
+            "c-film": {
+              "bits": "11000",
+              "note": "Keeps the permission and Saturday capture. Adds direct quotes, loses the precise catalogue offer and conditional sign decision, and omits speaker control.",
+              "sha256": "aa811a8bd2c184518d33a8871c18856ca7c53253550b178983ae72a7eb0aef42"
+            },
+            "c-gauge": {
+              "bits": "10000",
+              "note": "The slower refill and board placement are unclear. It moves the marks and changes another table into another tank.",
+              "sha256": "ec2fbbd1e40a99e9322eaee7c30fbbd88a48c3819be0efd839c45fc4ce7498eb"
+            },
+            "c-grants": {
+              "bits": "10000",
+              "note": "Turns uncertain equipment eligibility into refusal, changes the ordering check and limits email to people who do not need a printout.",
+              "sha256": "bee815ab686500a87364726e945beae8f0090cecbb070829cb09149d861bee25"
+            }
+          }
+        },
+        "final": {
+          "passed": 9,
+          "total": 20,
+          "cases": {
+            "f-slide": {
+              "bits": "01000",
+              "note": "Keeps the April and May markings without a fuller date. Loses opposite viewpoints and the quay wall, changes the uncertainty to the mount, and does not preserve the open sequence.",
+              "sha256": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+            },
+            "f-jars": {
+              "bits": "01001",
+              "note": "Keeps notebook batches, table prices, two sizes, and the count by size without inferring sales. Opening replaces lifting and the maker's set-aside procedure is lost.",
+              "sha256": "4bfa586bec7723182d4a915464f72cbf69534a11f617f4842b3f178783e03e45"
+            },
+            "f-score": {
+              "bits": "11100",
+              "note": "Retains the pencilled rest, different correction and page-turn rationale without an intent claim. It does not specify the practical marking in the narrator's copy or the programme file.",
+              "sha256": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+            },
+            "f-proofs": {
+              "bits": "11001",
+              "note": "Retains two copies for the hall frame, writing on the backs before trimming and the limit on printer-direction inference. The lost sheet orientation becomes the writing side, and the repeated arrow is absent.",
+              "sha256": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+            }
+          }
+        }
+      }
+    },
+    "all-length": {
+      "groups": {
+        "old": {
+          "inputs": 25,
+          "gptzero_100": 11,
+          "pangram_100": 16,
+          "joint_100": 9,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 9,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 3
+        },
+        "check": {
+          "inputs": 16,
+          "gptzero_100": 14,
+          "pangram_100": 15,
+          "joint_100": 14,
+          "qualified_or_missing_pangram_percentage": 1,
+          "generation_failure": 0,
+          "source_joint_100": 1,
+          "joint_from_nonpassing_source": 13,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 1
+        },
+        "final": {
+          "inputs": 16,
+          "gptzero_100": 11,
+          "pangram_100": 14,
+          "joint_100": 11,
+          "qualified_or_missing_pangram_percentage": 0,
+          "generation_failure": 0,
+          "source_joint_100": 0,
+          "joint_from_nonpassing_source": 11,
+          "gained_vs_baseline": 7,
+          "lost_vs_baseline": 1
+        }
+      },
+      "total": {
+        "inputs": 57,
+        "gptzero_100": 36,
+        "pangram_100": 45,
+        "joint_100": 34,
+        "qualified_or_missing_pangram_percentage": 2,
+        "generation_failure": 0,
+        "source_joint_100": 1,
+        "joint_from_nonpassing_source": 33,
+        "gained_vs_baseline": 21,
+        "lost_vs_baseline": 5
+      },
+      "facts": {
+        "old": {
+          "passed": 10,
+          "total": 20,
+          "cases": {
+            "cassette": {
+              "bits": "10001",
+              "note": "Keeps the working loan and separate backup. Replaces the apparent software reading with playback, changes one evening to several nights and next morning to next day, and confuses the sister and aunt.",
+              "sha256": "6415f8b85ddd826b877cd2bede8b30fcfb06f52631a5ac145c85d01005d6eb06"
+            },
+            "observatory": {
+              "bits": "00100",
+              "note": "Retains later entry and privacy. Omits the downstairs-card schedule, group of four, speaker update and a clear volunteer comparison with the preceding open evening.",
+              "sha256": "28dc82c5c7d1dc1beca7d0374e4d4af033cbd28aa219121d339bf01fd7abd624"
+            },
+            "mural": {
+              "bits": "10101",
+              "note": "Retains the cupboard, afternoon archive call and indirect speech. It changes the pier extension into installation and leaves the photograph's map-area exclusion unclear.",
+              "sha256": "15b88bc9d6ed94841e4d85bcd324077af0e6c614f0e53ac6eedc819d5f677a91"
+            },
+            "kiln": {
+              "bits": "11011",
+              "note": "Retains the red-clay scraps, combed and smooth surfaces, contrasting glaze travel, different shelves and planned side-by-side test. The number goes on the back before drying, but the text does not say it was scratched.",
+              "sha256": "a7bb49251cd2ba36e20eaec88dee09c24f941c0dbecf5654751954ace1c65618"
+            }
+          }
+        },
+        "check": {
+          "passed": 7,
+          "total": 20,
+          "cases": {
+            "c-fiddle": {
+              "bits": "11010",
+              "note": "Keeps the chip, former student's recollection, and possible reflection. Moves the date to the bow, adds Google and identifies the teacher as previous owner.",
+              "sha256": "0fcdb8dd0b45400899134c1bb5a636d4fdf0533669e13795dc7642aa1dd443f2"
+            },
+            "c-film": {
+              "bits": "11000",
+              "note": "Keeps the permission and Saturday capture. Adds direct quotes, loses the precise catalogue offer and conditional sign decision, and omits speaker control.",
+              "sha256": "aa811a8bd2c184518d33a8871c18856ca7c53253550b178983ae72a7eb0aef42"
+            },
+            "c-gauge": {
+              "bits": "10000",
+              "note": "The slower refill and board placement are unclear. It moves the marks and changes another table into another tank.",
+              "sha256": "ec2fbbd1e40a99e9322eaee7c30fbbd88a48c3819be0efd839c45fc4ce7498eb"
+            },
+            "c-grants": {
+              "bits": "10000",
+              "note": "Turns uncertain equipment eligibility into refusal, changes the ordering check and limits email to people who do not need a printout.",
+              "sha256": "bee815ab686500a87364726e945beae8f0090cecbb070829cb09149d861bee25"
+            }
+          }
+        },
+        "final": {
+          "passed": 9,
+          "total": 20,
+          "cases": {
+            "f-slide": {
+              "bits": "01000",
+              "note": "Keeps the April and May markings without a fuller date. Loses opposite viewpoints and the quay wall, changes the uncertainty to the mount, and does not preserve the open sequence.",
+              "sha256": "6ed23bb878242242be735a5526b157d4c029f041c095c8aee76570d2f85e41d8"
+            },
+            "f-jars": {
+              "bits": "01001",
+              "note": "Keeps notebook batches, table prices, two sizes, and the count by size without inferring sales. Opening replaces lifting and the maker's set-aside procedure is lost.",
+              "sha256": "4bfa586bec7723182d4a915464f72cbf69534a11f617f4842b3f178783e03e45"
+            },
+            "f-score": {
+              "bits": "11100",
+              "note": "Retains the pencilled rest, different correction and page-turn rationale without an intent claim. It does not specify the practical marking in the narrator's copy or the programme file.",
+              "sha256": "920b50ceae060e3d942dadd659c783a22fa0a1709e43c91d2f5bd3cd56fce4f0"
+            },
+            "f-proofs": {
+              "bits": "11001",
+              "note": "Retains two copies for the hall frame, writing on the backs before trimming and the limit on printer-direction inference. The lost sheet orientation becomes the writing side, and the repeated arrow is absent.",
+              "sha256": "303d67f5bbb1bd60f56905d72022a102f402355308410ed437a35ab61cdc9ce4"
+            }
+          }
+        }
+      }
+    }
+  },
+  "fact_checks": {
+    "old": {
+      "cassette": [
+        "The neighbour lent a working cassette player",
+        "The recording software initially appeared to capture one channel, with no named owner",
+        "The narrator noticed one insulating ring on the cable plug after an evening adjusting settings",
+        "A different cable restored both channels the next morning but a hum remained",
+        "The narrator kept the recording and made a separate copy for noise removal"
+      ],
+      "observatory": [
+        "Numbered cards are collected downstairs on the next two open evenings",
+        "A volunteer calls four numbers at a time after the previous group descends",
+        "Missed calls can join a later group and no names or telephone numbers are collected",
+        "After more than ten minutes of cloud the operator pauses calls and gives a speaker update",
+        "After the second evening volunteers compare longest waits against the previous open evening and note whether stairs stayed clear"
+      ],
+      "mural": [
+        "Map was behind a cupboard in the former harbour office",
+        "Map depicts the channel before the pier was extended",
+        "Workers stopped when a red line appeared and the archive was contacted that afternoon",
+        "The 1936 photograph shows a stove on the opposite wall and excludes the map area",
+        "Reported remarks remain indirect and no new quotations are attributed"
+      ],
+      "kiln": [
+        "The tiles used scraps from the same red clay as the bowls",
+        "The lower half was combed and the upper half left smooth",
+        "Number was scratched on the back before drying and recorded beside the recipe",
+        "The glaze on red clay stuck to the tray but on white clay had stopped short of the bottom edge",
+        "Different shelves confound the comparison and another pair is planned side by side"
+      ]
+    },
+    "check": {
+      "c-fiddle": [
+        "Practice bow has a chip near the screw",
+        "Former pupil remembered the violin purchase but not the bow’s origin",
+        "Photo has a date and hall address but no photographer’s name",
+        "Apparent mark extends onto the jacket and might be a reflection",
+        "Enlargement retained and teacher not listed as previous owner"
+      ],
+      "c-film": [
+        "Display-case photography permission excludes projected film",
+        "Visitor recorded the title sequence on Saturday",
+        "Volunteer offered a catalogue still and screening continued without a break",
+        "Spoken reminder to be tried at three screenings before considering another sign",
+        "Talk-recording rules remain undecided and speakers may set conditions"
+      ],
+      "c-gauge": [
+        "Initially tank at third glass mark while side tube below its third mark",
+        "Slower refill did not fix the difference",
+        "Table sloped toward door and a thin board went under two front feet",
+        "Readings became closer, not identical; both sets kept and neither scale altered",
+        "Another table has not been tested; remaining scale contribution uncertain"
+      ],
+      "c-grants": [
+        "Grant covers larger print and extra library copy but not room hire",
+        "Buying a printer was suggested, with equipment eligibility unclear",
+        "Treasurer will check with grant organisation before ordering",
+        "Secretary seeks a comparison quote for three sets, without commitment",
+        "Email arrangements continue even for members requesting print"
+      ]
+    },
+    "final": {
+      "f-slide": [
+        "Slides show the same harbour from opposite sides",
+        "Mounts give April and May without a year",
+        "Supposed unpainted area could reflect quay wall",
+        "Roof letter present in May and absent in April; addition versus removal uncertain",
+        "Catalogue retains months and leaves sequence open"
+      ],
+      "f-jars": [
+        "Plain lid label and numbered side label",
+        "Number identifies notebook batch, not price; prices on table cards for two sizes",
+        "Batch numbers checked without lifting jars",
+        "Damaged label set aside for maker to identify; colour cannot supply replacement number",
+        "Remaining jars counted by size and cannot establish sales by batch"
+      ],
+      "f-score": [
+        "Borrowed score has pencilled rest absent from narrator’s copy",
+        "Mark is elsewhere than rest in published corrections",
+        "Singer prefers pause for page turn, without claiming composer intent",
+        "Pause adopted for this performance and marked as practical choice in own copy",
+        "Borrowed mark untouched and reason recorded in programme file"
+      ],
+      "f-proofs": [
+        "Same photograph on two papers for a hall frame",
+        "Names written on backs before trimming",
+        "One half-cut name still identified paper but lost sheet orientation",
+        "Dark corner motivated direction check; repeat arrow inside retained area",
+        "First pair still usable for appearance, not for printer-feed direction"
+      ]
+    }
+  }
+}
